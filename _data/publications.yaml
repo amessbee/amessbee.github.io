@@ -1,4 +1,10 @@
 papers:
+- authors: "\uFEFFAuthors"
+  page: Year
+  selected: y
+  title: Title
+  venue: Volume
+  year: Publisher
 - authors: 'Langerman, Stefan, Shabbir, Mudassir, Steiger, William, '
   page: '2013'
   selected: y
