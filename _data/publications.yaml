@@ -8,90 +8,459 @@ papers:
     dataset: "not available"
     year: "2022"
     selected: y
-    
-  - title: "Towards Low-Cost and Efficient Malaria Detection"
-    authors: "Waqas Sultani, Wajahat Nawaz, Syed Javed, Muhammad Sohail Danish, Asma Saadia, Mohsen Ali"
-    venue: "Computer Vision and Pattern Recognition (CVPR)"
-    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2022/papers/Sultani_Towards_Low-Cost_and_Efficient_Malaria_Detection_CVPR_2022_paper.pdf"
-    page: "http://im.itu.edu.pk/m5-malaria-dataset/"
-    code: "https://github.com/intelligentMachines-ITU/LowCostMalariaDetection_CVPR_2022"
-    dataset: "https://github.com/intelligentMachines-ITU/LowCostMalariaDetection_CVPR_2022"
-    year: "2022"
-    selected: y
-    
-  - title: "SSAL: Synergizing between Self-Training and Adversarial Learning for Domain Adaptive Object Detection"
-    authors: "Muhammad Akhtar Munir, Muhammad Haris Khan, M Sarfraz, Mohsen Ali"
-    venue: "Advances in Neural Information Processing Systems (NeurIPS)"
-    paper_pdf: "https://proceedings.neurips.cc/paper/2021/file/c0cccc24dd23ded67404f5e511c342b0-Paper.pdf"
-    page: "https://proceedings.neurips.cc/paper/2021/hash/c0cccc24dd23ded67404f5e511c342b0-Abstract.html"
-    code: "not available"
-    dataset: "not available"
-    year: "2021"
-    selected: y
 
-  - title: "Leveraging Orientation for Weakly Supervised Object Detection with Application to Firearm Localization"
-    authors: "Javed Iqbal, Muhammad Akhtar Munir, Arif Mahmood, Afsheed Rafaqat Ali, and Mohsen Ali"
-    venue: "Neurocomputing, 2021"
-    paper_pdf: "https://arxiv.org/pdf/1904.10032"
-    page: "http://im.itu.edu.pk/orientation-aware-firearms-detection/"
-    code: "https://github.com/makhtar17004/orientation-aware-firearm-detection"
-    dataset: "http://im.itu.edu.pk/orientation-aware-firearms-detection/"
-    year: "2021"
-    selected: y 
+- title: "Computing small hitting sets for convex ranges"
+authors: "Langerman, Stefan, Shabbir, Mudassir, Steiger, William, "
+venue: ""
+page: "2013"
+year: ""
+selected: y
 
-  - title: “Optimal school site selection in Urban areas using deep neural networks"
-    authors: “Nimra Zaheer, Saeed-Ul Hassan, Mohsen Ali, Mudassir Shabbir”
-    venue: “Journal of Ambient Intelligence and Humanized Computing, 2021”
-    year: 2021
-    paper_pdf: “https://link.springer.com/article/10.1007%2Fs12652-021-02903-9”
-    selected: n
+- title: "Ray-shooting depth: Computing statistical data depth of point sets in the plane"
+authors: "Mustafa, Nabil H, Ray, Saurabh, Shabbir, Mudassir, "
+venue: ""
+page: "2011"
+year: "Springer Berlin Heidelberg"
+selected: y
 
-  - title: "Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation"
-    authors: "N. Subhani, Mohsen Ali"
-    venue: "European Conference on Computer Vision (ECCV), 2020."
-    paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
-    year: "2020"
-    selected: y
-  
-  - title: "Weakly-supervised domain adaptation for built-up region segmentation in aerial and satellite imagery"
-    authors: "Javed Iqbal, Mohsen Ali"
-    venue: "ISPRS Journal of Photogrammetry and Remote Sensing, 2020."
-    paper_pdf: "https://arxiv.org/pdf/2007.02277.pdf"
-    page: "http://im.itu.edu.pk/wan/" 
-    dataset: "https://drive.google.com/file/d/1cYdc2-WWuHwv3tMvjpxRVpBRh5pZQbza/view?usp=sharing"
-    code: "https://github.com/engrjavediqbal/wan"
-    year: "2020"
-    selected: y
-   
-  - title: "MLSL: Multi-Level Self-Supervised Learning for Domain Adaptation with Spatially Independent and Semantically Consistent Labeling"
-    authors: "Javed Iqbal, Mohsen Ali"
-    venue: "The IEEE Winter Conference on Applications of Computer Vision, 2020."
-    paper_pdf: "https://openaccess.thecvf.com/content_WACV_2020/papers/Iqbal_MLSL_Multi-Level_Self-Supervised_Learning_for_Domain_Adaptation_with_Spatially_Independent_WACV_2020_paper.pdf"
-    page: "http://im.itu.edu.pk/uda-ss/" 
-    code: "https://github.com/engrjavediqbal/MLSL"
-    year: "2020"
-    selected: y
+- title: "Network decontamination with a single agent"
+authors: "Daadaa, Yassine, Jamshed, Asif, Shabbir, Mudassir, "
+venue: "32"
+page: "2016"
+year: "Springer Japan"
+selected: y
 
-  - title: "Localizing Firearm Carriers By Identifying Human-Object Pairs"
-    authors: Abdul Basit, Muhammad Akhtar Munir, Mohsen Ali, Naoufel Werghi, Arif Mahmood
-    venue: "IEEE International Conference on Image Processing."
-    paper_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190886
-    page: "http://im.itu.edu.pk/localizing-firearm-carriers/"
-    year: "2020"
-    selected: n
+- title: "Some results in computational and combinatorial geometry"
+authors: "Shabbir, Mudassir, "
+venue: ""
+page: "2014"
+year: "Rutgers The State University of New Jersey, School of Graduate Studies"
+selected: y
 
-  - title: "High-Level Concepts for Affective Understanding of Images"
-    authors: "Afsheed Rafaqat Ali, Usman Shahid, Mohsen Ali and Jeffrey Ho"
-    venue: "The IEEE Winter Conference on Applications of Computer Vision (WACV),  2017."
-    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/7926664"
-    page: "http://im.itu.edu.pk/high-level-concepts-for-affective-understanding-of-images/"
-    year: "2017"
-    selected: y
+- title: "A survey of secretary problem and its extensions"
+authors: "Borosan, Peter, Shabbir, Mudassir, "
+venue: ""
+page: "2009"
+year: ""
+selected: y
 
-  - title: "Automatic Image Transformation for Inducing Affect"
-    authors: "Afsheed Rafaqat Ali and Mohsen Ali"
-    venue: "BMVC 2017."
-    paper_pdf: "https://www.researchgate.net/profile/Mohsen_Ali4/publication/332813634_Automatic_Image_transformation_for_inducing_affect"
-    page: "http://im.itu.edu.pk/affective-image-transfer//"
-    year: "2017"
-    selected: y
+- title: "k-Centerpoints Conjectures for Pointsets in ℝ d"
+authors: "Mustafa, Nabil H, Ray, Saurabh, Shabbir, Mudassir, "
+venue: "25"
+page: "2015"
+year: "World Scientific Publishing Company"
+selected: y
+
+- title: "Enforcing Security Policies using HTM"
+authors: "Shabbir, Mudassir, "
+venue: ""
+page: "2009"
+year: ""
+selected: y
+
+- title: "Ray-Shooting Depth in R2-Algorithms and Applications"
+authors: "Steiger, William, Shabbir, Mudassir, "
+venue: ""
+page: ""
+year: ""
+selected: y
+
+- title: "Ray-Shooting Depth in R2-Algorithms and Applications"
+authors: "Shabbir, Mudassir, Steiger, William, "
+venue: ""
+page: "2011"
+year: ""
+selected: y
+
+- title: "Acceleration of smith-waterman using recursive variable expansion"
+authors: "Nawaz, Zubair, Shabbir, Mudassir, Al-Ars, Zaid, Bertels, Koen, "
+venue: ""
+page: "2008"
+year: "IEEE"
+selected: y
+
+- title: "Affine-Invariant Outlier Detection and Data Visualization"
+authors: "Shabbir, Mudassir, Jamshed, Asif, Khan, Imdadullah, "
+venue: ""
+page: "2017"
+year: ""
+selected: y
+
+- title: "Scalable approximation algorithm for network immunization"
+authors: "Tariq, Juvaria, Ahmad, Muhammad, Khan, Imdadullah, Shabbir, Mudassir, "
+venue: ""
+page: "2017"
+year: ""
+selected: y
+
+- title: "Spectral methods for immunization of large networks"
+authors: "Ahmad, Muhammad, Tariq, Juvaria, Shabbir, Mudassir, Khan, Imdadullah, "
+venue: ""
+page: "2017"
+year: ""
+selected: y
+
+- title: "Efficient approximation algorithms for strings kernel based sequence classification"
+authors: "Farhan, Muhammad, Tariq, Juvaria, Zaman, Arif, Shabbir, Mudassir, Khan, Imdad Ullah, "
+venue: "30"
+page: "2017"
+year: ""
+selected: y
+
+- title: "Deep stylometry and lexical & syntactic features based author attribution on PLoS digital repository"
+authors: "Hassan, Saeed-Ul, Imran, Mubashir, Iftikhar, Tehreem, Safder, Iqra, Shabbir, Mudassir, "
+venue: ""
+page: "2017"
+year: "Springer International Publishing Cham"
+selected: y
+
+- title: "Graph-Theoretic Approach for Increasing Participation in Networks With Assorted Resources"
+authors: "Abbas, Waseem, Laszka, Aron, Shabbir, Mudassir, Koutsoukos, Xenofon, "
+venue: "7"
+page: "2019"
+year: "IEEE"
+selected: y
+
+- title: "Influential tweeters in relation to highly cited articles in altmetric big data"
+authors: "Hassan, Saeed-Ul, Bowman, Timothy D, Shabbir, Mudassir, Akhtar, Aqsa, Imran, Mubashir, Aljohani, Naif Radi, "
+venue: "119"
+page: "2019"
+year: "Springer International Publishing"
+selected: y
+
+- title: "On the trade-off between controllability and robustness in networks of diffusively coupled agents"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Yazicioğlu, A Yasin, Akber, Aqsa, "
+venue: ""
+page: "2019"
+year: "IEEE"
+selected: y
+
+- title: "Structural Robustness to Noise in Consensus Networks: Impact of Degrees and Distances, Fundamental Limits, and Extremal Graphs"
+authors: "Yazıcıoğlu, Yasin, Abbas, Waseem, Shabbir, Mudassir, "
+venue: "66"
+page: "2020"
+year: "IEEE"
+selected: y
+
+- title: "Computation of the distance-based bound on strong structural controllability in networks"
+authors: "Shabbir, Mudassir, Abbas, Waseem, Yazıcıoğlu, A Yasin, Koutsoukos, Xenofon, "
+venue: "68"
+page: "2022"
+year: "IEEE"
+selected: y
+
+- title: "On the computation of the distance-based lower bound on strong structural controllability in networks"
+authors: "Shabbir, Mudassir, Abbas, Waseem, Yazıcıoğlu, Yasin, "
+venue: ""
+page: "2019"
+year: "IEEE"
+selected: y
+
+- title: "Leveraging deep learning and SNA approaches for smart city policing in the developing world"
+authors: "Hassan, Saeed-Ul, Shabbir, Mudassir, Iqbal, Sehrish, Said, Anwar, Kamiran, Faisal, Nawaz, Raheel, Saif, Umar, "
+venue: "56"
+page: "2021"
+year: "Pergamon"
+selected: y
+
+- title: "Structural robustness to noise in consensus networks: Impact of average degrees and average distances"
+authors: "Yazıcıoğlu, Yasin, Abbas, Waseem, Shabbir, Mudassir, "
+venue: ""
+page: "2019"
+year: "IEEE"
+selected: y
+
+- title: "Combinatorial trace method for network immunization"
+authors: "Ahmad, Muhammad, Ali, Sarwan, Tariq, Juvaria, Khan, Imdadullah, Shabbir, Mudassir, Zaman, Arif, "
+venue: "519"
+page: "2020"
+year: "Elsevier"
+selected: y
+
+- title: "Estimating descriptors for large graphs"
+authors: "Hassan, Zohair Raza, Shabbir, Mudassir, Khan, Imdadullah, Abbas, Waseem, "
+venue: ""
+page: "2020"
+year: "Springer International Publishing Cham"
+selected: y
+
+- title: "Improving network robustness through edge augmentation while preserving strong structural controllability"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Jaleel, Hassan, Koutsoukos, Xenofon, "
+venue: ""
+page: "2020"
+year: "IEEE"
+selected: y
+
+- title: "Resilient vector consensus in multi-agent networks using centerpoints"
+authors: "Shabbir, Mudassir, Li, Jiani, Abbas, Waseem, Koutsoukos, Xenofon, "
+venue: ""
+page: "2020"
+year: "IEEE"
+selected: y
+
+- title: "Interpretable multi-scale graph descriptors via structural compression"
+authors: "Ahmed, Ammar, Hassan, Zohair Raza, Shabbir, Mudassir, "
+venue: "533"
+page: "2020"
+year: "Elsevier"
+selected: y
+
+- title: "Tweet Coupling: a social media methodology for clustering scientific publications"
+authors: "Hassan, Saeed-Ul, Aljohani, Naif R, Shabbir, Mudassir, Ali, Umair, Iqbal, Sehrish, Sarwar, Raheem, Martínez-Cámara, Eugenio, Ventura, Sebastián, Herrera, Francisco, "
+venue: "124"
+page: "2020"
+year: "Springer International Publishing"
+selected: y
+
+- title: "Resilient Distributed Diffusion for Multi-Robot Systems Using Centerpoint."
+authors: "Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon D, "
+venue: "2020"
+page: "2020"
+year: ""
+selected: y
+
+- title: "Resilient multi-robot target pursuit"
+authors: "Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon, "
+venue: ""
+page: "2020"
+year: ""
+selected: y
+
+- title: "Tradeoff between controllability and robustness in diffusively coupled networks"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Yazıcıoğlu, A Yasin, Akber, Aqsa, "
+venue: "7"
+page: "2020"
+year: "IEEE"
+selected: y
+
+- title: "Strong structural controllability of diffusively coupled networks: Comparison of bounds based on distances and zero forcing"
+authors: "Yazıcıoğlu, Yasin, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos, Xenofon, "
+venue: ""
+page: "2020"
+year: "IEEE"
+selected: y
+
+- title: "A Simpler NP-Hardness Proof for Familial Graph Compression"
+authors: "Ahmed, Ammar, Hassan, Zohair Raza, Shabbir, Mudassir, "
+venue: ""
+page: "2020"
+year: ""
+selected: y
+
+- title: "Interplay between resilience and accuracy in resilient vector consensus in multi-agent networks"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Li, Jiani, Koutsoukos, Xenofon, "
+venue: ""
+page: "2020"
+year: "IEEE"
+selected: y
+
+- title: "NetKI: a kirchhoff index based statistical graph embedding in nearly linear time"
+authors: "Said, Anwar, Hassan, Saeed-Ul, Abbas, Waseem, Shabbir, Mudassir, "
+venue: "433"
+page: "2021"
+year: "Elsevier"
+selected: y
+
+- title: "Seymour’s Second Neighborhood Conjecture for 6-antitransitive digraphs"
+authors: "Hassan, Zohair R, Khan, Imran F, Poshni, Mehvish I, Shabbir, Mudassir, "
+venue: "292"
+page: "2021"
+year: "North-Holland"
+selected: y
+
+- title: "Acceleration of biological sequence alignment using recursive variable expansion"
+authors: "Nawaz, Zubair, Shabbir, Mudassir, Al-Ars, Zaid, Bertels, Koen, "
+venue: ""
+page: "2007"
+year: "Published"
+selected: y
+
+- title: "Optimal school site selection in Urban areas using deep neural networks"
+authors: "Zaheer, Nimra, Hassan, Saeed-Ul, Ali, Mohsen, Shabbir, Mudassir, "
+venue: ""
+page: "2022"
+year: "Springer Berlin Heidelberg"
+selected: y
+
+- title: "DGSD: Distributed graph representation via graph statistical properties"
+authors: "Said, Anwar, Hassan, Saeed-Ul, Tuarob, Suppawong, Nawaz, Raheel, Shabbir, Mudassir, "
+venue: "119"
+page: "2021"
+year: "North-Holland"
+selected: y
+
+- title: "Who should receive the vaccine"
+authors: "Ahmad, Muhammad, Tariq, Juvaria, Farhan, Muhammad, Shabbir, Mudassir, Khan, Imdadullah, "
+venue: ""
+page: "2016"
+year: ""
+selected: y
+
+- title: "SEMOUR: A Scripted Emotional Speech Repository for Urdu"
+authors: "Zaheer, Nimra, Ahmad, Obaid Ullah, Ahmed, Ammar, Khan, Muhammad Shehryar, Shabbir, Mudassir, "
+venue: ""
+page: "2021"
+year: ""
+selected: y
+
+- title: "Edge augmentation with controllability constraints in directed laplacian networks"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Yazıcıoğlu, Yasin, Koutsoukos, Xenofon, "
+venue: "6"
+page: "2021"
+year: "IEEE"
+selected: y
+
+- title: "Deep Stylometry and Lexical & Syntactic Features Based Author Attribution on PLoS Digital Repository"
+authors: "Safder, Iqra, Shabbir, Mudassir, "
+venue: "10647"
+page: "2017"
+year: "Springer"
+selected: y
+
+- title: "Resilient distributed vector consensus using centerpoint"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Li, Jiani, Koutsoukos, Xenofon, "
+venue: "136"
+page: "2022"
+year: "Pergamon"
+selected: y
+
+- title: "Computing graph descriptors on edge streams"
+authors: "Hassan, Zohair Raza, Ali, Sarwan, Khan, Imdadullah, Shabbir, Mudassir, Abbas, Waseem, "
+venue: "17"
+page: "2023"
+year: "ACM New York, NY"
+selected: y
+
+- title: "Data driven smart policing: A novel road distance-based k-median model for optimal substation placement"
+authors: "Mir, Abinta Mehmood, Hassan, Ali, Khalid, Asma, Hassan, Zohair Raza, Kamiran, Faisal, Raza, Agha Ali, Hassan, Saeed-Ul, Shabbir, Mudassir, "
+venue: "127"
+page: "2022"
+year: "Pergamon"
+selected: y
+
+- title: "Resilient Multi-agent Reinforcement Learning Using Medoid and Soft-medoid Based Aggregation"
+authors: "Bhowmick, Chandreyee, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos, Xenofon, "
+venue: ""
+page: "2022"
+year: "IEEE"
+selected: y
+
+- title: "ICAA 2022"
+authors: "Musau, Patrick, Hamilton, Nathaniel, Johnson, Taylor T, Lefcourt, Samuel, Gordon, Nathaniel, Ellis, Christian, Wigness, Maggie, Fiondella, Lance, Bhowmick, Chandreyee, Shabbir, Mudassir, "
+venue: ""
+page: ""
+year: ""
+selected: y
+
+- title: "Network decontamination with a single agent"
+authors: "Yessine Daadaa, Asif Jamshed, Shabbir, Mudassir, "
+venue: ""
+page: "2013"
+year: ""
+selected: y
+
+- title: "Byzantine resilient distributed learning in multirobot systems"
+authors: "Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon, "
+venue: "38"
+page: "2022"
+year: "IEEE"
+selected: y
+
+- title: "Attack-Resilient Multi-Agent Flocking Control Using Graph Neural Networks"
+authors: "Bhowmick, Chandreyee, Shabbir, Mudassir, Koutsoukos, Xenofon, "
+venue: ""
+page: "2022"
+year: "IEEE"
+selected: y
+
+- title: "Speech emotion recognition for the Urdu language: Dataset and evaluation"
+authors: "Zaheer, Nimra, Ahmad, Obaid Ullah, Shabbir, Mudassir, Raza, Agha Ali, "
+venue: "57"
+page: "2023"
+year: "Springer Netherlands Dordrecht"
+selected: y
+
+- title: "Leader selection for strong structural controllability in networks using zero forcing sets"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Yazıcıoğlu, Yasin, Koutsoukos, Xenofon, "
+venue: ""
+page: "2022"
+year: "IEEE"
+selected: y
+
+- title: "Strong structural controllability of networks: Comparison of bounds using distances and zero forcing"
+authors: "Yazıcıoğlu, Yasin, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos, Xenofon, "
+venue: "146"
+page: "2022"
+year: "Pergamon"
+selected: y
+
+- title: "Network Controllability Perspectives on Graph Representation"
+authors: "Said, Anwar, Ahmad, Obaid Ullah, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon D, "
+venue: ""
+page: "2022"
+year: ""
+selected: y
+
+- title: "On augmenting topological graph representations for attributed graphs"
+authors: "Said, Anwar, Shabbir, Mudassir, Hassan, Saeed-Ul, Hassan, Zohair Raza, Ahmed, Ammar, Koutsoukos, Xenofon, "
+venue: "136"
+page: "2023"
+year: "Elsevier"
+selected: y
+
+- title: "Circuit design completion using graph neural networks"
+authors: "Said, Anwar, Shabbir, Mudassir, Broll, Brian, Abbas, Waseem, Völgyesi, Peter, Koutsoukos, Xenofon, "
+venue: ""
+page: "2023"
+year: "Springer London London"
+selected: y
+
+- title: "Learning-Based Heuristic for Combinatorial Optimization of the Minimum Dominating Set Problem using Graph Convolutional Networks"
+authors: "Kothapalli, Abihith, Shabbir, Mudassir, Koutsoukos, Xenofon, "
+venue: ""
+page: "2023"
+year: ""
+selected: y
+
+- title: "Sequential Graph Neural Networks for Source Code Vulnerability Identification"
+authors: "Ahmed, Ammar, Said, Anwar, Shabbir, Mudassir, Koutsoukos, Xenofon, "
+venue: ""
+page: "2023"
+year: ""
+selected: y
+
+- title: "NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics"
+authors: "Said, Anwar, Bayrak, Roza G, Derr, Tyler, Shabbir, Mudassir, Moyer, Daniel, Chang, Catie, Koutsoukos, Xenofon, "
+venue: ""
+page: "2023"
+year: ""
+selected: y
+
+- title: "On Zero Forcing Sets and Network Controllability–Computation and Edge Augmentation"
+authors: "Abbas, Waseem, Shabbir, Mudassir, Yazıcıoğlu, Yasin, Koutsoukos, Xenofon, "
+venue: ""
+page: "2023"
+year: "IEEE"
+selected: y
+
+- title: "Chemical investigation of the flowers of Opuntia elatior"
+authors: "Shabbir, M, Zaman, A, "
+venue: "45"
+page: "1968"
+year: ""
+selected: y
+
+- title: "Deep Stylometry and Lexical & Syntactic Features based Author Attribution on PLoS Digital Repository"
+authors: "Shabbir, Mudassir, "
+venue: ""
+page: ""
+year: ""
+selected: y
+
+- title: "Speech Emotion Recognition for the Urdu"
+authors: "Zaheer, Nimra, Ahmad, Obaid Ullah, Shabbir, Mudassir, Raza, Agha Ali, "
+venue: ""
+page: ""
+year: ""
+selected: y
+
