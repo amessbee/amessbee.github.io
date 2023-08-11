@@ -1,53 +1,48 @@
 papers:
-- authors: "\uFEFFAuthors"
-  page: Year
-  selected: y
-  title: Title
-  venue: Volume
-  year: Publisher
 - authors: 'Langerman, Stefan, Shabbir, Mudassir, Steiger, William, '
-  page: '2013'
+  page: 116-117
   selected: y
   title: Computing small hitting sets for convex ranges
-  venue: ''
-  year: ''
+  venue: JCDCGG
+  year: '2013'
 - authors: 'Mustafa, Nabil H, Ray, Saurabh, Shabbir, Mudassir, '
-  page: '2011'
+  page: 506-517
   selected: y
   title: 'Ray-shooting depth: Computing statistical data depth of point sets in the
     plane'
-  venue: ''
-  year: Springer Berlin Heidelberg
+  venue: "Algorithms\u2013ESA 2011: 19th Annual European Symposium, Saarbr\xFCcken,\
+    \ Germany, September 5-9, 2011. Proceedings 19"
+  year: '2011'
 - authors: 'Daadaa, Yassine, Jamshed, Asif, Shabbir, Mudassir, '
-  page: '2016'
+  page: 559-581
   selected: y
   title: Network decontamination with a single agent
-  venue: '32'
-  year: Springer Japan
+  venue: Graphs and Combinatorics
+  year: '2016'
 - authors: 'Shabbir, Mudassir, '
-  page: '2014'
+  page: ''
   selected: y
   title: Some results in computational and combinatorial geometry
   venue: ''
-  year: Rutgers The State University of New Jersey, School of Graduate Studies
+  year: '2014'
 - authors: 'Borosan, Peter, Shabbir, Mudassir, '
-  page: '2009'
+  page: ''
   selected: y
   title: A survey of secretary problem and its extensions
-  venue: ''
-  year: ''
+  venue: Unpublished manuscript
+  year: '2009'
 - authors: 'Mustafa, Nabil H, Ray, Saurabh, Shabbir, Mudassir, '
-  page: '2015'
+  page: 163-185
   selected: y
   title: "k-Centerpoints Conjectures for Pointsets in \u211D d"
-  venue: '25'
-  year: World Scientific Publishing Company
+  venue: International Journal of Computational Geometry & Applications
+  year: '2015'
 - authors: 'Shabbir, Mudassir, '
-  page: '2009'
+  page: ''
   selected: y
   title: Enforcing Security Policies using HTM
   venue: ''
-  year: ''
+  year: '2009'
 - authors: 'Steiger, William, Shabbir, Mudassir, '
   page: ''
   selected: y
@@ -55,278 +50,281 @@ papers:
   venue: ''
   year: ''
 - authors: 'Shabbir, Mudassir, Steiger, William, '
-  page: '2011'
+  page: ''
   selected: y
   title: Ray-Shooting Depth in R2-Algorithms and Applications
   venue: ''
-  year: ''
+  year: '2011'
 - authors: 'Nawaz, Zubair, Shabbir, Mudassir, Al-Ars, Zaid, Bertels, Koen, '
-  page: '2008'
+  page: 915-922
   selected: y
   title: Acceleration of smith-waterman using recursive variable expansion
-  venue: ''
-  year: IEEE
+  venue: 2008 11th EUROMICRO Conference on Digital System Design Architectures, Methods
+    and Tools
+  year: '2008'
 - authors: 'Shabbir, Mudassir, Jamshed, Asif, Khan, Imdadullah, '
-  page: '2017'
+  page: ''
   selected: y
   title: Affine-Invariant Outlier Detection and Data Visualization
   venue: ''
-  year: ''
+  year: '2017'
 - authors: 'Tariq, Juvaria, Ahmad, Muhammad, Khan, Imdadullah, Shabbir, Mudassir, '
-  page: '2017'
+  page: ''
   selected: y
   title: Scalable approximation algorithm for network immunization
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:1711.00784
+  year: '2017'
 - authors: 'Ahmad, Muhammad, Tariq, Juvaria, Shabbir, Mudassir, Khan, Imdadullah, '
-  page: '2017'
+  page: ''
   selected: y
   title: Spectral methods for immunization of large networks
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:1711.00791
+  year: '2017'
 - authors: 'Farhan, Muhammad, Tariq, Juvaria, Zaman, Arif, Shabbir, Mudassir, Khan,
     Imdad Ullah, '
-  page: '2017'
+  page: ''
   selected: y
   title: Efficient approximation algorithms for strings kernel based sequence classification
-  venue: '30'
-  year: ''
+  venue: Advances in neural information processing systems
+  year: '2017'
 - authors: 'Hassan, Saeed-Ul, Imran, Mubashir, Iftikhar, Tehreem, Safder, Iqra, Shabbir,
     Mudassir, '
-  page: '2017'
+  page: 119-127
   selected: y
   title: Deep stylometry and lexical & syntactic features based author attribution
     on PLoS digital repository
-  venue: ''
-  year: Springer International Publishing Cham
+  venue: International conference on Asian digital libraries
+  year: '2017'
 - authors: 'Abbas, Waseem, Laszka, Aron, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: '2019'
+  page: 930-946
   selected: y
   title: Graph-Theoretic Approach for Increasing Participation in Networks With Assorted
     Resources
-  venue: '7'
-  year: IEEE
+  venue: IEEE Transactions on Network Science and Engineering
+  year: '2019'
 - authors: 'Hassan, Saeed-Ul, Bowman, Timothy D, Shabbir, Mudassir, Akhtar, Aqsa,
     Imran, Mubashir, Aljohani, Naif Radi, '
-  page: '2019'
+  page: 481-493
   selected: y
   title: Influential tweeters in relation to highly cited articles in altmetric big
     data
-  venue: '119'
-  year: Springer International Publishing
+  venue: Scientometrics
+  year: '2019'
 - authors: "Abbas, Waseem, Shabbir, Mudassir, Yazicio\u011Flu, A Yasin, Akber, Aqsa, "
-  page: '2019'
+  page: 2072-2077
   selected: y
   title: On the trade-off between controllability and robustness in networks of diffusively
     coupled agents
-  venue: ''
-  year: IEEE
+  venue: 2019 American Control Conference (ACC)
+  year: '2019'
 - authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Abbas, Waseem, Shabbir, Mudassir, "
-  page: '2020'
+  page: 4777-4784
   selected: y
   title: 'Structural Robustness to Noise in Consensus Networks: Impact of Degrees
     and Distances, Fundamental Limits, and Extremal Graphs'
-  venue: '66'
-  year: IEEE
+  venue: IEEE Transactions on Automatic Control
+  year: '2020'
 - authors: "Shabbir, Mudassir, Abbas, Waseem, Yaz\u0131c\u0131o\u011Flu, A Yasin,\
     \ Koutsoukos, Xenofon, "
-  page: '2022'
+  page: 1768-1775
   selected: y
   title: Computation of the distance-based bound on strong structural controllability
     in networks
-  venue: '68'
-  year: IEEE
+  venue: IEEE Transactions on Automatic Control
+  year: '2022'
 - authors: "Shabbir, Mudassir, Abbas, Waseem, Yaz\u0131c\u0131o\u011Flu, Yasin, "
-  page: '2019'
+  page: 5468-5473
   selected: y
   title: On the computation of the distance-based lower bound on strong structural
     controllability in networks
-  venue: ''
-  year: IEEE
+  venue: 2019 IEEE 58th Conference on Decision and Control (CDC)
+  year: '2019'
 - authors: 'Hassan, Saeed-Ul, Shabbir, Mudassir, Iqbal, Sehrish, Said, Anwar, Kamiran,
     Faisal, Nawaz, Raheel, Saif, Umar, '
-  page: '2021'
+  page: '102045'
   selected: y
   title: Leveraging deep learning and SNA approaches for smart city policing in the
     developing world
-  venue: '56'
-  year: Pergamon
+  venue: International Journal of Information Management
+  year: '2021'
 - authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Abbas, Waseem, Shabbir, Mudassir, "
-  page: '2019'
+  page: 5444-5449
   selected: y
   title: 'Structural robustness to noise in consensus networks: Impact of average
     degrees and average distances'
-  venue: ''
-  year: IEEE
+  venue: 2019 IEEE 58th Conference on Decision and Control (CDC)
+  year: '2019'
 - authors: 'Ahmad, Muhammad, Ali, Sarwan, Tariq, Juvaria, Khan, Imdadullah, Shabbir,
     Mudassir, Zaman, Arif, '
-  page: '2020'
+  page: 215-228
   selected: y
   title: Combinatorial trace method for network immunization
-  venue: '519'
-  year: Elsevier
+  venue: Information Sciences
+  year: '2020'
 - authors: 'Hassan, Zohair Raza, Shabbir, Mudassir, Khan, Imdadullah, Abbas, Waseem, '
-  page: '2020'
+  page: 779-791
   selected: y
   title: Estimating descriptors for large graphs
-  venue: ''
-  year: Springer International Publishing Cham
+  venue: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+  year: '2020'
 - authors: 'Abbas, Waseem, Shabbir, Mudassir, Jaleel, Hassan, Koutsoukos, Xenofon, '
-  page: '2020'
+  page: 2544-2549
   selected: y
   title: Improving network robustness through edge augmentation while preserving strong
     structural controllability
-  venue: ''
-  year: IEEE
+  venue: 2020 American Control Conference (ACC)
+  year: '2020'
 - authors: 'Shabbir, Mudassir, Li, Jiani, Abbas, Waseem, Koutsoukos, Xenofon, '
-  page: '2020'
+  page: 4387-4392
   selected: y
   title: Resilient vector consensus in multi-agent networks using centerpoints
-  venue: ''
-  year: IEEE
+  venue: 2020 American Control Conference (ACC)
+  year: '2020'
 - authors: 'Ahmed, Ammar, Hassan, Zohair Raza, Shabbir, Mudassir, '
-  page: '2020'
+  page: 169-180
   selected: y
   title: Interpretable multi-scale graph descriptors via structural compression
-  venue: '533'
-  year: Elsevier
+  venue: Information Sciences
+  year: '2020'
 - authors: "Hassan, Saeed-Ul, Aljohani, Naif R, Shabbir, Mudassir, Ali, Umair, Iqbal,\
     \ Sehrish, Sarwar, Raheem, Mart\xEDnez-C\xE1mara, Eugenio, Ventura, Sebasti\xE1\
     n, Herrera, Francisco, "
-  page: '2020'
+  page: 973-991
   selected: y
   title: 'Tweet Coupling: a social media methodology for clustering scientific publications'
-  venue: '124'
-  year: Springer International Publishing
+  venue: Scientometrics
+  year: '2020'
 - authors: 'Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon D, '
-  page: '2020'
+  page: ''
   selected: y
   title: Resilient Distributed Diffusion for Multi-Robot Systems Using Centerpoint.
-  venue: '2020'
-  year: ''
+  venue: 'Robotics: Science and Systems'
+  year: '2020'
 - authors: 'Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: '2020'
+  page: 1-2
   selected: y
   title: Resilient multi-robot target pursuit
-  venue: ''
-  year: ''
+  venue: Proceedings of the 7th Symposium on Hot Topics in the Science of Security
+  year: '2020'
 - authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, A Yasin,\
     \ Akber, Aqsa, "
-  page: '2020'
+  page: 1891-1902
   selected: y
   title: Tradeoff between controllability and robustness in diffusively coupled networks
-  venue: '7'
-  year: IEEE
+  venue: IEEE Transactions on Control of Network Systems
+  year: '2020'
 - authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos,\
     \ Xenofon, "
-  page: '2020'
+  page: 566-571
   selected: y
   title: 'Strong structural controllability of diffusively coupled networks: Comparison
     of bounds based on distances and zero forcing'
-  venue: ''
-  year: IEEE
+  venue: 2020 59th IEEE Conference on Decision and Control (CDC)
+  year: '2020'
 - authors: 'Ahmed, Ammar, Hassan, Zohair Raza, Shabbir, Mudassir, '
-  page: '2020'
+  page: ''
   selected: y
   title: A Simpler NP-Hardness Proof for Familial Graph Compression
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:2009.02945
+  year: '2020'
 - authors: 'Abbas, Waseem, Shabbir, Mudassir, Li, Jiani, Koutsoukos, Xenofon, '
-  page: '2020'
+  page: 3127-3132
   selected: y
   title: Interplay between resilience and accuracy in resilient vector consensus in
     multi-agent networks
-  venue: ''
-  year: IEEE
+  venue: 2020 59th IEEE Conference on Decision and Control (CDC)
+  year: '2020'
 - authors: 'Said, Anwar, Hassan, Saeed-Ul, Abbas, Waseem, Shabbir, Mudassir, '
-  page: '2021'
+  page: 108-118
   selected: y
   title: 'NetKI: a kirchhoff index based statistical graph embedding in nearly linear
     time'
-  venue: '433'
-  year: Elsevier
+  venue: Neurocomputing
+  year: '2021'
 - authors: 'Hassan, Zohair R, Khan, Imran F, Poshni, Mehvish I, Shabbir, Mudassir, '
-  page: '2021'
+  page: 59-63
   selected: y
   title: "Seymour\u2019s Second Neighborhood Conjecture for 6-antitransitive digraphs"
-  venue: '292'
-  year: North-Holland
+  venue: Discrete Applied Mathematics
+  year: '2021'
 - authors: 'Nawaz, Zubair, Shabbir, Mudassir, Al-Ars, Zaid, Bertels, Koen, '
-  page: '2007'
+  page: 233-237
   selected: y
   title: Acceleration of biological sequence alignment using recursive variable expansion
-  venue: ''
-  year: Published
+  venue: 18th Annual Workshop on Circuits, Systems and Signal Processing
+  year: '2007'
 - authors: 'Zaheer, Nimra, Hassan, Saeed-Ul, Ali, Mohsen, Shabbir, Mudassir, '
-  page: '2022'
+  page: 1-15
   selected: y
   title: Optimal school site selection in Urban areas using deep neural networks
-  venue: ''
-  year: Springer Berlin Heidelberg
+  venue: Journal of Ambient Intelligence and Humanized Computing
+  year: '2022'
 - authors: 'Said, Anwar, Hassan, Saeed-Ul, Tuarob, Suppawong, Nawaz, Raheel, Shabbir,
     Mudassir, '
-  page: '2021'
+  page: 166-175
   selected: y
   title: 'DGSD: Distributed graph representation via graph statistical properties'
-  venue: '119'
-  year: North-Holland
+  venue: Future Generation Computer Systems
+  year: '2021'
 - authors: 'Ahmad, Muhammad, Tariq, Juvaria, Farhan, Muhammad, Shabbir, Mudassir,
     Khan, Imdadullah, '
-  page: '2016'
+  page: 137-145
   selected: y
   title: Who should receive the vaccine
-  venue: ''
-  year: ''
+  venue: Australasian Data Mining Conference (AusDM)
+  year: '2016'
 - authors: 'Zaheer, Nimra, Ahmad, Obaid Ullah, Ahmed, Ammar, Khan, Muhammad Shehryar,
     Shabbir, Mudassir, '
-  page: '2021'
+  page: 1-12
   selected: y
   title: 'SEMOUR: A Scripted Emotional Speech Repository for Urdu'
-  venue: ''
-  year: ''
+  venue: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+  year: '2021'
 - authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, Yasin, Koutsoukos,\
     \ Xenofon, "
-  page: '2021'
+  page: 1106-1111
   selected: y
   title: Edge augmentation with controllability constraints in directed laplacian
     networks
-  venue: '6'
-  year: IEEE
+  venue: IEEE Control Systems Letters
+  year: '2021'
 - authors: 'Safder, Iqra, Shabbir, Mudassir, '
-  page: '2017'
+  page: '119'
   selected: y
   title: Deep Stylometry and Lexical & Syntactic Features Based Author Attribution
     on PLoS Digital Repository
-  venue: '10647'
-  year: Springer
+  venue: 'Digital Libraries: Data, Information, and Knowledge for Digital Lives: 19th
+    International Conference on Asia-Pacific Digital Libraries, ICADL 2017, Bangkok,
+    Thailand, November 13-15, 2017, Proceedings'
+  year: '2017'
 - authors: 'Abbas, Waseem, Shabbir, Mudassir, Li, Jiani, Koutsoukos, Xenofon, '
-  page: '2022'
+  page: '110046'
   selected: y
   title: Resilient distributed vector consensus using centerpoint
-  venue: '136'
-  year: Pergamon
+  venue: Automatica
+  year: '2022'
 - authors: 'Hassan, Zohair Raza, Ali, Sarwan, Khan, Imdadullah, Shabbir, Mudassir,
     Abbas, Waseem, '
-  page: '2023'
+  page: 1-25
   selected: y
   title: Computing graph descriptors on edge streams
-  venue: '17'
-  year: ACM New York, NY
+  venue: ACM Transactions on Knowledge Discovery from Data
+  year: '2023'
 - authors: 'Mir, Abinta Mehmood, Hassan, Ali, Khalid, Asma, Hassan, Zohair Raza, Kamiran,
     Faisal, Raza, Agha Ali, Hassan, Saeed-Ul, Shabbir, Mudassir, '
-  page: '2022'
+  page: '107014'
   selected: y
   title: 'Data driven smart policing: A novel road distance-based k-median model for
     optimal substation placement'
-  venue: '127'
-  year: Pergamon
+  venue: Computers in Human Behavior
+  year: '2022'
 - authors: 'Bhowmick, Chandreyee, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos, Xenofon, '
-  page: '2022'
+  page: 36-45
   selected: y
   title: Resilient Multi-agent Reinforcement Learning Using Medoid and Soft-medoid
     Based Aggregation
-  venue: ''
-  year: IEEE
+  venue: 2022 IEEE International Conference on Assured Autonomy (ICAA)
+  year: '2022'
 - authors: 'Musau, Patrick, Hamilton, Nathaniel, Johnson, Taylor T, Lefcourt, Samuel,
     Gordon, Nathaniel, Ellis, Christian, Wigness, Maggie, Fiondella, Lance, Bhowmick,
     Chandreyee, Shabbir, Mudassir, '
@@ -336,100 +334,100 @@ papers:
   venue: ''
   year: ''
 - authors: 'Yessine Daadaa, Asif Jamshed, Shabbir, Mudassir, '
-  page: '2013'
+  page: ''
   selected: y
   title: Network decontamination with a single agent
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:1307.7307
+  year: '2013'
 - authors: 'Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: '2022'
+  page: 3550-3563
   selected: y
   title: Byzantine resilient distributed learning in multirobot systems
-  venue: '38'
-  year: IEEE
+  venue: IEEE Transactions on Robotics
+  year: '2022'
 - authors: 'Bhowmick, Chandreyee, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: '2022'
+  page: 300-305
   selected: y
   title: Attack-Resilient Multi-Agent Flocking Control Using Graph Neural Networks
-  venue: ''
-  year: IEEE
+  venue: 2022 30th Mediterranean Conference on Control and Automation (MED)
+  year: '2022'
 - authors: 'Zaheer, Nimra, Ahmad, Obaid Ullah, Shabbir, Mudassir, Raza, Agha Ali, '
-  page: '2023'
+  page: 915-944
   selected: y
   title: 'Speech emotion recognition for the Urdu language: Dataset and evaluation'
-  venue: '57'
-  year: Springer Netherlands Dordrecht
+  venue: Language Resources and Evaluation
+  year: '2023'
 - authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, Yasin, Koutsoukos,\
     \ Xenofon, "
-  page: '2022'
+  page: 1444-1449
   selected: y
   title: Leader selection for strong structural controllability in networks using
     zero forcing sets
-  venue: ''
-  year: IEEE
+  venue: 2022 American Control Conference (ACC)
+  year: '2022'
 - authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos,\
     \ Xenofon, "
-  page: '2022'
+  page: '110562'
   selected: y
   title: 'Strong structural controllability of networks: Comparison of bounds using
     distances and zero forcing'
-  venue: '146'
-  year: Pergamon
+  venue: Automatica
+  year: '2022'
 - authors: 'Said, Anwar, Ahmad, Obaid Ullah, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos,
     Xenofon D, '
-  page: '2022'
+  page: ''
   selected: y
   title: Network Controllability Perspectives on Graph Representation
   venue: ''
-  year: ''
+  year: '2022'
 - authors: 'Said, Anwar, Shabbir, Mudassir, Hassan, Saeed-Ul, Hassan, Zohair Raza,
     Ahmed, Ammar, Koutsoukos, Xenofon, '
-  page: '2023'
+  page: '110104'
   selected: y
   title: On augmenting topological graph representations for attributed graphs
-  venue: '136'
-  year: Elsevier
+  venue: Applied Soft Computing
+  year: '2023'
 - authors: "Said, Anwar, Shabbir, Mudassir, Broll, Brian, Abbas, Waseem, V\xF6lgyesi,\
     \ Peter, Koutsoukos, Xenofon, "
-  page: '2023'
+  page: 1-13
   selected: y
   title: Circuit design completion using graph neural networks
-  venue: ''
-  year: Springer London London
+  venue: Neural Computing and Applications
+  year: '2023'
 - authors: 'Kothapalli, Abihith, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: '2023'
+  page: ''
   selected: y
   title: Learning-Based Heuristic for Combinatorial Optimization of the Minimum Dominating
     Set Problem using Graph Convolutional Networks
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:2306.03434
+  year: '2023'
 - authors: 'Ahmed, Ammar, Said, Anwar, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: '2023'
+  page: ''
   selected: y
   title: Sequential Graph Neural Networks for Source Code Vulnerability Identification
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:2306.05375
+  year: '2023'
 - authors: 'Said, Anwar, Bayrak, Roza G, Derr, Tyler, Shabbir, Mudassir, Moyer, Daniel,
     Chang, Catie, Koutsoukos, Xenofon, '
-  page: '2023'
+  page: ''
   selected: y
   title: 'NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics'
-  venue: ''
-  year: ''
+  venue: arXiv preprint arXiv:2306.06202
+  year: '2023'
 - authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, Yasin, Koutsoukos,\
     \ Xenofon, "
-  page: '2023'
+  page: ''
   selected: y
   title: "On Zero Forcing Sets and Network Controllability\u2013Computation and Edge\
     \ Augmentation"
-  venue: ''
-  year: IEEE
+  venue: IEEE Transactions on Control of Network Systems
+  year: '2023'
 - authors: 'Shabbir, M, Zaman, A, '
-  page: '1968'
+  page: '81'
   selected: y
   title: Chemical investigation of the flowers of Opuntia elatior
-  venue: '45'
-  year: ''
+  venue: Journal of Indian Chemical Society
+  year: '1968'
 - authors: 'Shabbir, Mudassir, '
   page: ''
   selected: y
