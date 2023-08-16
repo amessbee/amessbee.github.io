@@ -1,445 +1,999 @@
 papers:
-- authors: 'Langerman, Stefan, Shabbir, Mudassir, Steiger, William, '
-  page: 116-117
+- abstract: ''
+  authors: "Anwar Said, Mudassir Shabbir, B. Broll, W. Abbas, P. V\xF6lgyesi, X. Koutsoukos"
+  paper_url: https://www.semanticscholar.org/paper/19cf22a791f78bf25f31f7cb73678949008297c1
   selected: y
-  title: Computing small hitting sets for convex ranges
-  venue: JCDCGG (2013)
-  year: '2013'
-- authors: 'Mustafa, Nabil H, Ray, Saurabh, Shabbir, Mudassir, '
-  page: 506-517
+  title: Circuit design completion using graph neural networks
+  venue: Neural Computing and Applications (2023)
+  year: 2023
+- abstract: Vulnerability identification constitutes a task of high importance for
+    cyber security. It is quite helpful for locating and fixing vulnerable functions
+    in large applications. However, this task is rather challenging owing to the absence
+    of reliable and adequately managed datasets and learning models. Existing solutions
+    typically rely on human expertise to annotate datasets or specify features, which
+    is prone to error. In addition, the learning models have a high rate of false
+    positives. To bridge this gap, in this paper, we present a properly curated C/C++
+    source code vulnerability dataset, denoted as CVEFunctionGraphEmbeddings (CVEFGE),
+    to aid in developing models. CVEFGE is automatically crawled from the CVE database,
+    which contains authentic and publicly disclosed source code vulnerabilities. We
+    also propose a learning framework based on graph neural networks, denoted SEquential
+    Graph Neural Network (SEGNN) for learning a large number of code semantic representations.
+    SEGNN consists of a sequential learning module, graph convolution, pooling, and
+    fully connected layers. Our evaluations on two datasets and four baseline methods
+    in a graph classification setting demonstrate state-of-the-art results.
+  authors: Ammar Ahmed, Anwar Said, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/3539f1039c9e3caad260374c57e2b124270cc2ae
   selected: y
-  title: 'Ray-shooting depth: Computing statistical data depth of point sets in the
-    plane'
-  venue: "Algorithms\u2013ESA 2011: 19th Annual European Symposium, Saarbr\xFCcken,\
-    \ Germany, September 5-9, 2011. Proceedings 19 (2011)"
-  year: '2011'
-- authors: 'Daadaa, Yassine, Jamshed, Asif, Shabbir, Mudassir, '
-  page: 559-581
+  title: Sequential Graph Neural Networks for Source Code Vulnerability Identification
+  venue: ArXiv (2023)
+  year: 2023
+- abstract: A dominating set of a graph $\mathcal{G=(V, E)}$ is a subset of vertices
+    $S\subseteq\mathcal{V}$ such that every vertex $v\in \mathcal{V} \setminus S$
+    outside the dominating set is adjacent to a vertex $u\in S$ within the set. The
+    minimum dominating set problem seeks to find a dominating set of minimum cardinality
+    and is a well-established NP-hard combinatorial optimization problem. We propose
+    a novel learning-based heuristic approach to compute solutions for the minimum
+    dominating set problem using graph convolutional networks. We conduct an extensive
+    experimental evaluation of the proposed method on a combination of randomly generated
+    graphs and real-world graph datasets. Our results indicate that the proposed learning-based
+    approach can outperform a classical greedy approximation algorithm. Furthermore,
+    we demonstrate the generalization capability of the graph convolutional network
+    across datasets and its ability to scale to graphs of higher order than those
+    on which it was trained. Finally, we utilize the proposed learning-based heuristic
+    in an iterative greedy algorithm, achieving state-of-the-art performance in the
+    computation of dominating sets.
+  authors: Abihith Kothapalli, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/5328e6d9ae5a6b8628a81ffdac827361ef71de9e
   selected: y
-  title: Network decontamination with a single agent
-  venue: Graphs and Combinatorics (2016)
-  year: '2016'
-- authors: 'Shabbir, Mudassir, '
-  page: ''
+  title: Learning-Based Heuristic for Combinatorial Optimization of the Minimum Dominating
+    Set Problem using Graph Convolutional Networks
+  venue: ArXiv (2023)
+  year: 2023
+- abstract: Machine learning provides a valuable tool for analyzing high-dimensional
+    functional neuroimaging data, and is proving effective in predicting various neurological
+    conditions, psychiatric disorders, and cognitive patterns. In functional Magnetic
+    Resonance Imaging (MRI) research, interactions between brain regions are commonly
+    modeled using graph-based representations. The potency of graph machine learning
+    methods has been established across myriad domains, marking a transformative step
+    in data interpretation and predictive modeling. Yet, despite their promise, the
+    transposition of these techniques to the neuroimaging domain remains surprisingly
+    under-explored due to the expansive preprocessing pipeline and large parameter
+    search space for graph-based datasets construction. In this paper, we introduce
+    NeuroGraph, a collection of graph-based neuroimaging datasets that span multiple
+    categories of behavioral and cognitive traits. We delve deeply into the dataset
+    generation search space by crafting 35 datasets within both static and dynamic
+    contexts, running in excess of 15 baseline methods for benchmarking. Additionally,
+    we provide generic frameworks for learning on dynamic as well as static graphs.
+    Our extensive experiments lead to several key observations. Notably, using correlation
+    vectors as node features, incorporating larger number of regions of interest,
+    and employing sparser graphs lead to improved performance. To foster further advancements
+    in graph-based data driven Neuroimaging, we offer a comprehensive open source
+    Python package that includes the datasets, baseline implementations, model training,
+    and standard evaluation. The package is publicly accessible at https://anwar-said.github.io/anwarsaid/neurograph.html
+    .
+  authors: Anwar Said, Roza G. Bayrak, Tyler Derr, Mudassir Shabbir, Daniel Moyer,
+    Catie Chang, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/5c4a3d8f93138cd1bd19ad231919505b49b528cd
   selected: y
-  title: Some results in computational and combinatorial geometry
-  venue: ' (2014)'
-  year: '2014'
-- authors: 'Borosan, Peter, Shabbir, Mudassir, '
-  page: ''
+  title: 'NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics'
+  venue: ArXiv (2023)
+  year: 2023
+- abstract: ''
+  authors: Anwar Said, Mudassir Shabbir, Saeed-Ul Hassan, Zohair Raza Hassan, Ammar
+    Ahmed, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/e2aadc6487e79cbf6f6b84087d54d05c299f68d3
   selected: y
-  title: A survey of secretary problem and its extensions
-  venue: Unpublished manuscript (2009)
-  year: '2009'
-- authors: 'Mustafa, Nabil H, Ray, Saurabh, Shabbir, Mudassir, '
-  page: 163-185
-  selected: y
-  title: "k-Centerpoints Conjectures for Pointsets in \u211D d"
-  venue: International Journal of Computational Geometry & Applications (2015)
-  year: '2015'
-- authors: 'Shabbir, Mudassir, '
-  page: ''
-  selected: y
-  title: Enforcing Security Policies using HTM
-  venue: ' (2009)'
-  year: '2009'
-- authors: 'Steiger, William, Shabbir, Mudassir, '
-  page: ''
-  selected: y
-  title: Ray-Shooting Depth in R2-Algorithms and Applications
-  venue: ' ()'
-  year: ''
-- authors: 'Shabbir, Mudassir, Steiger, William, '
-  page: ''
-  selected: y
-  title: Ray-Shooting Depth in R2-Algorithms and Applications
-  venue: ' (2011)'
-  year: '2011'
-- authors: 'Nawaz, Zubair, Shabbir, Mudassir, Al-Ars, Zaid, Bertels, Koen, '
-  page: 915-922
-  selected: y
-  title: Acceleration of smith-waterman using recursive variable expansion
-  venue: 2008 11th EUROMICRO Conference on Digital System Design Architectures, Methods
-    and Tools (2008)
-  year: '2008'
-- authors: 'Shabbir, Mudassir, Jamshed, Asif, Khan, Imdadullah, '
-  page: ''
-  selected: y
-  title: Affine-Invariant Outlier Detection and Data Visualization
-  venue: ' (2017)'
-  year: '2017'
-- authors: 'Tariq, Juvaria, Ahmad, Muhammad, Khan, Imdadullah, Shabbir, Mudassir, '
-  page: ''
-  selected: y
-  title: Scalable approximation algorithm for network immunization
-  venue: arXiv preprint arXiv:1711.00784 (2017)
-  year: '2017'
-- authors: 'Ahmad, Muhammad, Tariq, Juvaria, Shabbir, Mudassir, Khan, Imdadullah, '
-  page: ''
-  selected: y
-  title: Spectral methods for immunization of large networks
-  venue: arXiv preprint arXiv:1711.00791 (2017)
-  year: '2017'
-- authors: 'Farhan, Muhammad, Tariq, Juvaria, Zaman, Arif, Shabbir, Mudassir, Khan,
-    Imdad Ullah, '
-  page: ''
-  selected: y
-  title: Efficient approximation algorithms for strings kernel based sequence classification
-  venue: Advances in neural information processing systems (2017)
-  year: '2017'
-- authors: 'Hassan, Saeed-Ul, Imran, Mubashir, Iftikhar, Tehreem, Safder, Iqra, Shabbir,
-    Mudassir, '
-  page: 119-127
-  selected: y
-  title: Deep stylometry and lexical & syntactic features based author attribution
-    on PLoS digital repository
-  venue: International conference on Asian digital libraries (2017)
-  year: '2017'
-- authors: 'Abbas, Waseem, Laszka, Aron, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: 930-946
-  selected: y
-  title: Graph-Theoretic Approach for Increasing Participation in Networks With Assorted
-    Resources
-  venue: IEEE Transactions on Network Science and Engineering (2019)
-  year: '2019'
-- authors: 'Hassan, Saeed-Ul, Bowman, Timothy D, Shabbir, Mudassir, Akhtar, Aqsa,
-    Imran, Mubashir, Aljohani, Naif Radi, '
-  page: 481-493
-  selected: y
-  title: Influential tweeters in relation to highly cited articles in altmetric big
-    data
-  venue: Scientometrics (2019)
-  year: '2019'
-- authors: "Abbas, Waseem, Shabbir, Mudassir, Yazicio\u011Flu, A Yasin, Akber, Aqsa, "
-  page: 2072-2077
-  selected: y
-  title: On the trade-off between controllability and robustness in networks of diffusively
-    coupled agents
-  venue: 2019 American Control Conference (ACC) (2019)
-  year: '2019'
-- authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Abbas, Waseem, Shabbir, Mudassir, "
-  page: 4777-4784
-  selected: y
-  title: 'Structural Robustness to Noise in Consensus Networks: Impact of Degrees
-    and Distances, Fundamental Limits, and Extremal Graphs'
-  venue: IEEE Transactions on Automatic Control (2020)
-  year: '2020'
-- authors: "Shabbir, Mudassir, Abbas, Waseem, Yaz\u0131c\u0131o\u011Flu, A Yasin,\
-    \ Koutsoukos, Xenofon, "
-  page: 1768-1775
-  selected: y
-  title: Computation of the distance-based bound on strong structural controllability
-    in networks
-  venue: IEEE Transactions on Automatic Control (2022)
-  year: '2022'
-- authors: "Shabbir, Mudassir, Abbas, Waseem, Yaz\u0131c\u0131o\u011Flu, Yasin, "
-  page: 5468-5473
-  selected: y
-  title: On the computation of the distance-based lower bound on strong structural
-    controllability in networks
-  venue: 2019 IEEE 58th Conference on Decision and Control (CDC) (2019)
-  year: '2019'
-- authors: 'Hassan, Saeed-Ul, Shabbir, Mudassir, Iqbal, Sehrish, Said, Anwar, Kamiran,
-    Faisal, Nawaz, Raheel, Saif, Umar, '
-  page: '102045'
-  selected: y
-  title: Leveraging deep learning and SNA approaches for smart city policing in the
-    developing world
-  venue: International Journal of Information Management (2021)
-  year: '2021'
-- authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Abbas, Waseem, Shabbir, Mudassir, "
-  page: 5444-5449
-  selected: y
-  title: 'Structural robustness to noise in consensus networks: Impact of average
-    degrees and average distances'
-  venue: 2019 IEEE 58th Conference on Decision and Control (CDC) (2019)
-  year: '2019'
-- authors: 'Ahmad, Muhammad, Ali, Sarwan, Tariq, Juvaria, Khan, Imdadullah, Shabbir,
-    Mudassir, Zaman, Arif, '
-  page: 215-228
-  selected: y
-  title: Combinatorial trace method for network immunization
-  venue: Information Sciences (2020)
-  year: '2020'
-- authors: 'Hassan, Zohair Raza, Shabbir, Mudassir, Khan, Imdadullah, Abbas, Waseem, '
-  page: 779-791
-  selected: y
-  title: Estimating descriptors for large graphs
-  venue: Pacific-Asia Conference on Knowledge Discovery and Data Mining (2020)
-  year: '2020'
-- authors: 'Abbas, Waseem, Shabbir, Mudassir, Jaleel, Hassan, Koutsoukos, Xenofon, '
-  page: 2544-2549
-  selected: y
-  title: Improving network robustness through edge augmentation while preserving strong
-    structural controllability
-  venue: 2020 American Control Conference (ACC) (2020)
-  year: '2020'
-- authors: 'Shabbir, Mudassir, Li, Jiani, Abbas, Waseem, Koutsoukos, Xenofon, '
-  page: 4387-4392
-  selected: y
-  title: Resilient vector consensus in multi-agent networks using centerpoints
-  venue: 2020 American Control Conference (ACC) (2020)
-  year: '2020'
-- authors: 'Ahmed, Ammar, Hassan, Zohair Raza, Shabbir, Mudassir, '
-  page: 169-180
-  selected: y
-  title: Interpretable multi-scale graph descriptors via structural compression
-  venue: Information Sciences (2020)
-  year: '2020'
-- authors: "Hassan, Saeed-Ul, Aljohani, Naif R, Shabbir, Mudassir, Ali, Umair, Iqbal,\
-    \ Sehrish, Sarwar, Raheem, Mart\xEDnez-C\xE1mara, Eugenio, Ventura, Sebasti\xE1\
-    n, Herrera, Francisco, "
-  page: 973-991
-  selected: y
-  title: 'Tweet Coupling: a social media methodology for clustering scientific publications'
-  venue: Scientometrics (2020)
-  year: '2020'
-- authors: 'Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon D, '
-  page: ''
-  selected: y
-  title: Resilient Distributed Diffusion for Multi-Robot Systems Using Centerpoint.
-  venue: 'Robotics: Science and Systems (2020)'
-  year: '2020'
-- authors: 'Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: 1-2
-  selected: y
-  title: Resilient multi-robot target pursuit
-  venue: Proceedings of the 7th Symposium on Hot Topics in the Science of Security
-    (2020)
-  year: '2020'
-- authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, A Yasin,\
-    \ Akber, Aqsa, "
-  page: 1891-1902
-  selected: y
-  title: Tradeoff between controllability and robustness in diffusively coupled networks
-  venue: IEEE Transactions on Control of Network Systems (2020)
-  year: '2020'
-- authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos,\
-    \ Xenofon, "
-  page: 566-571
-  selected: y
-  title: 'Strong structural controllability of diffusively coupled networks: Comparison
-    of bounds based on distances and zero forcing'
-  venue: 2020 59th IEEE Conference on Decision and Control (CDC) (2020)
-  year: '2020'
-- authors: 'Ahmed, Ammar, Hassan, Zohair Raza, Shabbir, Mudassir, '
-  page: ''
-  selected: y
-  title: A Simpler NP-Hardness Proof for Familial Graph Compression
-  venue: arXiv preprint arXiv:2009.02945 (2020)
-  year: '2020'
-- authors: 'Abbas, Waseem, Shabbir, Mudassir, Li, Jiani, Koutsoukos, Xenofon, '
-  page: 3127-3132
-  selected: y
-  title: Interplay between resilience and accuracy in resilient vector consensus in
-    multi-agent networks
-  venue: 2020 59th IEEE Conference on Decision and Control (CDC) (2020)
-  year: '2020'
-- authors: 'Said, Anwar, Hassan, Saeed-Ul, Abbas, Waseem, Shabbir, Mudassir, '
-  page: 108-118
-  selected: y
-  title: 'NetKI: a kirchhoff index based statistical graph embedding in nearly linear
-    time'
-  venue: Neurocomputing (2021)
-  year: '2021'
-- authors: 'Hassan, Zohair R, Khan, Imran F, Poshni, Mehvish I, Shabbir, Mudassir, '
-  page: 59-63
-  selected: y
-  title: "Seymour\u2019s Second Neighborhood Conjecture for 6-antitransitive digraphs"
-  venue: Discrete Applied Mathematics (2021)
-  year: '2021'
-- authors: 'Nawaz, Zubair, Shabbir, Mudassir, Al-Ars, Zaid, Bertels, Koen, '
-  page: 233-237
-  selected: y
-  title: Acceleration of biological sequence alignment using recursive variable expansion
-  venue: 18th Annual Workshop on Circuits, Systems and Signal Processing (2007)
-  year: '2007'
-- authors: 'Zaheer, Nimra, Hassan, Saeed-Ul, Ali, Mohsen, Shabbir, Mudassir, '
-  page: 1-15
-  selected: y
-  title: Optimal school site selection in Urban areas using deep neural networks
-  venue: Journal of Ambient Intelligence and Humanized Computing (2022)
-  year: '2022'
-- authors: 'Said, Anwar, Hassan, Saeed-Ul, Tuarob, Suppawong, Nawaz, Raheel, Shabbir,
-    Mudassir, '
-  page: 166-175
-  selected: y
-  title: 'DGSD: Distributed graph representation via graph statistical properties'
-  venue: Future Generation Computer Systems (2021)
-  year: '2021'
-- authors: 'Ahmad, Muhammad, Tariq, Juvaria, Farhan, Muhammad, Shabbir, Mudassir,
-    Khan, Imdadullah, '
-  page: 137-145
-  selected: y
-  title: Who should receive the vaccine
-  venue: Australasian Data Mining Conference (AusDM) (2016)
-  year: '2016'
-- authors: 'Zaheer, Nimra, Ahmad, Obaid Ullah, Ahmed, Ammar, Khan, Muhammad Shehryar,
-    Shabbir, Mudassir, '
-  page: 1-12
-  selected: y
-  title: 'SEMOUR: A Scripted Emotional Speech Repository for Urdu'
-  venue: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
-    (2021)
-  year: '2021'
-- authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, Yasin, Koutsoukos,\
-    \ Xenofon, "
-  page: 1106-1111
-  selected: y
-  title: Edge augmentation with controllability constraints in directed laplacian
-    networks
-  venue: IEEE Control Systems Letters (2021)
-  year: '2021'
-- authors: 'Safder, Iqra, Shabbir, Mudassir, '
-  page: '119'
-  selected: y
-  title: Deep Stylometry and Lexical & Syntactic Features Based Author Attribution
-    on PLoS Digital Repository
-  venue: 'Digital Libraries: Data, Information, and Knowledge for Digital Lives: 19th
-    International Conference on Asia-Pacific Digital Libraries, ICADL 2017, Bangkok,
-    Thailand, November 13-15, 2017, Proceedings (2017)'
-  year: '2017'
-- authors: 'Abbas, Waseem, Shabbir, Mudassir, Li, Jiani, Koutsoukos, Xenofon, '
-  page: '110046'
+  title: On augmenting topological graph representations for attributed graphs
+  venue: Appl. Soft Comput. (2023)
+  year: 2023
+- abstract: ''
+  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/15eaa6da383bc6526474d904d6bcec90cbc86ebd
   selected: y
   title: Resilient distributed vector consensus using centerpoint
   venue: Automatica (2022)
-  year: '2022'
-- authors: 'Hassan, Zohair Raza, Ali, Sarwan, Khan, Imdadullah, Shabbir, Mudassir,
-    Abbas, Waseem, '
-  page: 1-25
-  selected: y
-  title: Computing graph descriptors on edge streams
-  venue: ACM Transactions on Knowledge Discovery from Data (2023)
-  year: '2023'
-- authors: 'Mir, Abinta Mehmood, Hassan, Ali, Khalid, Asma, Hassan, Zohair Raza, Kamiran,
-    Faisal, Raza, Agha Ali, Hassan, Saeed-Ul, Shabbir, Mudassir, '
-  page: '107014'
-  selected: y
-  title: 'Data driven smart policing: A novel road distance-based k-median model for
-    optimal substation placement'
-  venue: Computers in Human Behavior (2022)
-  year: '2022'
-- authors: 'Bhowmick, Chandreyee, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos, Xenofon, '
-  page: 36-45
+  year: 2022
+- abstract: A network of reinforcement learning (RL) agents that cooperate with each
+    other by sharing information can improve learning performance of control and coordination
+    tasks when compared to non-cooperative agents. However, networked Multi-agent
+    Reinforcement Learning (MARL) is vulnerable to adversarial agents that can compromise
+    some agents and send malicious information to the network. In this paper, we consider
+    the problem of resilient MARL in the presence of adversarial agents that aim to
+    compromise the learning algorithm. First, the paper presents an attack model which
+    aims to degrade the performance of a target agent by modifying the parameters
+    shared by an attacked agent. In order to improve the resilience, the paper presents
+    aggregation methods using medoid and soft-medoid. Our analysis shows that the
+    medoid-based MARL algorithms converge to an optimal solution given standard assumptions,
+    and improve the overall learning performance and robustness. Simulation results
+    show the effectiveness of the aggregation methods compared with average and median-based
+    aggregation.
+  authors: C. Bhowmick, Mudassir Shabbir, W. Abbas, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/2df0c0e5fc5a49238bf0092b661c79f6cd72551e
   selected: y
   title: Resilient Multi-agent Reinforcement Learning Using Medoid and Soft-medoid
     Based Aggregation
   venue: 2022 IEEE International Conference on Assured Autonomy (ICAA) (2022)
-  year: '2022'
-- authors: 'Musau, Patrick, Hamilton, Nathaniel, Johnson, Taylor T, Lefcourt, Samuel,
-    Gordon, Nathaniel, Ellis, Christian, Wigness, Maggie, Fiondella, Lance, Bhowmick,
-    Chandreyee, Shabbir, Mudassir, '
-  page: ''
+  year: 2022
+- abstract: ''
+  authors: Abinta Mehmood Mir, Ali Hassan, Asma Khalid, Zohair Raza Hassan, F. Kamiran,
+    Agha Ali Raza, Saeed-Ul Hassan, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/30a4cf648161d16c1dbea7db11a6c2acee1b4c80
   selected: y
-  title: ICAA 2022
-  venue: ' ()'
-  year: ''
-- authors: 'Yessine Daadaa, Asif Jamshed, Shabbir, Mudassir, '
-  page: ''
+  title: 'Data driven smart policing: A novel road distance-based k-median model for
+    optimal substation placement'
+  venue: Comput. Hum. Behav. (2022)
+  year: 2022
+- abstract: "\u2014Unmanned Aerial Vehicles (UAVs) continue to pro- liferate, revolutionizing\
+    \ tasks such as cargo transport, surveil-lance, and search and rescue operations.\
+    \ With the discovery of novel use cases or specialized tasks for aerial vehicles,\
+    \ there is an increased need for improved design space exploration and performance\
+    \ estimation techniques for candidate UAV designs. Typical pipelines for this\
+    \ design process rely on time-consuming human efforts to identify productive design\
+    \ geometries or expensive computational approaches for performance analysis to\
+    \ reconcile aerodynamic, electrical, and physical interactions. In this work-in-progress\
+    \ paper, we propose the use of a design process that uses a design grammar for\
+    \ UAV design generation and a Graph Neural Network (GNN)-based drag surrogate\
+    \ trained on simulation data for accelerated UAV design space exploration. We\
+    \ formulate a UAV design grammar and provide preliminary performance results from\
+    \ the GNN drag surrogate for randomly generated designs. We expect our approach\
+    \ to accelerate the exploration of UAV design geometries using a learned surrogate\
+    \ drag model to circumvent resource-hungry Computer-aided design (CAD) and simulation\
+    \ routines."
+  authors: M. Sandborn, Carlos Olea, Anwar Said, Mudassir Shabbir, P. Volgyesi, X.
+    Koutsoukos, carlos. d. olea
+  paper_url: https://www.semanticscholar.org/paper/3bc23cdd689974aa188d2a0fe81aff814525c8e0
   selected: y
-  title: Network decontamination with a single agent
-  venue: arXiv preprint arXiv:1307.7307 (2013)
-  year: '2013'
-- authors: 'Li, Jiani, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: 3550-3563
+  title: What a drag! Streamlining the UAV design process with design grammars and
+    drag surrogates
+  venue: ' (2022)'
+  year: 2022
+- abstract: ''
+  authors: Nimra Zaheer, O. Ahmad, Mudassir Shabbir, Agha Ali Raza
+  paper_url: https://www.semanticscholar.org/paper/8283877b656fb7817010b68aee99eaba66ca6546
   selected: y
-  title: Byzantine resilient distributed learning in multirobot systems
-  venue: IEEE Transactions on Robotics (2022)
-  year: '2022'
-- authors: 'Bhowmick, Chandreyee, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: 300-305
+  title: Speech emotion recognition for the Urdu language
+  venue: Language Resources and Evaluation (2022)
+  year: 2022
+- abstract: Flocking control of a group of mobile agents has been recently investigated
+    using Graph Convolution Networks (GCNs). The design relies on training using a
+    centralized controller but the resulting GCN controller is based on communication
+    between the agents. The agents receive sensor measurements which are incorporated
+    into the states and shared between the neighbors. However, the paradigm is prone
+    to adversarial attacks. In this paper, we consider the problem of designing GCN-based
+    distributed flocking control that is resilient to attacks on the communicated
+    information. We consider an attack model that is used to compromise the inter-agent
+    communication and may inject arbitrary signals. Our control design uses a coordinate-wise
+    median-based aggregation function. It is shown that the GCN-based controller using
+    the proposed aggregation method is resilient against attacks on the communication
+    between the agents, whereas the typical average-based aggregation fails to maintain
+    the flock structure. Robustness analysis is performed to show that the proposed
+    method is resilient whenever a majority of the agents in the neighborhood can
+    be trusted. Simulation results and analysis are presented that validate the merits
+    of the proposed approach.
+  authors: C. Bhowmick, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/a8ccad4f07c8729d249ec6562d228b9c61d0b1d2
   selected: y
   title: Attack-Resilient Multi-Agent Flocking Control Using Graph Neural Networks
   venue: 2022 30th Mediterranean Conference on Control and Automation (MED) (2022)
-  year: '2022'
-- authors: 'Zaheer, Nimra, Ahmad, Obaid Ullah, Shabbir, Mudassir, Raza, Agha Ali, '
-  page: 915-944
-  selected: y
-  title: 'Speech emotion recognition for the Urdu language: Dataset and evaluation'
-  venue: Language Resources and Evaluation (2023)
-  year: '2023'
-- authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, Yasin, Koutsoukos,\
-    \ Xenofon, "
-  page: 1444-1449
-  selected: y
-  title: Leader selection for strong structural controllability in networks using
-    zero forcing sets
-  venue: 2022 American Control Conference (ACC) (2022)
-  year: '2022'
-- authors: "Yaz\u0131c\u0131o\u011Flu, Yasin, Shabbir, Mudassir, Abbas, Waseem, Koutsoukos,\
-    \ Xenofon, "
-  page: '110562'
+  year: 2022
+- abstract: ''
+  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, Mudassir Shabbir, W. Abbas, X. Koutsoukos"
+  paper_url: https://www.semanticscholar.org/paper/c5b9bb8b5bb5e19d5c717ab6969ff8f5dae5825b
   selected: y
   title: 'Strong structural controllability of networks: Comparison of bounds using
     distances and zero forcing'
-  venue: Automatica (2022)
-  year: '2022'
-- authors: 'Said, Anwar, Ahmad, Obaid Ullah, Abbas, Waseem, Shabbir, Mudassir, Koutsoukos,
-    Xenofon D, '
-  page: ''
+  venue: Autom. (2022)
+  year: 2022
+- abstract: This paper studies the problem of computing a minimum zero forcing set
+    (ZFS) in graphs. The problem is important because it is directly related to the
+    leader selection problem for the strong structural controllability of networks
+    defined over graphs. Computing a ZFS of minimum size is a well-known NP-hard problem
+    in general. We show that previously known greedy heuristic could give arbitrarily
+    bad solutions for some graphs. We study the problem on trees and present an optimal
+    algorithm to compute a minimum ZFS in linear time in trees. For general graphs,
+    we present a game-theoretic solution by formalizing the minimum ZFS problem as
+    a potential game. Finally, we numerically evaluate our results on random graphs.
+  authors: "W. Abbas, Mudassir Shabbir, Yasin Yaz\u0131c\u0131o\u011Flu, X. Koutsoukos"
+  paper_url: https://www.semanticscholar.org/paper/dded2fe8d14bfe83eefa655f237057aacd7fb57a
   selected: y
-  title: Network Controllability Perspectives on Graph Representation
-  venue: ' (2022)'
-  year: '2022'
-- authors: 'Said, Anwar, Shabbir, Mudassir, Hassan, Saeed-Ul, Hassan, Zohair Raza,
-    Ahmed, Ammar, Koutsoukos, Xenofon, '
-  page: '110104'
+  title: Leader Selection for Strong Structural Controllability in Networks using
+    Zero Forcing Sets
+  venue: 2022 American Control Conference (ACC) (2022)
+  year: 2022
+- abstract: "Distributed machine learning algorithms are increasingly used in multirobot\
+    \ systems and are prone to Byzantine attacks. In this article, we consider a distributed\
+    \ implementation of the stochastic gradient descent (SGD) algorithm in a cooperative\
+    \ network, where networked agents optimize a global loss function using SGD on\
+    \ the local data and aggregation of the estimates of immediate neighbors. Byzantine\
+    \ agents can send arbitrary estimates to their neighbors, which may disrupt the\
+    \ convergence of normal agents to the optimum state. We show that if every normal\
+    \ agent combines its neighbors\u2019 estimates (states) such that the aggregated\
+    \ state is in the convex hull of its normal neighbors\u2019 states, then the resilient\
+    \ convergence is guaranteed. To assure this sufficient condition, we propose a\
+    \ resilient aggregation rule based on the notion of centerpoint, which is a generalization\
+    \ of the median in the higher-dimensional Euclidean space. We evaluate our results\
+    \ using examples of target pursuit and pattern recognition in multirobot systems.\
+    \ The evaluation results demonstrate that distributed learning with average, coordinate-wise\
+    \ median, and geometric median-based aggregation rules fail to converge to the\
+    \ optimum state, whereas the centerpoint-based aggregation rule is resilient in\
+    \ the same scenario."
+  authors: Jiani Li, W. Abbas, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/def2379f47d7f55e5d1e54f8249c2a12db83d3ad
   selected: y
-  title: On augmenting topological graph representations for attributed graphs
-  venue: Applied Soft Computing (2023)
-  year: '2023'
-- authors: "Said, Anwar, Shabbir, Mudassir, Broll, Brian, Abbas, Waseem, V\xF6lgyesi,\
-    \ Peter, Koutsoukos, Xenofon, "
-  page: 1-13
+  title: Byzantine Resilient Distributed Learning in Multirobot Systems
+  venue: IEEE Transactions on Robotics (2022)
+  year: 2022
+- abstract: "In this letter, we study the maximum edge augmentation problem in directed\
+    \ Laplacian networks to improve their robustness while preserving lower bounds\
+    \ on their strong structural controllability (SSC). Since adding edges could adversely\
+    \ impact network controllability, the main objective is to maximally densify a\
+    \ given network by selectively adding missing edges while ensuring that SSC of\
+    \ the network does not deteriorate beyond certain levels specified by the SSC\
+    \ bounds. We consider two widely used bounds: first is based on the notion of\
+    \ zero forcing (ZF), and the second relies on the distances between nodes in a\
+    \ graph. We provide an edge augmentation algorithm that adds the maximum number\
+    \ of edges in a graph while preserving the ZF-based bound, and also derive a closed-form\
+    \ expression for the exact number of edges added to the graph. Then, we examine\
+    \ the edge augmentation while preserving the distance-based bound and present\
+    \ a randomized algorithm that guarantees an $\\alpha $ \u2013approximate solution\
+    \ with high probability. Finally, we numerically evaluate and compare these edge\
+    \ augmentation solutions."
+  authors: "W. Abbas, Mudassir Shabbir, Yasin Yaz\u0131c\u0131o\u011Flu, X. Koutsoukos"
+  paper_url: https://www.semanticscholar.org/paper/0fbc67c653628c35f309e0a244909967739dc812
   selected: y
-  title: Circuit design completion using graph neural networks
-  venue: Neural Computing and Applications (2023)
-  year: '2023'
-- authors: 'Kothapalli, Abihith, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: ''
+  title: Edge Augmentation With Controllability Constraints in Directed Laplacian
+    Networks
+  venue: IEEE Control Systems Letters (2021)
+  year: 2021
+- abstract: "In this paper, we study the resilient vector consensus problem in networks\
+    \ with adversarial agents and improve resilience guarantees of existing algorithms.\
+    \ A common approach to achieving resilient vector consensus is that every non-adversarial\
+    \ (or normal) agent in the network updates its state by moving towards a point\
+    \ in the convex hull of its normal neighbors\u2019 states. Since an agent cannot\
+    \ distinguish between its normal and adversarial neighbors, computing such a point,\
+    \ often called as safe point , is a challenging task. To compute a safe point,\
+    \ we propose to use the notion of centerpoint , which is an extension of the median\
+    \ in higher dimensions, instead of Tverberg partition of points, which is often\
+    \ used for this purpose. We discuss that the notion of centerpoint provides a\
+    \ complete characterization of safe points in R d . In particular, we show that\
+    \ a safe point is essentially an interior centerpoint if the number of adversaries\
+    \ in the neighborhood of a normal agent i is less than N i d +1 , where d is the\
+    \ dimension of the state vector and N i is the total number of agents in the neighborhood\
+    \ of i . Consequently, we obtain necessary and su\uFB03cient conditions on the\
+    \ number of adversarial agents to guarantee resilient vector consensus. Further,\
+    \ by considering the complexity of computing centerpoints, we discuss improvements\
+    \ in the resilience guarantees of vector consensus algorithms and compare with\
+    \ the other existing approaches. Finally, we numerically evaluate the performance\
+    \ of our approach through experiments."
+  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/1764bba2320d1cec4419795c0817c23c8cf71806
   selected: y
-  title: Learning-Based Heuristic for Combinatorial Optimization of the Minimum Dominating
-    Set Problem using Graph Convolutional Networks
-  venue: arXiv preprint arXiv:2306.03434 (2023)
-  year: '2023'
-- authors: 'Ahmed, Ammar, Said, Anwar, Shabbir, Mudassir, Koutsoukos, Xenofon, '
-  page: ''
+  title: Resilient Distributed Vector Consensus Using Centerpoint (cid:63)
+  venue: ' (2021)'
+  year: 2021
+- abstract: ''
+  authors: Anwar Said, Saeed-Ul Hassan, Suppawong Tuarob, R. Nawaz, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/335520517e797fb26e8f01ecb277d1522388619a
   selected: y
-  title: Sequential Graph Neural Networks for Source Code Vulnerability Identification
-  venue: arXiv preprint arXiv:2306.05375 (2023)
-  year: '2023'
-- authors: 'Said, Anwar, Bayrak, Roza G, Derr, Tyler, Shabbir, Mudassir, Moyer, Daniel,
-    Chang, Catie, Koutsoukos, Xenofon, '
-  page: ''
+  title: 'DGSD: Distributed graph representation via graph statistical properties'
+  venue: Future Gener. Comput. Syst. (2021)
+  year: 2021
+- abstract: ''
+  authors: Zohair Raza Hassan, I. Khan, Mehvish I. Poshni, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/8058c2f3318d2c1a42da769e91ee1571600f00df
   selected: y
-  title: 'NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics'
-  venue: arXiv preprint arXiv:2306.06202 (2023)
-  year: '2023'
-- authors: "Abbas, Waseem, Shabbir, Mudassir, Yaz\u0131c\u0131o\u011Flu, Yasin, Koutsoukos,\
-    \ Xenofon, "
-  page: ''
+  title: Seymour's Second Neighborhood Conjecture for 6-antitransitive digraphs
+  venue: Discret. Appl. Math. (2021)
+  year: 2021
+- abstract: ''
+  authors: Anwar Said, Saeed-Ul Hassan, W. Abbas, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/852f960ccdb58b779b694463e3aa9500ef4d4143
   selected: y
-  title: "On Zero Forcing Sets and Network Controllability\u2013Computation and Edge\
-    \ Augmentation"
-  venue: IEEE Transactions on Control of Network Systems (2023)
-  year: '2023'
-- authors: 'Shabbir, M, Zaman, A, '
-  page: '81'
+  title: 'NetKI: A kirchhoff index based statistical graph embedding in nearly linear
+    time'
+  venue: Neurocomputing (2021)
+  year: 2021
+- abstract: ''
+  authors: Nimra Zaheer, Saeed-Ul Hassan, Mohsen Ali, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/c121b98538b190bf4b88d7856dc7464029dfa752
   selected: y
-  title: Chemical investigation of the flowers of Opuntia elatior
-  venue: Journal of Indian Chemical Society (1968)
-  year: '1968'
-- authors: 'Shabbir, Mudassir, '
-  page: ''
+  title: Optimal school site selection in Urban areas using deep neural networks
+  venue: Journal of Ambient Intelligence and Humanized Computing (2021)
+  year: 2021
+- abstract: "Feature extraction is an essential task in graph analytics. These feature\
+    \ vectors, called graph descriptors, are used in downstream vector-space-based\
+    \ graph analysis models. This idea has proved fruitful in the past, with spectral-based\
+    \ graph descriptors providing state-of-the-art classification accuracy. However,\
+    \ known algorithms to compute meaningful descriptors do not scale to large graphs\
+    \ since: (1) they require storing the entire graph in memory, and (2) the end-user\
+    \ has no control over the algorithm\u2019s runtime. In this article, we present\
+    \ streaming algorithms to approximately compute three different graph descriptors\
+    \ capturing the essential structure of graphs. Operating on edge streams allows\
+    \ us to avoid storing the entire graph in memory, and controlling the sample size\
+    \ enables us to keep the runtime of our algorithms within desired bounds. We demonstrate\
+    \ the efficacy of the proposed descriptors by analyzing the approximation error\
+    \ and classification accuracy. Our scalable algorithms compute descriptors of\
+    \ graphs with millions of edges within minutes. Moreover, these descriptors yield\
+    \ predictive accuracy comparable to the state-of-the-art methods but can be computed\
+    \ using only 25% as much memory."
+  authors: Zohair Raza Hassan, Imdadullah Khan, Mudassir Shabbir, W. Abbas
+  paper_url: https://www.semanticscholar.org/paper/cc1420e6a0438ffe8f8d058787de810c04c70e03
   selected: y
-  title: Deep Stylometry and Lexical & Syntactic Features based Author Attribution
+  title: Computing Graph Descriptors on Edge Streams
+  venue: ACM Transactions on Knowledge Discovery from Data (2021)
+  year: 2021
+- abstract: ''
+  authors: Saeed-Ul Hassan, Mudassir Shabbir, Sehrish Iqbal, Anwar Said, F. Kamiran,
+    R. Nawaz, U. Saif
+  paper_url: https://www.semanticscholar.org/paper/cfb00475042f638074f33bcdafc32ea3f35a5abf
+  selected: y
+  title: Leveraging Deep Learning and SNA approaches for Smart City Policing in the
+    Developing World
+  venue: Int. J. Inf. Manag. (2021)
+  year: 2021
+- abstract: Designing reliable Speech Emotion Recognition systems is a complex task
+    that inevitably requires sufficient data for training purposes. Such extensive
+    datasets are currently available in only a few languages, including English, German,
+    and Italian. In this paper, we present SEMOUR, the first scripted database of
+    emotion-tagged speech in the Urdu language, to design an Urdu Speech Recognition
+    System. Our gender-balanced dataset contains 15,040 unique instances recorded
+    by eight professional actors eliciting a syntactically complex script. The dataset
+    is phonetically balanced, and reliably exhibits a varied set of emotions as marked
+    by the high agreement scores among human raters in experiments. We also provide
+    various baseline speech emotion prediction scores on the database, which could
+    be used for various applications like personalized robot assistants, diagnosis
+    of psychological disorders, and getting feedback from a low-tech-enabled population,
+    etc. On a random test sample, our model correctly predicts an emotion with a state-of-the-art
+    92% accuracy.
+  authors: Nimra Zaheer, O. Ahmad, Ammar Ahmed, Muhammad Shehryar Khan, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/d1b0c524dec331ffec85c25fd3b10943e6f0abb0
+  selected: y
+  title: 'SEMOUR: A Scripted Emotional Speech Repository for Urdu'
+  venue: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+    (2021)
+  year: 2021
+- abstract: ''
+  authors: Nimra Zaheer, Saeed-Ul Hassan, Mohsen Ali, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/d2a80d02b4605e6e3787656070e8d8915c723f87
+  selected: y
+  title: Optimal school site selection in Urban areas using deep neural networks
+  venue: Journal of Ambient Intelligence and Humanized Computing (2021)
+  year: 2021
+- abstract: ''
+  authors: "Saeed-Ul Hassan, N. Aljohani, Mudassir Shabbir, Umair Ali, Sehrish Iqbal,\
+    \ Raheem Sarwar, Eugenio Mart\xEDnez-C\xE1mara, Sebasti\xE1n Ventura, Francisco\
+    \ Herrera"
+  paper_url: https://www.semanticscholar.org/paper/09f2d673e7e571ff010cc7d2ae2472dd390fec8c
+  selected: y
+  title: 'Tweet Coupling: a social media methodology for clustering scientific publications'
+  venue: Scientometrics (2020)
+  year: 2020
+- abstract: ''
+  authors: Ammar Ahmed, Zohair Raza Hassan, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/1df80d33db2e7ac2ac8782e6f86be471eecf15d2
+  selected: y
+  title: Interpretable multi-scale graph descriptors via structural compression
+  venue: Inf. Sci. (2020)
+  year: 2020
+- abstract: "\u2014In this paper, we study the resilient diffusion prob- lem in a\
+    \ network of robots aiming to perform a task by optimizing a global cost function\
+    \ in a cooperative manner. In distributed diffusion, robots combine the information\
+    \ collected from their local neighbors and incorporate this aggregated information\
+    \ to update their states. If some robots are adversarial, this cooperation can\
+    \ disrupt the convergence of robots to the desired state. We propose a resilient\
+    \ aggregation rule based on the notion of centerpoint , which is a generalization\
+    \ of the median in the higher dimensional Euclidean space. Robots exchange their\
+    \ d dimensional state vectors with neighbors. We show that if a normal robot implements\
+    \ the centerpoint-based aggregation rule and has n neighbors, of which at most\
+    \ (cid:100) nd +1 (cid:101)\u2212 1 are adversarial, then the aggregated state\
+    \ always lies in the convex hull of the states of the normal neighbors of the\
+    \ robot. Consequently, all normal robots implementing the distributed diffusion\
+    \ algorithm converge resiliently to the true target state. We also show that commonly\
+    \ used aggregation rules based on the coordinate-wise median and geometric median\
+    \ are, in fact, not resilient to certain attacks. We also numerically evaluate\
+    \ our results on mobile multirobot networks and demonstrate the cases where diffusion\
+    \ with the weighted average, coordinate-wise median, and geometric median-based\
+    \ aggregation rules fail to converge to the true target state, whereas diffusion\
+    \ with the centerpoint-based rule is resilient in the same scenario."
+  authors: Jiani Li, W. Abbas, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/2b87d47738fc6af94ce6af623c09135853f0d27f
+  selected: y
+  title: Resilient Distributed Diffusion for Multi-Robot Systems Using Centerpoint
+  venue: 'Robotics: Science and Systems XVI (2020)'
+  year: 2020
+- abstract: "In many cooperative networks, individuals participate actively as long\
+    \ as they recognize a sufficient value in participation, which depends not only\
+    \ on the number, but also on the attributes of other participating members. In\
+    \ this paper, we present a generalized model of individuals\u2019 participation\
+    \ in such networks, and a strategy to maximize the number of participating individuals.\
+    \ Unlike most of the existing literature, our model incorporates both the network\
+    \ structure and the heterogeneity of individuals in terms of their attributes\
+    \ and resources. We consider that each individual possesses a subset of available\
+    \ resources (attributes), which it shares with neighbors as long as neighbors\
+    \ reciprocate and provide the missing resources to the individual. However, individual\
+    \ leaves the network if it cannot find all the resources in its neighborhood.\
+    \ To model this phenomenon, we introduce a graph-theoretic notion of the $(r,s)$-core,\
+    \ which is the sub-network consisting of only those individuals who can access\
+    \ all the resources by collaborating with their neighbors. Since disengagement\
+    \ of an individual could initiate a cascading withdrawal of more individuals from\
+    \ the network, one of our main goals is to prevent this unraveling and maximize\
+    \ the number of participating individuals. For this purpose, we utilize the notion\
+    \ of anchors\u2014individuals that continue to participate (due to incentives)\
+    \ even if they cannot find all of the resources in their neighborhood. By introducing\
+    \ only a few anchors, we can significantly increase the number of participating\
+    \ individuals, which in our model corresponds to increasing the size of the $(r,s)$-core.\
+    \ We formulate and thoroughly analyze the anchors\u2019 selection problem by classifying\
+    \ the cases in which the problem is polynomial-time solvable, NP-complete, and\
+    \ inapproximable. Further, we provide greedy and metaheuristic search algorithms\
+    \ to compute a set of anchors and evaluate our results on various networks. Our\
+    \ results are applicable to a large number of cooperative networking applications,\
+    \ including participatory sensing in which users develop an elaborate knowledge\
+    \ of their environment through sharing measurements."
+  authors: W. Abbas, Aron Laszka, Mudassir Shabbir, Xenofon Koutsoukas
+  paper_url: https://www.semanticscholar.org/paper/3924519ada8dcafd4ced5074815e4e886c91ac86
+  selected: y
+  title: Graph-Theoretic Approach for Increasing Participation in Networks With Assorted
+    Resources
+  venue: IEEE Transactions on Network Science and Engineering (2020)
+  year: 2020
+- abstract: "In this paper, we consider a network of agents with Laplacian dynamics,\
+    \ and study the problem of improving network robustness by adding maximum number\
+    \ of edges within the network while preserving a lower bound on its strong structural\
+    \ controllability (SSC). Edge augmentation increases network\u2019s robustness\
+    \ to noise and structural changes, however, it could also deteriorate network\
+    \ controllability. By exploiting relationship between network controllability\
+    \ and distances between nodes in graphs, we formulate an edge augmentation problem\
+    \ with a constraint to preserve distances between certain node pairs, which in\
+    \ turn guarantees that a lower bound on SSC is maintained even after adding edges.\
+    \ In this direction, first we choose a node pair and maximally add edges while\
+    \ maintaining the distance between selected nodes. We show that an optimal solution\
+    \ belongs to a certain class of graphs called clique chains. Then, we present\
+    \ and analyze two algorithms to add edges while preserving distances between a\
+    \ certain collection of nodes. Finally, we evaluate our results on various networks."
+  authors: W. Abbas, Mudassir Shabbir, H. Jaleel, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/4b2698f4f431381e05062e75a297a8a4d05b685f
+  selected: y
+  title: Improving Network Robustness through Edge Augmentation While Preserving Strong
+    Structural Controllability
+  venue: 2020 American Control Conference (ACC) (2020)
+  year: 2020
+- abstract: This document presents a simpler proof showcasing the NP-hardness of Familial
+    Graph Compression.
+  authors: Ammar Ahmed, Zohair Raza Hassan, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/662192e3937fc4df6badd340c077842517a6fa46
+  selected: y
+  title: A Simpler NP-Hardness Proof for Familial Graph Compression
+  venue: ArXiv (2020)
+  year: 2020
+- abstract: "In this paper, we study the resilient vector consensus problem in multi-agent\
+    \ networks and improve resilience guarantees of existing algorithms. In resilient\
+    \ vector consensus, agents update their states, which are vectors in \u211Dd,\
+    \ by locally interacting with other agents some of which might be adversarial.\
+    \ The main objective is to ensure that normal (non-adversarial) agents converge\
+    \ at a common state that lies in the convex hull of their initial states. Currently,\
+    \ resilient vector consensus algorithms, such as approximate distributed robust\
+    \ convergence (ADRC) are based on the idea that to update states in each time\
+    \ step, every normal node needs to compute a point that lies in the convex hull\
+    \ of its normal neighbors\u2019 states. To compute such a point, the idea of Tverberg\
+    \ partition is typically used, which is computationally hard. Approximation algorithms\
+    \ for Tverberg partition negatively impact the resilience guarantees of consensus\
+    \ algorithm. To deal with this issue, we propose to use the idea of centerpoint,\
+    \ which is an extension of median in higher dimensions, instead of Tverberg partition.\
+    \ We show that the resilience of such algorithms to adversarial nodes is improved\
+    \ if we use the notion of centerpoint. Furthermore, using centerpoint provides\
+    \ a better characterization of the necessary and sufficient conditions guaranteeing\
+    \ resilient vector consensus. We analyze these conditions in two, three, and higher\
+    \ dimensions separately. We also numerically evaluate the performance of our approach."
+  authors: Mudassir Shabbir, Jiani Li, W. Abbas, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/77543ce355dfc551cbdaa12a757ccfdcb816c752
+  selected: y
+  title: Resilient Vector Consensus in Multi-Agent Networks Using Centerpoints
+  venue: 2020 American Control Conference (ACC) (2020)
+  year: 2020
+- abstract: In this paper, we study the relationship between resilience and accuracy
+    in the resilient distributed multidimensional consensus problem. We consider a
+    network of agents, each of which has a state in Rd. Some agents in the network
+    are adversarial and can change their states arbitrarily. The normal (non-adversarial)
+    agents interact locally and update their states to achieve consensus at some point
+    in the convex hull $\mathcal{C}$ of their initial states. This objective is achievable
+    if the number of adversaries in the neighborhood of normal agents is less than
+    a specific value, which is a function of the local connectivity and the state
+    dimension d. However, to be resilient against adversaries, especially in the case
+    of large d, the desired local connectivity is large. We discuss that resilience
+    against adversarial agents can be improved if normal agents are allowed to converge
+    in a bounded region $\mathcal{B} \supseteq \mathcal{C}$, which means normal agents
+    converge at some point close to but not necessarily inside $\mathcal{C}$ in the
+    worst case. The accuracy of resilient consensus can be measured by the Hausdorff
+    distance between $\mathcal{B}$ and $\mathcal{C}$. As a result, resilience can
+    be improved at the cost of accuracy. We propose a resilient bounded consensus
+    algorithm that exploits the trade-off between resilience and accuracy by projecting
+    d-dimensional states into lower dimensions and then solving instances of resilient
+    consensus in lower dimensions. We analyze the algorithm, present various resilience
+    and accuracy bounds, and also numerically evaluate our results.
+  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/7ddf1ce8fe27787c0e9bbbb5f09713222eb2d0b4
+  selected: y
+  title: Interplay Between Resilience and Accuracy in Resilient Vector Consensus in
+    Multi-Agent Networks
+  venue: 2020 59th IEEE Conference on Decision and Control (CDC) (2020)
+  year: 2020
+- abstract: We consider the problem of networked agents cooperating together to perform
+    a task of optimizing the parameters of a global cost function. Agents receive
+    linearly correlated noisy streaming data that can be used to learn the target
+    parameters via Least-Mean-Squares (LMS) approaches. Diffusion scheme is incorporated
+    such that at each step after agents adapt the parameters by the current received
+    data, a combination step is included for agents to aggregate the information coming
+    from its one-hop neighbors. It has been demonstrated that by introducing the aggregation
+    step, diffusion algorithms greatly improve the learning accuracy of the parameters
+    measured by the network Mean-Square-Deviation (MSD) [1]. However, the aggregation
+    step is susceptible to attacks. In the presence of Byzantine agents, the aggregation
+    of Byzantine information can easily disrupt the convergence of normal robots and
+    even one Byzantine agent can drive its normal neighbors to converge to some point
+    desired by the attacker [2]. To address this, we propose a resilient aggregation
+    rule based on the notion of centerpoint [3], which is a generalization of median
+    in the higher dimensional Euclidean space. We show that if a normal robot implements
+    the centerpoint based aggregation rule for distributed diffusion, then it can
+    guarantee the aggregated result to lie inside the convex hull of its normal neighbors,
+    given at most [EQUATION] neighbors are Byzantine with n total negihbors and d-dimensional
+    state vectors exchanged among agents. Further, we demonstrate all normal robots
+    implementing centerpoint based distributed diffusion converge resiliently to the
+    true target state. In addition, we demonstrate that widely adopted aggregation
+    rules such as coordinate-wise median [4] and geometric median [5] based are not
+    resilient under certain conditions. The main reason is that unlike centerpoint
+    based aggregation, these rules do not guarantee the aggregation result to be inside
+    the convex hull of the states of normal agents. We carried out experiments on
+    Robotarium, a multirobot testbed developed at the Georgia Institute of Technology
+    to demonstrate the cases where diffusion with coordinate-wise median and geometric
+    median based aggregation rules fail to converge to the true target state, whereas
+    diffusion with centerpoint based rule resiliently converge to the true target
+    state in the same scenario.
+  authors: Jiani Li, W. Abbas, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/924aa3be8ba105ef5769a6cfd6655fb01de3b92c
+  selected: y
+  title: Resilient multi-robot target pursuit
+  venue: Proceedings of the 7th Symposium on Hot Topics in the Science of Security
+    (2020)
+  year: 2020
+- abstract: 'We study the strong structural controllability (SSC) of diffusively coupled
+    networks, where the external control inputs are injected to only some nodes, namely
+    the leaders. For such systems, one measure of controllability is the dimension
+    of strong structurally controllable subspace, which is equal to the smallest possible
+    rank of controllability matrix under admissible (positive) coupling weights. In
+    this paper, we compare two tight lower bounds on the dimension of strong structurally
+    controllable subspace: one based on the distances of followers to leaders, and
+    the other based on the graph coloring process known as zero forcing. We show that
+    the distance-based lower bound is usually better than the zero-forcing-based bound
+    when the leaders do not constitute a zero-forcing set. On the other hand, we also
+    show that any set of leaders that can be shown to achieve complete SSC via the
+    distance-based bound is necessarily a zero-forcing set. Furthermore, we present
+    a novel bound based on the combination of these two approaches, which is always
+    at least as good as, and in some cases strictly greater than, the maximum of the
+    two bounds. Finally, we present some numerical results to compare the bounds on
+    various graphs.'
+  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, Mudassir Shabbir, W. Abbas, X. Koutsoukos"
+  paper_url: https://www.semanticscholar.org/paper/bc8bd75e0035081602fc5f79f4f5fe18ec0a5f6d
+  selected: y
+  title: 'Strong Structural Controllability of Diffusively Coupled Networks: Comparison
+    of Bounds Based on Distances and Zero Forcing'
+  venue: 2020 59th IEEE Conference on Decision and Control (CDC) (2020)
+  year: 2020
+- abstract: "In this paper, we study the resilient vector consensus problem in networks\
+    \ with adversarial agents and improve resilience guarantees of existing algorithms.\
+    \ A common approach to achieving resilient vector consensus is that every non-adversarial\
+    \ (or normal) agent in the network updates its state by moving towards a point\
+    \ in the convex hull of its normal neighbors\u2019 states. Since an agent cannot\
+    \ distinguish between its normal and adversarial neighbors, computing such a point,\
+    \ often called as safe point, is a challenging task. To compute a safe point,\
+    \ we propose to use the notion of centerpoint, which is an extension of the median\
+    \ in higher dimensions, instead of Tverberg partition of points, which is often\
+    \ used for this purpose. We discuss that the notion of centerpoint provides a\
+    \ complete characterization of safe points in R. In particular, we show that a\
+    \ safe point is essentially an interior centerpoint if the number of adversaries\
+    \ in the neighborhood of a normal agent i is less than Ni d+1 , where d is the\
+    \ dimension of the state vector and Ni is the total number of agents in the neighborhood\
+    \ of i. Consequently, we obtain necessary and sufficient conditions on the number\
+    \ of adversarial agents to guarantee resilient vector consensus. Further, by considering\
+    \ the complexity of computing centerpoints, we discuss improvements in the resilience\
+    \ guarantees of vector consensus algorithms and compare with the other existing\
+    \ approaches. Finally, we numerically evaluate the performance of our approach\
+    \ through experiments."
+  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
+  paper_url: https://www.semanticscholar.org/paper/c27ffdbc9cdd8a8cdb99f30cb5286bdd917d34b7
+  selected: y
+  title: Resilient Distributed Vector Consensus Using Centerpoints
+  venue: ' (2020)'
+  year: 2020
+- abstract: ''
+  authors: Zohair Raza Hassan, Mudassir Shabbir, Imdadullah Khan, W. Abbas
+  paper_url: https://www.semanticscholar.org/paper/d3ae8e86536e0c6467c86cdcb7e72deaba962797
+  selected: y
+  title: Estimating Descriptors for Large Graphs
+  venue: Advances in Knowledge Discovery and Data Mining (2020)
+  year: 2020
+- abstract: "In this article, we demonstrate a conflicting relationship between two\
+    \ crucial properties\u2014<italic>controllability</italic> and <italic>robustness</italic>\u2014\
+    in linear dynamical networks of diffusively coupled agents. In particular, for\
+    \ any given number of nodes <inline-formula><tex-math notation=\"LaTeX\">$N$</tex-math></inline-formula>\
+    \ and diameter <inline-formula><tex-math notation=\"LaTeX\">$D$</tex-math></inline-formula>,\
+    \ we identify networks that are maximally robust using the notion of Kirchhoff's\
+    \ index and then analyze their strong structural controllability. For this, we\
+    \ compute the minimum number of leaders, which are the nodes directly receiving\
+    \ external control inputs, needed to make such networks controllable under all\
+    \ feasible coupling weights between agents. Then, for any <inline-formula><tex-math\
+    \ notation=\"LaTeX\">$N$</tex-math></inline-formula> and <inline-formula><tex-math\
+    \ notation=\"LaTeX\">$D$</tex-math></inline-formula>, we obtain a sharp upper\
+    \ bound on the minimum number of leaders needed to design strong structurally\
+    \ controllable networks with <inline-formula><tex-math notation=\"LaTeX\">$N$</tex-math></inline-formula>\
+    \ nodes and <inline-formula><tex-math notation=\"LaTeX\">$D$</tex-math></inline-formula>\
+    \ diameter. We also discuss that the bound is best possible for arbitrary <inline-formula><tex-math\
+    \ notation=\"LaTeX\">$N$</tex-math></inline-formula> and <inline-formula><tex-math\
+    \ notation=\"LaTeX\">$D$</tex-math></inline-formula>. Moreover, we construct a\
+    \ family of graphs for any <inline-formula><tex-math notation=\"LaTeX\">$N$</tex-math></inline-formula>\
+    \ and <inline-formula><tex-math notation=\"LaTeX\">$D$</tex-math></inline-formula>\
+    \ such that the graphs have maximal edge sets (maximal robustness) while being\
+    \ strong structurally controllable with the number of leaders in the proposed\
+    \ sharp bound. We then analyze the robustness of this graph family. The results\
+    \ suggest that optimizing robustness increases the number of leaders needed for\
+    \ strong structural controllability. Our analysis is based on graph-theoretic\
+    \ methods and can be applied to exploit network structure to co-optimize robustness\
+    \ and controllability in networks."
+  authors: "W. Abbas, Mudassir Shabbir, Yasin Yaz\u0131c\u0131o\u011Flu, Aqsa Akber"
+  paper_url: https://www.semanticscholar.org/paper/e7086a28accbbda9ae1469e0c37a040496656d17
+  selected: y
+  title: Tradeoff Between Controllability and Robustness in Diffusively Coupled Networks
+  venue: IEEE Transactions on Control of Network Systems (2020)
+  year: 2020
+- abstract: ''
+  authors: "Saeed-Ul Hassan, N. Aljohani, Mudassir Shabbir, Umair Ali, Sehrish Iqbal,\
+    \ Raheem Sarwar, Eugenio Mart\xEDnez-C\xE1mara, Sebasti\xE1n Ventura, Francisco\
+    \ Herrera"
+  paper_url: https://www.semanticscholar.org/paper/f808db55ecada2b836cd267ff7dca1fae3703408
+  selected: y
+  title: 'Tweet Coupling: a social media methodology for clustering scientific publications'
+  venue: Scientometrics (2020)
+  year: 2020
+- abstract: In this article, we study the problem of computing a tight lower bound
+    on the dimension of the strong structurally controllable subspace (SSCS) in networks
+    with Laplacian dynamics. The bound is based on a sequence of vectors containing
+    the distances between leaders (nodes with external inputs) and followers (remaining
+    nodes) in the underlying network graph. Such vectors are referred to as the distance-to-leaders
+    vectors. We give exact and approximate algorithms to compute the longest sequences
+    of distance-to-leaders vectors, which directly provide distance-based bounds on
+    the dimension of SSCS. The distance-based bound is known to outperform the other
+    known bounds (for instance, based on zero-forcing sets), especially when the network
+    is partially strong structurally controllable. Using these results, we discuss
+    an application of the distance-based bound in solving the leader selection problem
+    for strong structural controllability. Further, we characterize strong structural
+    controllability in path and cycle graphs with a given set of leader nodes using
+    sequences of distance-to-leaders vectors. Finally, we numerically evaluate our
+    results on various graphs.
+  authors: Mudassir Shabbir, W. Abbas, A. Y. Yazicioglu
+  paper_url: https://www.semanticscholar.org/paper/15d6c6f0707ab1d0e4e4f136ef857cf9727d20d2
+  selected: y
+  title: Computation of the Distance-Based Bound on Strong Structural Controllability
+    in Networks
+  venue: IEEE Transactions on Automatic Control (2019)
+  year: 2019
+- abstract: ''
+  authors: Muhammad Ahmad, Sarwan Ali, Juvaria Tariq, Imdadullah Khan, Mudassir Shabbir,
+    Arif Zaman
+  paper_url: https://www.semanticscholar.org/paper/3eff1a6fb1ff8033c9a22b8f0512a71c91ece18e
+  selected: y
+  title: Combinatorial Trace Method for Network Immunization
+  venue: Inf. Sci. (2019)
+  year: 2019
+- abstract: We investigate how the graph topology influences the robustness to noise
+    in undirected linear consensus networks. We consider the expected steady state
+    population variance of states as the measure of vulnerability to noise. We quantify
+    the structural robustness of a network by using the smallest value this measure
+    can attain under edge weights from the unit interval. Our main result shows that
+    the average distance between nodes and the average node degree define tight upper
+    and lower bounds on the structural robustness. Using these bounds, we characterize
+    the networks with different types of robustness scaling. We also present a fundamental
+    trade-off between the structural robustness and the sparsity of networks. We then
+    show that random regular graphs typically have near-optimal structural robustness
+    among the graphs with same size and average degree. Some simulation results are
+    also provided.
+  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, W. Abbas, Mudassir Shabbir"
+  paper_url: https://www.semanticscholar.org/paper/8761fc741c988149a68acac2fafe2941d9651b3b
+  selected: y
+  title: 'Structural Robustness to Noise in Consensus Networks: Impact of Average
+    Degrees and Average Distances'
+  venue: 2019 IEEE 58th Conference on Decision and Control (CDC) (2019)
+  year: 2019
+- abstract: In this paper, we study the relationship between two crucial properties
+    in linear dynamical networks of diffusively coupled agents, that is controllability
+    and robustness to noise and structural changes in the network. In particular,
+    for any given network size and diameter, we identify networks that are maximally
+    robust and then analyze their strong structural controllability. We do so by determining
+    the minimum number of leaders to make such networks completely controllable with
+    arbitrary coupling weights between agents. Similarly, we design networks with
+    the same given parameters that are completely controllable independent of coupling
+    weights through a minimum number of leaders, and then also analyze their robustness.
+    We utilize the notion of Kirchhoff index to measure network robustness to noise
+    and structural changes. Our controllability analysis is based on novel graph-theoretic
+    methods that offer insights on the important connection between network robustness
+    and strong structural controllability in such networks.
+  authors: W. Abbas, Mudassir Shabbir, A. Y. Yazicioglu, Aqsa Akber
+  paper_url: https://www.semanticscholar.org/paper/88313edaf7d50b321f0838ba781d2bb8c80cbd61
+  selected: y
+  title: On the Trade-off Between Controllability and Robustness in Networks of Diffusively
+    Coupled Agents
+  venue: 2019 American Control Conference (ACC) (2019)
+  year: 2019
+- abstract: ''
+  authors: Saeed-Ul Hassan, T. Bowman, Mudassir Shabbir, A. Akhtar, Mubashir Imran,
+    Naif R. Aljohani
+  paper_url: https://www.semanticscholar.org/paper/b2e89ac9b0be9f31c8bd4e934acf1cf66800acaa
+  selected: y
+  title: Influential tweeters in relation to highly cited articles in altmetric big
+    data
+  venue: Scientometrics (2019)
+  year: 2019
+- abstract: ''
+  authors: Saeed-Ul Hassan, T. Bowman, Mudassir Shabbir, A. Akhtar, Mubashir Imran,
+    N. Aljohani
+  paper_url: https://www.semanticscholar.org/paper/b6b074aec1c8fb1408439020a71183482204d141
+  selected: y
+  title: Influential tweeters in relation to highly cited articles in altmetric big
+    data
+  venue: Scientometrics (2019)
+  year: 2019
+- abstract: A network of agents with linear dynamics is strong structurally controllable
+    if agents can be maneuvered from any initial state to any final state independently
+    of the coupling strengths between agents. If a network is not strong structurally
+    controllable with given input nodes (leaders), then the dimension of strong structurally
+    controllable subspace quantifies the extent to which a network can be controlled
+    by the same inputs. Computing this dimension exactly is computationally challenging.
+    In this paper, we study the problem of computing a sharp lower bound on the dimension
+    of strong structurally controllable subspace in networks with Laplacian dynamics.
+    The bound is based on a sequence of vectors containing distances between leaders
+    and the remaining nodes in the underlying network graph. Such vectors are referred
+    to as the distance-to-leader vectors. We provide a polynomial time algorithm to
+    compute a desired sequence of distance-to-leader vectors with a fixed set of leaders,
+    which directly provides a lower bound on the dimension of strong structurally
+    controllable subspace. We also present a linearithmic approximation algorithm
+    to compute such a sequence, which provides near optimal solutions in practice.
+    Finally, we numerically evaluate and compare our bound with other bounds in the
+    literature on various networks.
+  authors: "Mudassir Shabbir, W. Abbas, Yasin Yaz\u0131c\u0131o\u011Flu"
+  paper_url: https://www.semanticscholar.org/paper/d183251f3414ca9f77437ae5d4e08f74f4cac536
+  selected: y
+  title: On the Computation of the Distance-based Lower Bound on Strong Structural
+    Controllability in Networks
+  venue: 2019 IEEE 58th Conference on Decision and Control (CDC) (2019)
+  year: 2019
+- abstract: We investigate how the graph topology influences the robustness to noise
+    in undirected linear consensus networks. We measure the structural robustness
+    by using the smallest possible value of steady-state population variance of states
+    under the noisy consensus dynamics with edge weights from the unit interval. We
+    derive tight upper and lower bounds on the structural robustness of networks based
+    on the average distance between nodes and the average node degree. Using the proposed
+    bounds, we characterize the networks with different types of robustness scaling
+    under increasing size. Furthermore, we present a fundamental tradeoff between
+    the structural robustness and the average degree of networks. While this tradeoff
+    implies that a desired level of structural robustness can only be achieved by
+    graphs with a sufficiently large average degree, we also show that there exist
+    dense graphs with poor structural robustness. We then show that random <inline-formula><tex-math
+    notation="LaTeX">$k$</tex-math></inline-formula>-regular graphs (the degree of
+    each node is <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>)
+    with <inline-formula><tex-math notation="LaTeX">$n$</tex-math></inline-formula>
+    nodes typically have near-optimal structural robustness among all the graphs with
+    size <inline-formula><tex-math notation="LaTeX">$n$</tex-math></inline-formula>
+    and average degree <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>
+    for sufficiently large <inline-formula><tex-math notation="LaTeX">$n$</tex-math></inline-formula>
+    and <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>.
+    We also show that when <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>
+    increases properly with <inline-formula><tex-math notation="LaTeX">$n$</tex-math></inline-formula>,
+    random <inline-formula><tex-math notation="LaTeX">$k$</tex-math></inline-formula>-regular
+    graphs maintain a structural robustness within a constant factor of the complete
+    graph's while also having the minimum average degree required for such robustness.
+  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, W. Abbas, Mudassir Shabbir"
+  paper_url: https://www.semanticscholar.org/paper/d4c1120c601814076b3e290c87729109bfb2e0b9
+  selected: y
+  title: 'Structural Robustness to Noise in Consensus Networks: Impact of Degrees
+    and Distances, Fundamental Limits, and Extremal Graphs'
+  venue: IEEE Transactions on Automatic Control (2019)
+  year: 2019
+- abstract: A wealth of data is generated daily by social media websites that is an
+    essential component of the Big Data Revolution . In many cases, the data is anonymized
+    before being disseminated for research and analysis. This anonymization process
+    distorts the data so that some essential characteristics are lost which may not
+    be captured by methods that are not robust against such transformations. In this
+    paper we propose novel algorithms, for two-dimensional data, for a recently discovered
+    statistical data analysis measure, the Ray Shooting Depth (RSD) that provides
+    an affine-invariant ranking of data points. In addition, we prove some complexity
+    results and illustrate some of the desirable properties of RSD via comparisons
+    with other similar notions. We develop an open-source data visualization tool
+    based on RSD, and show its applications in distribution estimation, outlier detection,
+    and D tolerance-region construction.
+  authors: Mudassir Shabbir, Asif Jamshed, Imdadullah Khan
+  paper_url: https://www.semanticscholar.org/paper/11797aacc07ffd938356a3bb1cfd8e87819e3c1c
+  selected: y
+  title: Affine-Invariant Outlier Detection and Data Visualization
+  venue: None (2017)
+  year: 2017
+- abstract: ''
+  authors: Saeed-Ul Hassan, Mubashir Imran, T. Iftikhar, Iqra Safder, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/16eff6c37868f316b38f5c42424bcabb3c528ea4
+  selected: y
+  title: Deep Stylometry and Lexical & Syntactic Features Based Author Attribution
     on PLoS Digital Repository
-  venue: ' ()'
-  year: ''
-- authors: 'Zaheer, Nimra, Ahmad, Obaid Ullah, Shabbir, Mudassir, Raza, Agha Ali, '
-  page: ''
+  venue: None (2017)
+  year: 2017
+- abstract: The problem of identifying important players in a given network is of
+    pivotal importance for viral marketing, public health management, network security
+    and various other fields of social network analysis. In this work we find the
+    most important vertices in a graph G = (V,E) to immunize so as the chances of
+    an epidemic outbreak is minimized. This problem is directly relevant to minimizing
+    the impact of a contagion spread (e.g. flu virus, computer virus and rumor) in
+    a graph (e.g. social network, computer network) with a limited budget (e.g. the
+    number of available vaccines, antivirus software, filters). It is well known that
+    this problem is computationally intractable (it is NP-hard). In this work we reformulate
+    the problem as a budgeted combinational optimization problem and use techniques
+    from spectral graph theory to design an efficient greedy algorithm to find a subset
+    of vertices to be immunized. We show that our algorithm takes less time compared
+    to the state of the art algorithm. Thus our algorithm is scalable to networks
+    of much larger sizes than best known solutions proposed earlier. We also give
+    analytical bounds on the quality of our algorithm. Furthermore, we evaluate the
+    efficacy of our algorithm on a number of real world networks and demonstrate that
+    the empirical performance of algorithm supplements the theoretical bounds we present,
+    both in terms of approximation guarantees and computational efficiency.
+  authors: Juvaria Tariq, Muhammad Ahmad, Imdadullah Khan, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/6ebd6f1834a5c66ada1f06d45abcb65832be10df
   selected: y
-  title: Speech Emotion Recognition for the Urdu
-  venue: ' ()'
-  year: ''
+  title: Scalable Approximation Algorithm for Network Immunization
+  venue: None (2017)
+  year: 2017
+- abstract: Given a network of nodes, minimizing the spread of a contagion using a
+    limited budget is a well-studied problem with applications in network security,
+    viral marketing, social networks, and public health. In real graphs, virus may
+    infect a node which in turn infects its neighbor nodes and this may trigger an
+    epidemic in the whole graph. The goal thus is to select the best k nodes (budget
+    constraint) that are immunized (vaccinated, screened, filtered) so as the remaining
+    graph is less prone to the epidemic. It is known that the problem is, in all practical
+    models, computationally intractable even for moderate sized graphs. In this paper
+    we employ ideas from spectral graph theory to define relevance and importance
+    of nodes. Using novel graph theoretic techniques, we then design an efficient
+    approximation algorithm to immunize the graph. Theoretical guarantees on the running
+    time of our algorithm show that it is more efficient than any other known solution
+    in the literature. We test the performance of our algorithm on several real world
+    graphs. Experiments show that our algorithm scales well for large graphs and outperforms
+    state of the art algorithms both in quality (containment of epidemic) and efficiency
+    (runtime and space complexity).
+  authors: Muhammad Ahmad, Juvaria Tariq, Mudassir Shabbir, Imdadullah Khan
+  paper_url: https://www.semanticscholar.org/paper/9d61adcd7a09cbfbc212665ab73a2a3f9f1c2807
+  selected: y
+  title: Spectral Methods for Immunization of Large Networks
+  venue: ArXiv (2017)
+  year: 2017
+- abstract: "In this paper, we introduce the notion of k-centerpoints for any set\
+    \ P of n points in \u211Dd. These unify and generalize previous results such as\
+    \ the classical centerpoint theorem,1 and the recently-proven ray-shooting theorem.2\
+    \ We define two variants: affine k-centerpoints, and topological k-centerpoints.\
+    \ We prove their equivalence in \u211D2, and conjecture that these are in fact\
+    \ equivalent in any dimension. We present the first non-trivial bounds for these\
+    \ problems in \u211Dd, as well as present several conjectures related to them."
+  authors: Nabil H. Mustafa, Saurabh Ray, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/c7f7b24c4bafa2138337e791d4f7d76eeee2c9be
+  selected: y
+  title: "k-Centerpoints Conjectures for Pointsets in \u211Dd"
+  venue: Int. J. Comput. Geom. Appl. (2015)
+  year: 2015
+- abstract: ''
+  authors: Yassine Daadaa, Asif Jamshed, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/fabe7e12d3f54013389db7357479d2884df4ba37
+  selected: y
+  title: Network Decontamination with a Single Agent
+  venue: Graphs and Combinatorics (2015)
+  year: 2015
+- abstract: "OF THE DISSERTATION Some Results in Computational and Combinatorial Geometry\
+    \ by Mudassir Shabbir Dissertation Director: William Steiger In this thesis we\
+    \ present some new results in the field of discrete and computational geometry.\
+    \ The techniques and tools developed to achieve these results add to our understanding\
+    \ of important geometric objects like line arrangements, and geometric measures\
+    \ of depth. Small Hitting Sets Given a set S of n points, a weak -net X is a set\
+    \ of points (not necessarily in S) such that any convex set, called a range, that\
+    \ contains more than an fraction of S must meet X for a fixed > 0 [30]. Aronov\
+    \ et al. gave the first bounds on when the cardinality of X is a fixed small number\
+    \ in the plane. Later Mustafa and Ray proved that |X| = 2 can be chosen so that\
+    \ we hit all convex ranges that contain 4n/7 points of S [46]. We describe an\
+    \ O(n log n) time algorithm to find points z1 6= z2, at least one of which must\
+    \ meet any convex set of \u201Csize\u201D greater than 4n/7; z1 and z2 comprise\
+    \ a hitting set of size two for such convex ranges. This is the first algorithm\
+    \ for computing the hitting sets of fixed size."
+  authors: Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/5d44b69005166b877c0ce84747669b7f0728b3cf
+  selected: y
+  title: SOME RESULTS IN COMPUTATIONAL AND COMBINATORIAL GEOMETRY
+  venue: ' (2014)'
+  year: 2014
+- abstract: ''
+  authors: Yassine Daadaa, Asif Jamshed, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/174ff9427fe5b78f5d1fbfab0cfb88a597801faf
+  selected: y
+  title: Network Decontamination with a Single Agent
+  venue: Graphs and Combinatorics (2013)
+  year: 2013
+- abstract: The notion of Ray Shooting Depth was introduced in recent papers of Gromov,
+    and of Fox, Gromov, Laorgue, Naor, and Pach. It played a key role in their results.
+    It also represents a new concept for data depth in R d and oers interesting possibilities
+    for applications. Here, we study some computational aspects of ray-shooting depth
+    in dimension two via algorithms and some complexity results. In addition we advocate
+    the use of ray-shooting depth in statistical data analysis and in other applications.
+    We illustrate some of the desireable properties via comparisons with other notions
+    of depth.
+  authors: W. Steiger, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/628f245322f078946c72a5e9360a1b3154b06c4d
+  selected: y
+  title: Ray-Shooting Depth in R 2 - Algorithms and Applications
+  venue: ' (2011)'
+  year: 2011
+- abstract: ''
+  authors: Nabil H. Mustafa, Saurabh Ray, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/f9afc13f66125149713808c2d8d15ed0601dc01f
+  selected: y
+  title: 'Ray-Shooting Depth: Computing Statistical Data Depth of Point Sets in the
+    Plane'
+  venue: None (2011)
+  year: 2011
+- abstract: The Smith-Waterman (SW) algorithm is a local sequence alignment algorithm
+    that attempts to align two biological sequences of varying length such that the
+    alignment score is maximum. In this paper, we propose a new approach to reduce
+    the time needed to perform the SW algorithm. This is done by applying the concept
+    of recursive variable expansion, which exposes more parallelism in the algorithm
+    than any other published method. The paper estimates the speed and hardware overhead
+    for the newly proposed approach relative to other known acceleration methods.
+    Using the new approach, it is possible to achieve a minimum speedup of 400 times
+    better than the serial case for a typical sequence length of 500, which is 1.6
+    times higher than any other published method. The paper also shows that further
+    speedup can be achieved using extra hardware to expose even more parallelism in
+    the algorithm.
+  authors: Z. Nawaz, Z. Al-Ars, K. Bertels, Mudassir Shabbir
+  paper_url: https://www.semanticscholar.org/paper/4a8dc106170744e1baeb063ff13c7e2c04275606
+  selected: y
+  title: Acceleration of Smith-Waterman using Recursive Variable Expansion
+  venue: 2008 11th EUROMICRO Conference on Digital System Design Architectures, Methods
+    and Tools (2008)
+  year: 2008
+- abstract: Biological sequence alignment is one of the most important problems in
+    computational biology. Given two sequences of varying length are aligned such
+    that the alignment score i s maximum. The alignment score is calculated based
+    on the number of matches, mismatches and gaps in the alignment suggest d. The
+    basic sequence alignment algorithms are Needleman-Wun sch (NW) algorithm and Smith-Waterman
+    (SW) algorithm, which find the optimal global and local alignment, respectively.
+    I n this paper, we have accelerated the Needleman-Wunsch by applyin g the Recursive
+    Variable Expansion partially, which can be ea sily implemented on FPGA. This method
+    extract more parallelism than other prevalent parallel implementations and we
+    are able to achieve a speed up of 1.55 times.
+  authors: Z. Nawaz, Mudassir Shabbir, Z. Al-Ars, K. Bertels
+  paper_url: https://www.semanticscholar.org/paper/17f7ccb8cab6a6b53175622468c581de0e8acecb
+  selected: y
+  title: Acceleration of Biological Sequence Alignment using Recursive Variable Expansion
+  venue: ' (2007)'
+  year: 2007
+- abstract: "Sequence classi\uFB01cation algorithms, such as SVM, require a de\uFB01\
+    nition of distance (similarity) measure between two sequences. A commonly used\
+    \ notion of similarity is the number of matches between k -mers ( k -length subsequences)\
+    \ in the two sequences. Extending this de\uFB01nition, by considering two k -mers\
+    \ to match if their distance is at most m , yields better classi\uFB01cation performance.\
+    \ This, however, makes the problem computationally much more complex. Known algorithms\
+    \ to compute this similarity have computational complexity that render them applicable\
+    \ only for small values of k and m . In this work, we develop novel techniques\
+    \ to ef\uFB01ciently and accurately estimate the pairwise similarity score, which\
+    \ enables us to use much larger values of k and m , and get higher predictive\
+    \ accuracy. This opens up a broad avenue of applying this classi\uFB01cation approach\
+    \ to audio, images, and text sequences. Our algorithm achieves excellent approximation\
+    \ performance with theoretical guarantees. In the process we solve an open combinatorial\
+    \ problem, which was posed as a major hindrance to the scalability of existing\
+    \ solutions. We give analytical bounds on quality and runtime of our algorithm\
+    \ and report its empirical performance on real world biological and music sequences\
+    \ datasets"
+  authors: Muhammad Farhan, Juvaria Tariq, Arif Zaman, Mudassir Shabbir, Imdadullah
+    Khan
+  paper_url: https://www.semanticscholar.org/paper/bc69d3593360495957598dcee5422952145d06c7
+  selected: y
+  title: "Ef\uFB01cient Approximation Algorithms for String Kernel Based Sequence\
+    \ Classi\uFB01cation"
+  venue: ' (2017)'
+  year: '2017'
