@@ -134,7 +134,8 @@ title: Personal Webpage
         <div class="paper" >
         <li><span class="title"><b>{{ paper.title }}</b></span>          
           <p class="authorList">{{ paper.authors }}</p>
-          <p class="venuName"> {{ paper.venue }} </p>
+          <p class="venuName"><b> {{ paper.venue }}</b> </p>
+		<p class="venuName"> {{ paper.abstract }} </p>
 			<font color="blue">
 			{% if paper.paper_pdf %}
               [<a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }} " target="_blank" style="text-decoration: none">Paper</a>]
