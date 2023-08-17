@@ -23,7 +23,7 @@ papers:
     in a graph classification setting demonstrate state-of-the-art results.
   authors: Ammar Ahmed, Anwar Said, Mudassir Shabbir, X. Koutsoukos
   paper_url: https://www.semanticscholar.org/paper/3539f1039c9e3caad260374c57e2b124270cc2ae
-  selected: y
+  selected: n
   title: Sequential Graph Neural Networks for Source Code Vulnerability Identification
   venue: ArXiv (2023)
   year: 2023
@@ -44,7 +44,7 @@ papers:
     computation of dominating sets.
   authors: Abihith Kothapalli, Mudassir Shabbir, X. Koutsoukos
   paper_url: https://www.semanticscholar.org/paper/5328e6d9ae5a6b8628a81ffdac827361ef71de9e
-  selected: y
+  selected: n
   title: Learning-Based Heuristic for Combinatorial Optimization of the Minimum Dominating
     Set Problem using Graph Convolutional Networks
   venue: ArXiv (2023)
@@ -74,7 +74,7 @@ papers:
   authors: Anwar Said, Roza G. Bayrak, Tyler Derr, Mudassir Shabbir, Daniel Moyer,
     Catie Chang, X. Koutsoukos
   paper_url: https://www.semanticscholar.org/paper/5c4a3d8f93138cd1bd19ad231919505b49b528cd
-  selected: y
+  selected: n
   title: 'NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics'
   venue: ArXiv (2023)
   year: 2023
@@ -461,7 +461,7 @@ papers:
     Graph Compression.
   authors: Ammar Ahmed, Zohair Raza Hassan, Mudassir Shabbir
   paper_url: https://www.semanticscholar.org/paper/662192e3937fc4df6badd340c077842517a6fa46
-  selected: y
+  selected: n
   title: A Simpler NP-Hardness Proof for Familial Graph Compression
   venue: ArXiv (2020)
   year: 2020
@@ -863,7 +863,7 @@ papers:
     (runtime and space complexity).
   authors: Muhammad Ahmad, Juvaria Tariq, Mudassir Shabbir, Imdadullah Khan
   paper_url: https://www.semanticscholar.org/paper/9d61adcd7a09cbfbc212665ab73a2a3f9f1c2807
-  selected: y
+  selected: n
   title: Spectral Methods for Immunization of Large Networks
   venue: ArXiv (2017)
   year: 2017
