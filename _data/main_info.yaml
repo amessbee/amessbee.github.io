@@ -1,14 +1,21 @@
-name: "Mohsen Ali"
-title: "Associate Professor,  Information Technology University, Intelligent Machines Lab"
-email: "mohsen.ali [AT] itu.edu.pk"
-profile_pic: "/assets/profile-pics/mohsenali.jpg"
-lab: "Intelligent Machines Lab"
-lab_link: "http://im.itu.edu.pk/"
+name: "Mudassir Shabbir"
+title: "Associate Professor,  Information Technology University, Theory Group"
+email: "mudassir.shabbir [AT] itu.edu.pk"
+profile_pic: "/assets/profile-pics/mudassir.jpg"
+lab: "Theory Group"
+lab_link: "http://tg.itu.edu.pk/"
 twitter: ""
-linkedin: "https://www.linkedin.com/in/mohsen-ali-5666394/?originalSubdomain=pk"
-github: "https://github.com/mohsenali/"
-google_scholar: "https://scholar.google.com.pk/citations?user=59ISSCEAAAAJ&hl=en"
+linkedin: "https://www.linkedin.com/in/mudassir-shabbir-3a14259/"
+github: "https://github.com/amessbee/"
+google_scholar: "https://scholar.google.com/citations?user=bRKvwRYAAAAJ&hl=en&oi=ao"
 google_analystics_tracking_id: 'UA-46778883-1'
-bio: "I am Associate Professor at  <a href='https://itu.edu.pk/'> Information Technology University </a> and co-founder of
-  <a href='http://im.itu.edu.pk/researches/'>Intelligent Machines Lab</a>. IML has been established with the objective to provide platform for researchers and engineers working in machine learning, computer vision and robotics to collaborate and solve real world problems. 
-  Mohsen’s current interest lies in theoretical and practical problems entailing Computer Vision and Machine Learning; and apply them in the field of video and image analysis, remote sensing, affective computing and human robot interaction. He works extensively in Deep Learning both extending theoretical foundations and applying to create practical solutions of real-world problems. "
+bio: "
+ Dr. Mudassir Shabbir is a distinguished figure in the field of machine learning, currently serving as an Associate Professor and Chairperson at the Department of Computer Science at the Information Technology University in Lahore, Pakistan. With a rich academic background, Dr. Shabbir earned his Ph.D. from the Division of Computer Science at Rutgers University, NJ, USA, in 2014.
+
+Prior to his current position, Dr. Shabbir held the role of Research Assistant Professor at Vanderbilt University, Nashville, TN. His diverse professional journey includes significant contributions at esteemed institutions such as Lahore University of Management Sciences in Pakistan, Los Alamos National Labs in NM, Bloomberg L.P. in New York, NY, and Rutgers University.
+
+Throughout his career, Dr. Shabbir has been recognized for his excellence, being honored as the Rutgers Honors Fellow for the academic year 2011–12. His primary research focus lies in Graph Machine Learning and Robustness in Networks. Driven by a passion for innovation, his work extends to diverse applications, including establishing connections between the physiology and anatomy of the brain network through the analysis of brain fMRI data. Additionally, he has made substantial contributions to the field of social network analysis.
+
+Dr. Shabbir's expertise is not limited to theoretical research; he has also delved into the practical realm of Resilient Network Systems. His contributions in this domain involve the application of novel techniques in algorithmic and discrete geometry. Notably, he has developed pioneering methods for the characterization and computation of succinct representations of large datasets, with direct applications in non-parametric statistical analysis.
+
+As a thought leader in the machine learning community, Dr. Mudassir Shabbir continues to shape the landscape of the field through his cutting-edge research, fostering innovation, and contributing to the advancement of knowledge in Graph Machine Learning, Robust Networks, and Resilient Network Systems. His multidimensional expertise reflects a commitment to pushing the boundaries of what is possible in the intersection of computer science and machine learning"
