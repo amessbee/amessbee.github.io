@@ -1,17 +1,36 @@
 projects:
-  - title: "Domain Adaptation"
-    subtitle: "Self Supervised Learnign for the Semantic Segmentation"
-    thumbnail: "assets/projects/2020_UDA/MLSL-fig1.png"
-    url: "http://im.itu.edu.pk/weakly-supervised-domain-adaptation-for-built-up-region-segmentation-in-aerial-and-satellite-imagery/"
-    selected: y
-  - title: "Affective Computing"
-    subtitle: ""
-    thumbnail: "assets/projects/2017_Affective/affective.png"
-    url: "http://im.itu.edu.pk/affective-computing/"
+  - title: "NeuroGraph"
+    subtitle: "Graph Machine Learning for Brain Connectomics"
+    thumbnail: "assets/projects/neurograph/thumbnail.png"
+    url: "https://anwar-said.github.io/anwarsaid/neurograph.html"
     selected: y
 
-  - title: "Economics From Afar"
-    subtitle: "Using Deep Learning to Detecting Slums and Understanding Poverty"
-    thumbnail: "assets/projects/2018_RS/Cholistan.jpg"
-    url: "http://im.itu.edu.pk/satellite-imagery-web-page/"
+  - title: "Resilient Multi-Agent Systems"
+    subtitle: "Byzantine-Resilient Consensus and Distributed Learning"
+    thumbnail: "assets/projects/resilient_mas/thumbnail.png"
+    url: "https://www.semanticscholar.org/paper/Byzantine-Resilient-Distributed-Learning-in-Systems-Li-Abbas/def2379f47d7f55e5d1e54f8249c2a12db83d3ad"
+    selected: y
+
+  - title: "GNNs for Combinatorial Optimization"
+    subtitle: "Learning-Based Heuristics for NP-Hard Graph Problems"
+    thumbnail: "assets/projects/gnn_combinatorial/thumbnail.png"
+    url: "https://www.semanticscholar.org/paper/Learning-Based-Heuristic-for-Combinatorial-of-the-Kothapalli-Shabbir/5328e6d9ae5a6b8628a81ffdac827361ef71de9e"
+    selected: y
+
+  - title: "Network Controllability and Robustness"
+    subtitle: "Zero Forcing, Edge Augmentation, and Structural Controllability"
+    thumbnail: "assets/projects/network_control/thumbnail.png"
+    url: "https://www.semanticscholar.org/paper/Leader-Selection-for-Strong-Structural-in-Networks-Abbas-Shabbir/dded2fe8d14bfe83eefa655f237057aacd7fb57a"
+    selected: y
+
+  - title: "Scalable Graph Representations"
+    subtitle: "Streaming Algorithms for Graph Descriptors on Large Networks"
+    thumbnail: "assets/projects/graph_repr/thumbnail.png"
+    url: "https://www.semanticscholar.org/paper/Computing-Graph-Descriptors-on-Edge-Streams-Hassan-Khan/cc1420e6a0438ffe8f8d058787de810c04c70e03"
+    selected: y
+
+  - title: "GNN-Based Engineering Design"
+    subtitle: "Accelerating UAV Design Space Exploration with Graph Neural Networks"
+    thumbnail: "assets/projects/uav_design/thumbnail.png"
+    url: "https://www.semanticscholar.org/paper/What-a-drag!-Streamlining-the-UAV-design-process-Sandborn-Olea/3bc23cdd689974aa188d2a0fe81aff814525c8e0"
     selected: y
