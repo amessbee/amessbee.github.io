@@ -9,7 +9,7 @@ experiences:
     time: "2021 - 2023"
     title: "Research Assistant Professor"
     subtitle: " "
-    category: "work"
+    category: "school"
 
   - place: "Information Technology University"
     time: "2021"
@@ -27,16 +27,16 @@ experiences:
     time: "2013"
     title: "Research Intern"
     subtitle: "New York, NY"
-    category: "work"
+    category: "school"
 
   - place: "Los Alamos National Laboratory"
     time: "2011"
     title: "Research Intern"
     subtitle: "Los Alamos, NM"
-    category: "work"
+    category: "school"
 
   - place: "Rutgers University"
     time: "2007 - 2014"
     title: "Ph.D. Student"
-    subtitle: "Division of Computer Science <br/> Fulbright Scholarship <br/> Rutgers Honors Fellow 2011–12"
+    subtitle: "Division of Computer Science <br/> Fulbright Scholarship <br/> Rutgers Honors Fellow 2011-12"
     category: "school"
