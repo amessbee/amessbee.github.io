@@ -176,68 +176,37 @@ title: Home
   <div class="section-eyebrow">Research Output</div>
   <h2 class="section-title">Publications</h2>
 
-  <p class="scholar-note">
+  <ul class="pub-list">
+    {% for paper in site.data.publications.papers %}
+    <li class="pub-item">
+      <div class="pub-title">{{ paper.title }}</div>
+      <div class="pub-authors">{{ paper.authors }}</div>
+      <div class="pub-venue">{{ paper.venue }}</div>
+      {% if paper.abstract and paper.abstract != '' %}
+      <div class="pub-abstract">{{ paper.abstract }}</div>
+      {% endif %}
+      <div class="pub-links">
+        {% if paper.paper_url and paper.paper_url != '' %}
+        <a class="pub-link" href="{{ paper.paper_url }}" target="_blank" rel="noopener">Paper</a>
+        {% endif %}
+        {% if paper.paper_pdf %}
+        <a class="pub-link" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" rel="noopener">PDF</a>
+        {% endif %}
+        {% if paper.slides %}
+        <a class="pub-link" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" rel="noopener">Slides</a>
+        {% endif %}
+        {% if paper.code %}
+        <a class="pub-link" href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="scholar-note" style="margin-top:1.5rem;">
     Full list on
     <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.
   </p>
-
-  <div class="pub-tabs">
-    <button class="pub-tab active" data-target="pub-selected">Selected</button>
-    <button class="pub-tab" data-target="pub-all">All</button>
-  </div>
-
-  <div id="pub-selected" class="pub-pane active">
-    <ul class="pub-list">
-      {% assign selected = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected %}
-      <li class="pub-item">
-        <div class="pub-title">{{ paper.title }}</div>
-        <div class="pub-authors">{{ paper.authors }}</div>
-        <div class="pub-venue">{{ paper.venue }}</div>
-        {% if paper.abstract and paper.abstract != '' %}
-        <div class="pub-abstract">{{ paper.abstract }}</div>
-        {% endif %}
-        <div class="pub-links">
-          {% if paper.paper_url %}
-          <a class="pub-link" href="{{ paper.paper_url }}" target="_blank" rel="noopener">Paper</a>
-          {% endif %}
-          {% if paper.paper_pdf %}
-          <a class="pub-link" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" rel="noopener">PDF</a>
-          {% endif %}
-          {% if paper.slides %}
-          <a class="pub-link" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" rel="noopener">Slides</a>
-          {% endif %}
-          {% if paper.code %}
-          <a class="pub-link" href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div id="pub-all" class="pub-pane">
-    <ul class="pub-list">
-      {% for paper in site.data.publications.papers %}
-      <li class="pub-item">
-        <div class="pub-title">{{ paper.title }}</div>
-        <div class="pub-authors">{{ paper.authors }}</div>
-        <div class="pub-venue">{{ paper.venue }}</div>
-        <div class="pub-links">
-          {% if paper.paper_url %}
-          <a class="pub-link" href="{{ paper.paper_url }}" target="_blank" rel="noopener">Paper</a>
-          {% endif %}
-          {% if paper.paper_pdf %}
-          <a class="pub-link" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" rel="noopener">PDF</a>
-          {% endif %}
-          {% if paper.slides %}
-          <a class="pub-link" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" rel="noopener">Slides</a>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
 </section>
 
 

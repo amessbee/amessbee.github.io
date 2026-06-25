@@ -1,516 +1,81 @@
 papers:
-- abstract: "Establishes tight asymptotic bounds on the number of generalized cospectral mates of graphs. We introduce a combinatorial enumeration method based on the Smith Normal Form of the walk matrix, yielding an explicit count — not just a binary DGS/non-DGS answer — for a broad family of graphs."
-  authors: "M. Raza, O. U. Ahmad, Mudassir Shabbir, W. Abbas"
-  paper_url: https://arxiv.org/abs/2601.07373
-  selected: y
-  title: "On the Enumeration of Generalized Cospectral Mates of Graphs"
-  venue: "arXiv preprint arXiv:2601.07373 (2026)"
+
+- title: "On the Enumeration of Generalized Cospectral Mates of Graphs"
+  authors: "Muhammad Raza, Obaid Ullah Ahmad, Mudassir Shabbir, Waseem Abbas"
+  venue: "arXiv:2601.07373 (2026)"
   year: 2026
-- abstract: "Identifies a minimal controllability-preserving subgraph — the backbone — in multiagent networks with distributed linear dynamics. We characterize backbone structure via zero forcing and provide polynomial-time algorithms for backbone extraction and edge augmentation."
-  authors: "Mudassir Shabbir, W. Abbas"
-  paper_url: https://www.sciencedirect.com/science/article/pii/S0005109826003225
+  paper_url: https://arxiv.org/abs/2601.07373
+  abstract: "Establishes tight asymptotic bounds on the number of generalized cospectral mates of graphs via a combinatorial enumeration method based on the Smith Normal Form of the walk matrix — yielding an explicit count for a broad family of graphs."
   selected: y
-  title: "Controllability Backbone in Multiagent Networks"
+
+- title: "Controllability Backbone in Multiagent Networks"
+  authors: "Mudassir Shabbir, Waseem Abbas"
   venue: "Automatica (2026)"
   year: 2026
-- abstract: "Upper bounds on the number of non-isomorphic generalized cospectral mates of a graph, derived from arithmetic properties of the walk matrix determinant. The bound applies to the broad family ℋₙ and is determined by the number of distinct odd prime factors of a normalized determinant."
-  authors: "M. Raza, Mudassir Shabbir, W. Abbas"
+  paper_url: https://www.sciencedirect.com/science/article/pii/S0005109826003225
+  abstract: "Identifies a minimal controllability-preserving subgraph — the backbone — in multiagent networks with distributed linear dynamics. Backbone structure is characterized via zero forcing, with polynomial-time algorithms for extraction and edge augmentation."
+  selected: y
+
+- title: "Walk Matrix-Based Upper Bounds on Generalized Cospectral Mates"
+  authors: "Muhammad Raza, Mudassir Shabbir, Waseem Abbas"
+  venue: "arXiv:2507.06927 (2025)"
+  year: 2025
   paper_url: https://arxiv.org/abs/2507.06927
+  abstract: "Upper bounds on the number of non-isomorphic generalized cospectral mates derived from arithmetic properties of the walk matrix determinant, applicable to the broad family ℋₙ."
   selected: y
-  title: "Walk Matrix-Based Upper Bounds on Generalized Cospectral Mates"
-  venue: "arXiv preprint arXiv:2507.06927 (2025)"
+
+- title: "Learning Backbones: Sparsifying Graphs through Zero Forcing for Effective Graph-Based Learning"
+  authors: "Obaid Ullah Ahmad, Anwar Said, Mudassir Shabbir, Xenofon Koutsoukos, Waseem Abbas"
+  venue: "arXiv:2502.17713 (2025)"
   year: 2025
-- abstract: "A graph sparsification approach using zero forcing sets to extract learning-effective backbones from dense graphs, improving GNN performance and scalability while preserving the structural properties relevant to downstream tasks."
-  authors: "O. U. Ahmad, A. Said, Mudassir Shabbir, X. Koutsoukos, W. Abbas"
   paper_url: https://arxiv.org/abs/2502.17713
+  abstract: "A graph sparsification approach using zero forcing sets to extract learning-effective backbones from dense graphs, improving GNN performance and scalability while preserving structural properties relevant to downstream tasks."
   selected: y
-  title: "Learning Backbones: Sparsifying Graphs through Zero Forcing for Effective Graph-Based Learning"
-  venue: "arXiv preprint arXiv:2502.17713 (2025)"
-  year: 2025
-- abstract: "A network control-theoretic feature construction method using rank encoding of controllability Gramians that produces expressive node features for graph machine learning, outperforming spectral and positional baselines on multiple benchmarks."
-  authors: "A. Said, Y. Wei, O. U. Ahmad, Mudassir Shabbir, W. Abbas, X. Koutsoukos"
-  paper_url: ''
-  selected: y
-  title: "Feature Construction Using Network Control Theory and Rank Encoding for Graph Machine Learning"
+
+- title: "Feature Construction Using Network Control Theory and Rank Encoding for Graph Machine Learning"
+  authors: "Anwar Said, Yingbo Wei, Obaid Ullah Ahmad, Mudassir Shabbir, Waseem Abbas, Xenofon Koutsoukos"
   venue: "IEEE Open Journal of Control Systems (2025)"
   year: 2025
-- abstract: "Arithmetic conditions on the walk matrix characterizing when a graph is determined by its generalized spectrum, with applications to the graph distinguishability problem."
-  authors: "M. Raza, O. U. Ahmad, Mudassir Shabbir, X. Koutsoukos, W. Abbas"
-  paper_url: ''
+  paper_url: ""
+  abstract: "A network control-theoretic feature construction method using rank encoding of controllability Gramians, producing expressive node features that outperform spectral and positional baselines on multiple benchmarks."
   selected: y
-  title: "Control-based Conditions for Graph Distinguishability"
-  venue: "2025 Proceedings of the Conference on Control and its Applications (CT), 31–38"
+
+- title: "Control-based Conditions for Graph Distinguishability"
+  authors: "Muhammad Raza, Obaid Ullah Ahmad, Mudassir Shabbir, Xenofon Koutsoukos, Waseem Abbas"
+  venue: "Proc. Conference on Control and its Applications (CT), SIAM, pp. 31–38 (2025)"
   year: 2025
-- abstract: "A Byzantine-resilient distributed learning framework for multi-UAV systems that tolerates adversarial agents using geometric median aggregation, with convergence guarantees under communication attacks."
-  authors: "N. Potteiger, Mudassir Shabbir, S. Eisele, M. Wutka, X. Koutsoukos"
-  paper_url: ''
-  selected: n
-  title: "Resilient Distributed Learning in Multi-UAV Systems"
-  venue: "Smarter Cyber Physical Systems, 543–567 (2025)"
+  paper_url: ""
+  abstract: "Arithmetic conditions on the walk matrix characterizing when a graph is determined by its generalized spectrum, with applications to the graph distinguishability problem."
+  selected: y
+
+- title: "Resilient Distributed Learning in Multi-UAV Systems"
+  authors: "Nathan Potteiger, Mudassir Shabbir, Scott Eisele, Markus Wutka, Xenofon Koutsoukos"
+  venue: "Smarter Cyber Physical Systems, Springer, pp. 543–567 (2025)"
   year: 2025
-- abstract: "Data collection, automatic generation, and evaluation methodology for conversational datasets in naturalistic settings, with benchmarks on coherence, diversity, and human evaluation alignment."
-  authors: "N. Zaheer, A. A. Raza, Mudassir Shabbir"
-  paper_url: ''
+  paper_url: ""
+  abstract: "A Byzantine-resilient distributed learning framework for multi-UAV systems that tolerates adversarial agents using geometric median aggregation, with convergence guarantees under communication attacks."
   selected: n
-  title: "Conversations in the Wild: Data Collection, Automatic Generation and Evaluation"
-  venue: "Computer Speech & Language 89, 101699"
-  year: 2024
-- abstract: "An explainable ensemble ML pipeline combining gradient-boosted trees, SHAP feature attribution, and physicochemical water quality indicators to classify and explain water safety assessments in real-world datasets from Pakistan."
-  authors: "F. Majeed, Z. Sohail, M. I. Shabbir, M. H. Amjad, M. M. Aziz, M. Azam, T. Ahmad"
-  paper_url: ''
-  selected: n
-  title: "Explainable Ensemble Machine Learning Framework for Water Quality Assessment Using Physicochemical Indicators"
-  venue: "Pakistan Journal of Scientific Research 5(02), 140–146 (2025)"
-  year: 2025
-- abstract: ''
-  authors: "Anwar Said, Mudassir Shabbir, B. Broll, W. Abbas, P. V\xF6lgyesi, X. Koutsoukos"
-  paper_url: https://www.semanticscholar.org/paper/19cf22a791f78bf25f31f7cb73678949008297c1
-  selected: n
-  title: Circuit design completion using graph neural networks
-  venue: Neural Computing and Applications (2023)
+
+- title: "NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics"
+  authors: "Anwar Said, Roza G. Bayrak, Tyler Derr, Mudassir Shabbir, Daniel Moyer, Catie Chang, Xenofon Koutsoukos"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS 2023)"
   year: 2023
-- abstract: We introduce CVEFGE, a curated C/C++ source code vulnerability dataset, and SEGNN, a sequential GNN that achieves state-of-the-art vulnerability identification by learning code semantic representations via graph convolution.
-  authors: Ammar Ahmed, Anwar Said, Mudassir Shabbir, X. Koutsoukos
+  paper_url: https://arxiv.org/abs/2306.06202
+  abstract: "A benchmark suite of 35 graph-based neuroimaging datasets spanning behavioral and cognitive traits, with 15+ baseline methods and an open-source Python package for graph ML in brain connectomics."
+  selected: y
+
+- title: "Sequential Graph Neural Networks for Source Code Vulnerability Identification"
+  authors: "Ammar Ahmed, Anwar Said, Mudassir Shabbir, Xenofon Koutsoukos"
+  venue: "Neural Computing and Applications (2023)"
+  year: 2023
   paper_url: https://www.semanticscholar.org/paper/3539f1039c9e3caad260374c57e2b124270cc2ae
+  abstract: "SEGNN — a sequential GNN achieving state-of-the-art vulnerability identification by learning code semantic representations via graph convolution, trained on the curated CVEFGE dataset."
   selected: y
-  title: Sequential Graph Neural Networks for Source Code Vulnerability Identification
-  venue: ArXiv (2023)
-  year: 2023
-- abstract: We propose a graph convolutional network heuristic for the NP-hard minimum dominating set problem that outperforms classical greedy approximation and generalizes to graphs larger than those seen during training.
-  authors: Abihith Kothapalli, Mudassir Shabbir, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/5328e6d9ae5a6b8628a81ffdac827361ef71de9e
-  selected: y
-  title: Learning-Based Heuristic for Combinatorial Optimization of the Minimum Dominating
-    Set Problem using Graph Convolutional Networks
-  venue: ArXiv (2023)
-  year: 2023
-- abstract: We introduce NeuroGraph, a benchmark suite of 35 graph-based neuroimaging datasets spanning behavioral and cognitive traits, with 15+ baseline methods and an open-source Python package for graph ML in brain connectomics.
-  authors: Anwar Said, Roza G. Bayrak, Tyler Derr, Mudassir Shabbir, Daniel Moyer,
-    Catie Chang, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/5c4a3d8f93138cd1bd19ad231919505b49b528cd
-  selected: y
-  title: 'NeuroGraph: Benchmarks for Graph Machine Learning in Brain Connectomics'
-  venue: ArXiv (2023)
-  year: 2023
-- abstract: ''
-  authors: Anwar Said, Mudassir Shabbir, Saeed-Ul Hassan, Zohair Raza Hassan, Ammar
-    Ahmed, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/e2aadc6487e79cbf6f6b84087d54d05c299f68d3
+
+- title: "Conversations in the Wild: Data Collection, Automatic Generation and Evaluation"
+  authors: "Nimra Zaheer, Agha Ali Raza, Mudassir Shabbir"
+  venue: "Computer Speech &amp; Language 89, 101699 (2024)"
+  year: 2024
+  paper_url: ""
+  abstract: "Data collection, automatic generation, and evaluation methodology for conversational datasets in naturalistic settings, with benchmarks on coherence, diversity, and human evaluation alignment."
   selected: n
-  title: On augmenting topological graph representations for attributed graphs
-  venue: Appl. Soft Comput. (2023)
-  year: 2023
-- abstract: ''
-  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/15eaa6da383bc6526474d904d6bcec90cbc86ebd
-  selected: n
-  title: Resilient distributed vector consensus using centerpoint
-  venue: Automatica (2022)
-  year: 2022
-- abstract: We propose medoid and soft-medoid aggregation rules for multi-agent reinforcement learning that provably converge to the optimum under adversarial attacks, outperforming average and median-based alternatives.
-  authors: C. Bhowmick, Mudassir Shabbir, W. Abbas, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/2df0c0e5fc5a49238bf0092b661c79f6cd72551e
-  selected: y
-  title: Resilient Multi-agent Reinforcement Learning Using Medoid and Soft-medoid
-    Based Aggregation
-  venue: 2022 IEEE International Conference on Assured Autonomy (ICAA) (2022)
-  year: 2022
-- abstract: ''
-  authors: Abinta Mehmood Mir, Ali Hassan, Asma Khalid, Zohair Raza Hassan, F. Kamiran,
-    Agha Ali Raza, Saeed-Ul Hassan, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/30a4cf648161d16c1dbea7db11a6c2acee1b4c80
-  selected: n
-  title: 'Data driven smart policing: A novel road distance-based k-median model for
-    optimal substation placement'
-  venue: Comput. Hum. Behav. (2022)
-  year: 2022
-- abstract: We propose a UAV design pipeline combining a design grammar for geometry generation with a GNN-based drag surrogate trained on simulation data, accelerating design space exploration without costly CAD and simulation routines.
-  authors: M. Sandborn, Carlos Olea, Anwar Said, Mudassir Shabbir, P. Volgyesi, X.
-    Koutsoukos, carlos. d. olea
-  paper_url: https://www.semanticscholar.org/paper/3bc23cdd689974aa188d2a0fe81aff814525c8e0
-  selected: y
-  title: What a drag! Streamlining the UAV design process with design grammars and
-    drag surrogates
-  venue: ' (2022)'
-  year: 2022
-- abstract: ''
-  authors: Nimra Zaheer, O. Ahmad, Mudassir Shabbir, Agha Ali Raza
-  paper_url: https://www.semanticscholar.org/paper/8283877b656fb7817010b68aee99eaba66ca6546
-  selected: n
-  title: Speech emotion recognition for the Urdu language
-  venue: Language Resources and Evaluation (2022)
-  year: 2022
-- abstract: We design a GCN-based distributed flocking controller with median-based aggregation that maintains flock structure under adversarial communication attacks, where standard average-based aggregation provably fails.
-  authors: C. Bhowmick, Mudassir Shabbir, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/a8ccad4f07c8729d249ec6562d228b9c61d0b1d2
-  selected: y
-  title: Attack-Resilient Multi-Agent Flocking Control Using Graph Neural Networks
-  venue: 2022 30th Mediterranean Conference on Control and Automation (MED) (2022)
-  year: 2022
-- abstract: ''
-  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, Mudassir Shabbir, W. Abbas, X. Koutsoukos"
-  paper_url: https://www.semanticscholar.org/paper/c5b9bb8b5bb5e19d5c717ab6969ff8f5dae5825b
-  selected: n
-  title: 'Strong structural controllability of networks: Comparison of bounds using
-    distances and zero forcing'
-  venue: Autom. (2022)
-  year: 2022
-- abstract: We present a linear-time optimal algorithm for minimum zero forcing sets in trees and a game-theoretic formulation for general graphs, with direct application to leader selection for strong structural controllability.
-  authors: "W. Abbas, Mudassir Shabbir, Yasin Yaz\u0131c\u0131o\u011Flu, X. Koutsoukos"
-  paper_url: https://www.semanticscholar.org/paper/dded2fe8d14bfe83eefa655f237057aacd7fb57a
-  selected: y
-  title: Leader Selection for Strong Structural Controllability in Networks using
-    Zero Forcing Sets
-  venue: 2022 American Control Conference (ACC) (2022)
-  year: 2022
-- abstract: We propose centerpoint-based aggregation for distributed SGD in multi-robot networks, guaranteeing convergence to the optimum even when Byzantine agents send arbitrary estimates — outperforming coordinate-wise and geometric median rules.
-  authors: Jiani Li, W. Abbas, Mudassir Shabbir, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/def2379f47d7f55e5d1e54f8249c2a12db83d3ad
-  selected: y
-  title: Byzantine Resilient Distributed Learning in Multirobot Systems
-  venue: IEEE Transactions on Robotics (2022)
-  year: 2022
-- abstract: We study maximally adding edges to directed networks while preserving strong structural controllability bounds, providing an exact algorithm for zero-forcing constraints and an alpha-approximate randomized algorithm for distance-based constraints.
-  authors: "W. Abbas, Mudassir Shabbir, Yasin Yaz\u0131c\u0131o\u011Flu, X. Koutsoukos"
-  paper_url: https://www.semanticscholar.org/paper/0fbc67c653628c35f309e0a244909967739dc812
-  selected: y
-  title: Edge Augmentation With Controllability Constraints in Directed Laplacian
-    Networks
-  venue: IEEE Control Systems Letters (2021)
-  year: 2021
-- abstract: We show that centerpoints provide a complete characterization of safe points for resilient vector consensus, yielding tight necessary and sufficient conditions on adversary count that improve over Tverberg-based methods.
-  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/1764bba2320d1cec4419795c0817c23c8cf71806
-  selected: y
-  title: Resilient Distributed Vector Consensus Using Centerpoint
-  venue: ' (2021)'
-  year: 2021
-- abstract: ''
-  authors: Anwar Said, Saeed-Ul Hassan, Suppawong Tuarob, R. Nawaz, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/335520517e797fb26e8f01ecb277d1522388619a
-  selected: n
-  title: 'DGSD: Distributed graph representation via graph statistical properties'
-  venue: Future Gener. Comput. Syst. (2021)
-  year: 2021
-- abstract: ''
-  authors: Zohair Raza Hassan, I. Khan, Mehvish I. Poshni, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/8058c2f3318d2c1a42da769e91ee1571600f00df
-  selected: n
-  title: Seymour's Second Neighborhood Conjecture for 6-antitransitive digraphs
-  venue: Discret. Appl. Math. (2021)
-  year: 2021
-- abstract: ''
-  authors: Anwar Said, Saeed-Ul Hassan, W. Abbas, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/852f960ccdb58b779b694463e3aa9500ef4d4143
-  selected: n
-  title: 'NetKI: A kirchhoff index based statistical graph embedding in nearly linear
-    time'
-  venue: Neurocomputing (2021)
-  year: 2021
-- abstract: ''
-  authors: Nimra Zaheer, Saeed-Ul Hassan, Mohsen Ali, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/c121b98538b190bf4b88d7856dc7464029dfa752
-  selected: n
-  title: Optimal school site selection in Urban areas using deep neural networks
-  venue: Journal of Ambient Intelligence and Humanized Computing (2021)
-  year: 2021
-- abstract: We present streaming algorithms to compute three scalable graph descriptors from edge streams, achieving classification accuracy comparable to state-of-the-art methods while using only 25% of the memory, scaling to graphs with millions of edges.
-  authors: Zohair Raza Hassan, Imdadullah Khan, Mudassir Shabbir, W. Abbas
-  paper_url: https://www.semanticscholar.org/paper/cc1420e6a0438ffe8f8d058787de810c04c70e03
-  selected: y
-  title: Computing Graph Descriptors on Edge Streams
-  venue: ACM Transactions on Knowledge Discovery from Data (2021)
-  year: 2021
-- abstract: ''
-  authors: Saeed-Ul Hassan, Mudassir Shabbir, Sehrish Iqbal, Anwar Said, F. Kamiran,
-    R. Nawaz, U. Saif
-  paper_url: https://www.semanticscholar.org/paper/cfb00475042f638074f33bcdafc32ea3f35a5abf
-  selected: n
-  title: Leveraging Deep Learning and SNA approaches for Smart City Policing in the
-    Developing World
-  venue: Int. J. Inf. Manag. (2021)
-  year: 2021
-- abstract: We introduce SEMOUR, the first scripted emotion-tagged speech database in Urdu with 15,040 instances recorded by professional actors, enabling state-of-the-art 92% accuracy on speech emotion recognition.
-  authors: Nimra Zaheer, O. Ahmad, Ammar Ahmed, Muhammad Shehryar Khan, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/d1b0c524dec331ffec85c25fd3b10943e6f0abb0
-  selected: y
-  title: 'SEMOUR: A Scripted Emotional Speech Repository for Urdu'
-  venue: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
-    (2021)
-  year: 2021
-- abstract: ''
-  authors: Nimra Zaheer, Saeed-Ul Hassan, Mohsen Ali, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/d2a80d02b4605e6e3787656070e8d8915c723f87
-  selected: n
-  title: Optimal school site selection in Urban areas using deep neural networks
-  venue: Journal of Ambient Intelligence and Humanized Computing (2021)
-  year: 2021
-- abstract: ''
-  authors: "Saeed-Ul Hassan, N. Aljohani, Mudassir Shabbir, Umair Ali, Sehrish Iqbal,\
-    \ Raheem Sarwar, Eugenio Mart\xEDnez-C\xE1mara, Sebasti\xE1n Ventura, Francisco\
-    \ Herrera"
-  paper_url: https://www.semanticscholar.org/paper/09f2d673e7e571ff010cc7d2ae2472dd390fec8c
-  selected: n
-  title: 'Tweet Coupling: a social media methodology for clustering scientific publications'
-  venue: Scientometrics (2020)
-  year: 2020
-- abstract: ''
-  authors: Ammar Ahmed, Zohair Raza Hassan, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/1df80d33db2e7ac2ac8782e6f86be471eecf15d2
-  selected: n
-  title: Interpretable multi-scale graph descriptors via structural compression
-  venue: Inf. Sci. (2020)
-  year: 2020
-- abstract: We propose centerpoint-based aggregation for distributed diffusion in multi-robot systems, proving resilient convergence when fewer than n/(d+1) neighbors are adversarial — a condition under which coordinate-wise and geometric median rules provably fail.
-  authors: Jiani Li, W. Abbas, Mudassir Shabbir, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/2b87d47738fc6af94ce6af623c09135853f0d27f
-  selected: y
-  title: Resilient Distributed Diffusion for Multi-Robot Systems Using Centerpoint
-  venue: 'Robotics: Science and Systems XVI (2020)'
-  year: 2020
-- abstract: We introduce the (r,s)-core model for resource-sharing networks and the anchor selection problem to prevent cascading withdrawal, classifying solvability as polynomial, NP-complete, or inapproximable depending on network parameters.
-  authors: W. Abbas, Aron Laszka, Mudassir Shabbir, Xenofon Koutsoukas
-  paper_url: https://www.semanticscholar.org/paper/3924519ada8dcafd4ced5074815e4e886c91ac86
-  selected: y
-  title: Graph-Theoretic Approach for Increasing Participation in Networks With Assorted
-    Resources
-  venue: IEEE Transactions on Network Science and Engineering (2020)
-  year: 2020
-- abstract: We formulate edge augmentation with distance-preserving constraints to jointly increase network robustness and maintain strong structural controllability, showing that optimal solutions form clique chains.
-  authors: W. Abbas, Mudassir Shabbir, H. Jaleel, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/4b2698f4f431381e05062e75a297a8a4d05b685f
-  selected: y
-  title: Improving Network Robustness through Edge Augmentation While Preserving Strong
-    Structural Controllability
-  venue: 2020 American Control Conference (ACC) (2020)
-  year: 2020
-- abstract: We present a simpler proof of the NP-hardness of the Familial Graph Compression problem.
-  authors: Ammar Ahmed, Zohair Raza Hassan, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/662192e3937fc4df6badd340c077842517a6fa46
-  selected: y
-  title: A Simpler NP-Hardness Proof for Familial Graph Compression
-  venue: ArXiv (2020)
-  year: 2020
-- abstract: We replace Tverberg partitions with centerpoints in resilient vector consensus algorithms, improving resilience guarantees and providing a complete characterization of necessary and sufficient conditions on adversary count.
-  authors: Mudassir Shabbir, Jiani Li, W. Abbas, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/77543ce355dfc551cbdaa12a757ccfdcb816c752
-  selected: y
-  title: Resilient Vector Consensus in Multi-Agent Networks Using Centerpoints
-  venue: 2020 American Control Conference (ACC) (2020)
-  year: 2020
-- abstract: We show that resilience in multidimensional consensus can be traded for accuracy via dimensionality projection, and propose a bounded consensus algorithm with formal guarantees on both resilience and convergence accuracy.
-  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/7ddf1ce8fe27787c0e9bbbb5f09713222eb2d0b4
-  selected: y
-  title: Interplay Between Resilience and Accuracy in Resilient Vector Consensus in
-    Multi-Agent Networks
-  venue: 2020 59th IEEE Conference on Decision and Control (CDC) (2020)
-  year: 2020
-- abstract: We propose centerpoint-based aggregation for distributed LMS diffusion in multi-robot pursuit tasks, proving resilient convergence to the true target state under Byzantine attacks where median-based rules fail.
-  authors: Jiani Li, W. Abbas, Mudassir Shabbir, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/924aa3be8ba105ef5769a6cfd6655fb01de3b92c
-  selected: y
-  title: Resilient multi-robot target pursuit
-  venue: Proceedings of the 7th Symposium on Hot Topics in the Science of Security
-    (2020)
-  year: 2020
-- abstract: We compare distance-based and zero-forcing-based lower bounds on the strong structurally controllable subspace and present a combined bound that is always at least as tight as either approach individually.
-  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, Mudassir Shabbir, W. Abbas, X. Koutsoukos"
-  paper_url: https://www.semanticscholar.org/paper/bc8bd75e0035081602fc5f79f4f5fe18ec0a5f6d
-  selected: y
-  title: 'Strong Structural Controllability of Diffusively Coupled Networks: Comparison
-    of Bounds Based on Distances and Zero Forcing'
-  venue: 2020 59th IEEE Conference on Decision and Control (CDC) (2020)
-  year: 2020
-- abstract: We characterize safe points for resilient vector consensus as centerpoints, deriving tight necessary and sufficient conditions on adversary count that improve over Tverberg-based approaches in both resilience and computational efficiency.
-  authors: W. Abbas, Mudassir Shabbir, Jiani Li, X. Koutsoukos
-  paper_url: https://www.semanticscholar.org/paper/c27ffdbc9cdd8a8cdb99f30cb5286bdd917d34b7
-  selected: y
-  title: Resilient Distributed Vector Consensus Using Centerpoints
-  venue: ' (2020)'
-  year: 2020
-- abstract: ''
-  authors: Zohair Raza Hassan, Mudassir Shabbir, Imdadullah Khan, W. Abbas
-  paper_url: https://www.semanticscholar.org/paper/d3ae8e86536e0c6467c86cdcb7e72deaba962797
-  selected: n
-  title: Estimating Descriptors for Large Graphs
-  venue: Advances in Knowledge Discovery and Data Mining (2020)
-  year: 2020
-- abstract: We identify a fundamental conflict between robustness and controllability in linear dynamical networks, showing that maximizing robustness (via Kirchhoff index) increases the number of leaders required for strong structural controllability.
-  authors: "W. Abbas, Mudassir Shabbir, Yasin Yaz\u0131c\u0131o\u011Flu, Aqsa Akber"
-  paper_url: https://www.semanticscholar.org/paper/e7086a28accbbda9ae1469e0c37a040496656d17
-  selected: y
-  title: Tradeoff Between Controllability and Robustness in Diffusively Coupled Networks
-  venue: IEEE Transactions on Control of Network Systems (2020)
-  year: 2020
-- abstract: ''
-  authors: "Saeed-Ul Hassan, N. Aljohani, Mudassir Shabbir, Umair Ali, Sehrish Iqbal,\
-    \ Raheem Sarwar, Eugenio Mart\xEDnez-C\xE1mara, Sebasti\xE1n Ventura, Francisco\
-    \ Herrera"
-  paper_url: https://www.semanticscholar.org/paper/f808db55ecada2b836cd267ff7dca1fae3703408
-  selected: n
-  title: 'Tweet Coupling: a social media methodology for clustering scientific publications'
-  venue: Scientometrics (2020)
-  year: 2020
-- abstract: We develop polynomial-time exact and linearithmic approximation algorithms for computing the distance-based lower bound on the strongly structurally controllable subspace using distance-to-leader vector sequences.
-  authors: Mudassir Shabbir, W. Abbas, A. Y. Yazicioglu
-  paper_url: https://www.semanticscholar.org/paper/15d6c6f0707ab1d0e4e4f136ef857cf9727d20d2
-  selected: y
-  title: Computation of the Distance-Based Bound on Strong Structural Controllability
-    in Networks
-  venue: IEEE Transactions on Automatic Control (2019)
-  year: 2019
-- abstract: ''
-  authors: Muhammad Ahmad, Sarwan Ali, Juvaria Tariq, Imdadullah Khan, Mudassir Shabbir,
-    Arif Zaman
-  paper_url: https://www.semanticscholar.org/paper/3eff1a6fb1ff8033c9a22b8f0512a71c91ece18e
-  selected: n
-  title: Combinatorial Trace Method for Network Immunization
-  venue: Inf. Sci. (2019)
-  year: 2019
-- abstract: We derive tight bounds on structural robustness to noise in consensus networks using average node degree and distance, and show that random regular graphs typically achieve near-optimal robustness among graphs of the same size and degree.
-  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, W. Abbas, Mudassir Shabbir"
-  paper_url: https://www.semanticscholar.org/paper/8761fc741c988149a68acac2fafe2941d9651b3b
-  selected: y
-  title: 'Structural Robustness to Noise in Consensus Networks: Impact of Average
-    Degrees and Average Distances'
-  venue: 2019 IEEE 58th Conference on Decision and Control (CDC) (2019)
-  year: 2019
-- abstract: We study the tension between Kirchhoff-index robustness and strong structural controllability in diffusively coupled networks, identifying maximally robust networks and determining the minimum leader sets needed for complete controllability.
-  authors: W. Abbas, Mudassir Shabbir, A. Y. Yazicioglu, Aqsa Akber
-  paper_url: https://www.semanticscholar.org/paper/88313edaf7d50b321f0838ba781d2bb8c80cbd61
-  selected: y
-  title: On the Trade-off Between Controllability and Robustness in Networks of Diffusively
-    Coupled Agents
-  venue: 2019 American Control Conference (ACC) (2019)
-  year: 2019
-- abstract: ''
-  authors: Saeed-Ul Hassan, T. Bowman, Mudassir Shabbir, A. Akhtar, Mubashir Imran,
-    Naif R. Aljohani
-  paper_url: https://www.semanticscholar.org/paper/b2e89ac9b0be9f31c8bd4e934acf1cf66800acaa
-  selected: n
-  title: Influential tweeters in relation to highly cited articles in altmetric big
-    data
-  venue: Scientometrics (2019)
-  year: 2019
-- abstract: ''
-  authors: Saeed-Ul Hassan, T. Bowman, Mudassir Shabbir, A. Akhtar, Mubashir Imran,
-    N. Aljohani
-  paper_url: https://www.semanticscholar.org/paper/b6b074aec1c8fb1408439020a71183482204d141
-  selected: n
-  title: Influential tweeters in relation to highly cited articles in altmetric big
-    data
-  venue: Scientometrics (2019)
-  year: 2019
-- abstract: We provide polynomial-time exact and linearithmic approximation algorithms for computing distance-based lower bounds on strong structural controllability, outperforming zero-forcing bounds especially in partially controllable networks.
-  authors: "Mudassir Shabbir, W. Abbas, Yasin Yaz\u0131c\u0131o\u011Flu"
-  paper_url: https://www.semanticscholar.org/paper/d183251f3414ca9f77437ae5d4e08f74f4cac536
-  selected: y
-  title: On the Computation of the Distance-based Lower Bound on Strong Structural
-    Controllability in Networks
-  venue: 2019 IEEE 58th Conference on Decision and Control (CDC) (2019)
-  year: 2019
-- abstract: We establish tight bounds on structural robustness to noise using degree and distance, prove a fundamental sparsity-robustness tradeoff, and show random k-regular graphs are near-optimal among graphs of the same size and average degree.
-  authors: "Yasin Yaz\u0131c\u0131o\u011Flu, W. Abbas, Mudassir Shabbir"
-  paper_url: https://www.semanticscholar.org/paper/d4c1120c601814076b3e290c87729109bfb2e0b9
-  selected: y
-  title: 'Structural Robustness to Noise in Consensus Networks: Impact of Degrees
-    and Distances, Fundamental Limits, and Extremal Graphs'
-  venue: IEEE Transactions on Automatic Control (2019)
-  year: 2019
-- abstract: We develop algorithms for Ray Shooting Depth, an affine-invariant statistical ranking of 2D data, along with an open-source visualization tool with applications to outlier detection and distribution estimation.
-  authors: Mudassir Shabbir, Asif Jamshed, Imdadullah Khan
-  paper_url: https://www.semanticscholar.org/paper/11797aacc07ffd938356a3bb1cfd8e87819e3c1c
-  selected: y
-  title: Affine-Invariant Outlier Detection and Data Visualization
-  venue: None (2017)
-  year: 2017
-- abstract: ''
-  authors: Saeed-Ul Hassan, Mubashir Imran, T. Iftikhar, Iqra Safder, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/16eff6c37868f316b38f5c42424bcabb3c528ea4
-  selected: n
-  title: Deep Stylometry and Lexical & Syntactic Features Based Author Attribution
-    on PLoS Digital Repository
-  venue: None (2017)
-  year: 2017
-- abstract: We formulate network immunization as budgeted combinatorial optimization and design a spectral greedy algorithm that outperforms state-of-the-art methods in epidemic containment on large real-world networks.
-  authors: Juvaria Tariq, Muhammad Ahmad, Imdadullah Khan, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/6ebd6f1834a5c66ada1f06d45abcb65832be10df
-  selected: y
-  title: Scalable Approximation Algorithm for Network Immunization
-  venue: None (2017)
-  year: 2017
-- abstract: We use spectral graph theory to define node relevance and design a scalable immunization algorithm that outperforms existing methods in epidemic containment, with theoretical guarantees on runtime and approximation quality.
-  authors: Muhammad Ahmad, Juvaria Tariq, Mudassir Shabbir, Imdadullah Khan
-  paper_url: https://www.semanticscholar.org/paper/9d61adcd7a09cbfbc212665ab73a2a3f9f1c2807
-  selected: y
-  title: Spectral Methods for Immunization of Large Networks
-  venue: ArXiv (2017)
-  year: 2017
-- abstract: We introduce k-centerpoints, unifying the classical centerpoint theorem and the ray-shooting theorem, prove equivalence of affine and topological variants in R^2, and derive the first non-trivial bounds in higher dimensions.
-  authors: Nabil H. Mustafa, Saurabh Ray, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/c7f7b24c4bafa2138337e791d4f7d76eeee2c9be
-  selected: y
-  title: "k-Centerpoints Conjectures for Pointsets in \u211Dd"
-  venue: Int. J. Comput. Geom. Appl. (2015)
-  year: 2015
-- abstract: ''
-  authors: Yassine Daadaa, Asif Jamshed, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/fabe7e12d3f54013389db7357479d2884df4ba37
-  selected: n
-  title: Network Decontamination with a Single Agent
-  venue: Graphs and Combinatorics (2015)
-  year: 2015
-- abstract: PhD thesis presenting algorithms for hitting sets in convex ranges, ray-shooting depth, and related problems in discrete and computational geometry.
-  authors: Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/5d44b69005166b877c0ce84747669b7f0728b3cf
-  selected: y
-  title: SOME RESULTS IN COMPUTATIONAL AND COMBINATORIAL GEOMETRY
-  venue: ' (2014)'
-  year: 2014
-- abstract: ''
-  authors: Yassine Daadaa, Asif Jamshed, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/174ff9427fe5b78f5d1fbfab0cfb88a597801faf
-  selected: n
-  title: Network Decontamination with a Single Agent
-  venue: Graphs and Combinatorics (2013)
-  year: 2013
-- abstract: We study computational aspects of ray-shooting depth in 2D, presenting algorithms and complexity results, and advocate its use as an affine-invariant statistical depth measure with applications in data analysis.
-  authors: W. Steiger, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/628f245322f078946c72a5e9360a1b3154b06c4d
-  selected: y
-  title: Ray-Shooting Depth in R 2 - Algorithms and Applications
-  venue: ' (2011)'
-  year: 2011
-- abstract: ''
-  authors: Nabil H. Mustafa, Saurabh Ray, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/f9afc13f66125149713808c2d8d15ed0601dc01f
-  selected: n
-  title: 'Ray-Shooting Depth: Computing Statistical Data Depth of Point Sets in the
-    Plane'
-  venue: None (2011)
-  year: 2011
-- abstract: We apply recursive variable expansion to the Smith-Waterman sequence alignment algorithm, exposing additional parallelism and achieving a minimum 400x speedup over serial execution, outperforming all prior published methods.
-  authors: Z. Nawaz, Z. Al-Ars, K. Bertels, Mudassir Shabbir
-  paper_url: https://www.semanticscholar.org/paper/4a8dc106170744e1baeb063ff13c7e2c04275606
-  selected: y
-  title: Acceleration of Smith-Waterman using Recursive Variable Expansion
-  venue: 2008 11th EUROMICRO Conference on Digital System Design Architectures, Methods
-    and Tools (2008)
-  year: 2008
-- abstract: We apply partial recursive variable expansion to the Needleman-Wunsch global alignment algorithm for FPGA implementation, exposing more parallelism than existing methods and achieving a 1.55x speedup.
-  authors: Z. Nawaz, Mudassir Shabbir, Z. Al-Ars, K. Bertels
-  paper_url: https://www.semanticscholar.org/paper/17f7ccb8cab6a6b53175622468c581de0e8acecb
-  selected: y
-  title: Acceleration of Biological Sequence Alignment using Recursive Variable Expansion
-  venue: ' (2007)'
-  year: 2007
-- abstract: We develop efficient algorithms to approximate the mismatch string kernel, enabling larger k and m values for sequence classification with theoretical guarantees, achieving higher accuracy on biological and music datasets.
-  authors: Muhammad Farhan, Juvaria Tariq, Arif Zaman, Mudassir Shabbir, Imdadullah
-    Khan
-  paper_url: https://www.semanticscholar.org/paper/bc69d3593360495957598dcee5422952145d06c7
-  selected: y
-  title: "Ef\uFB01cient Approximation Algorithms for String Kernel Based Sequence\
-    \ Classi\uFB01cation"
-  venue: ' (2017)'
-  year: '2017'

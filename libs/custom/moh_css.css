@@ -37,9 +37,9 @@ a:hover { text-decoration: underline; }
 
 /* ── Container ─────────────────────────────────────────────── */
 .container {
-  max-width: 920px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 /* ── Sticky Nav ─────────────────────────────────────────────── */
@@ -326,6 +326,13 @@ main { background: var(--surface); }
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.research-card-fig svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .fig-gml  { background: linear-gradient(135deg, #eef3ff 0%, #dde6ff 100%); }
@@ -434,6 +441,13 @@ main { background: var(--surface); }
   justify-content: center;
   background: linear-gradient(135deg, #eef3ff 0%, #dde8ff 100%);
   border-bottom: 1px solid #d5e0f5;
+  overflow: hidden;
+}
+
+.paper-card-fig svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .paper-card-body {
@@ -616,36 +630,6 @@ main { background: var(--surface); }
   margin-bottom: 1.25rem;
 }
 
-.pub-tabs {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.pub-tab {
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 0.38rem 1rem;
-  border-radius: 20px;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--muted);
-  cursor: pointer;
-  transition: all var(--trans);
-  letter-spacing: 0.03em;
-}
-.pub-tab.active {
-  background: var(--navy);
-  border-color: var(--navy);
-  color: #fff;
-}
-.pub-tab:hover:not(.active) {
-  border-color: var(--navy);
-  color: var(--navy);
-}
-
-.pub-pane { display: none; }
-.pub-pane.active { display: block; }
 
 .pub-list { list-style: none; }
 

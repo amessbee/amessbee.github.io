@@ -1,26 +1,20 @@
 experiences:
   - place: "LUMS"
-    time: "2026 - now"
+    time: "2026 – present"
     title: "Associate Professor"
     subtitle: "Department of Computer Science"
     category: "work"
 
   - place: "Vanderbilt University"
-    time: "2021 - 2023"
+    time: "2021 – 2023"
     title: "Research Assistant Professor"
     subtitle: " "
     category: "school"
 
   - place: "Information Technology University"
-    time: "2021"
-    title: "Associate Professor - got promoted"
-    subtitle: " "
-    category: "work"
-
-  - place: "Information Technology University"
-    time: "2014 - 2026"
+    time: "2014 – 2026"
     title: "Assistant / Associate Professor"
-    subtitle: "Theory Group <br/> Chairperson, Department of Computer Science (until 2025)"
+    subtitle: "Theory Group · Chairperson, Department of Computer Science (2021–2025)"
     category: "work"
 
   - place: "Bloomberg L.P."
@@ -36,7 +30,19 @@ experiences:
     category: "school"
 
   - place: "Rutgers University"
-    time: "2007 - 2014"
+    time: "2010 – 2014"
     title: "Ph.D. Student"
-    subtitle: "Division of Computer Science <br/> Fulbright Scholarship <br/> Rutgers Honors Fellow 2011-12"
+    subtitle: "Division of Computer Science · Fulbright Scholarship · Rutgers Honors Fellow 2011–12"
+    category: "school"
+
+  - place: "LUMS"
+    time: "Summer 2010"
+    title: "Research Assistant"
+    subtitle: "Discrete &amp; Computational Geometry · hosted by Prof. Nabil Mustafa"
+    category: "school"
+
+  - place: "Rutgers University"
+    time: "2008 – 2010"
+    title: "M.S. Student"
+    subtitle: "Division of Computer Science · Fulbright Scholarship"
     category: "school"
