@@ -302,45 +302,70 @@ main { background: var(--surface); }
 .research-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.4rem;
 }
 
 .research-card {
-  background: var(--bg);
+  background: var(--surface);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--blue);
-  border-radius: var(--radius);
-  padding: 1.25rem 1.4rem 1.25rem 1.4rem;
-  position: relative;
+  border-radius: 12px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.research-card-icon {
-  position: absolute;
-  top: 0.85rem;
-  right: 0.9rem;
-  width: 72px;
-  height: 52px;
-  opacity: 0.55;
-  pointer-events: none;
+.research-card:hover {
+  box-shadow: 0 8px 28px rgba(15,32,68,0.09);
+  transform: translateY(-2px);
+}
+
+.research-card-fig {
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.fig-gml  { background: linear-gradient(135deg, #eef3ff 0%, #dde6ff 100%); }
+.fig-mas  { background: linear-gradient(135deg, #fff4f3 0%, #ffe4e2 100%); }
+.fig-ctrl { background: linear-gradient(135deg, #eefaff 0%, #d8f0ff 100%); }
+.fig-geom { background: linear-gradient(135deg, #f2fcf6 0%, #e0f7eb 100%); }
+
+.research-card-body {
+  padding: 1.1rem 1.3rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.research-card-label {
+  font-size: 0.67rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--muted);
+  margin-bottom: 0.28rem;
 }
 
 .research-card h3 {
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
   color: var(--navy);
-  margin-bottom: 0.4rem;
-  padding-right: 80px;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
 }
 
 .research-card p {
-  font-size: 0.835rem;
+  font-size: 0.845rem;
   color: var(--muted);
-  line-height: 1.55;
+  line-height: 1.6;
+  flex: 1;
 }
 
 .research-card-links {
-  margin-top: 0.75rem;
+  margin-top: 0.85rem;
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
@@ -809,9 +834,6 @@ main { background: var(--surface); }
   .paper-card-grid {
     grid-template-columns: 1fr;
   }
-
-  .research-card h3 { padding-right: 0; }
-  .research-card-icon { display: none; }
 
   .channel-grid {
     grid-template-columns: 1fr;
