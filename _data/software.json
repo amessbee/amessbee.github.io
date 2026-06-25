@@ -2,7 +2,7 @@
   {
     "name": "Goldex — Coin Extractor",
     "url": "https://amessbee.github.io/goldex/",
-    "desc": "Playable 2D/3D game that visualizes the extractor model underlying distance-based bounds on strong structural controllability. Move horizontal and vertical extractors across a coin grid — the mechanics mirror the combinatorial structure from <a href=\"https://ieeexplore.ieee.org/abstract/document/9738436\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation()\">the research paper</a>. 3D mode adds a third extractor sweeping transparent planes through a volume.",
+    "desc": "Playable 2D/3D game visualizing the extractor model behind distance-based bounds on strong structural controllability. Move horizontal and vertical extractors across a coin grid — mechanics that directly mirror the combinatorial structure of the research.",
     "tags": [
       { "text": "React",          "cls": "tag-blue" },
       { "text": "Vite",           "cls": "tag-gray" },
