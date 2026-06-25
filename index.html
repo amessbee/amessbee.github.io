@@ -1,229 +1,401 @@
 ---
 layout: mohdefault
-title: Personal Webpage
+title: Home
 ---
 
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
+<!-- ═══════════════════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════════════════════ -->
+<section class="section" id="about">
+  <div class="section-eyebrow">About</div>
+  <h2 class="section-title">Bio</h2>
 
-<div class="row">
+  <div class="about-grid">
+    <div class="bio-text">
+      <p>
+        I am an Associate Professor in the
+        <a href="https://sbasse.lums.edu.pk/department-of-computer-science" target="_blank" rel="noopener">Department of Computer Science</a>
+        at the Lahore University of Management Sciences (LUMS), Pakistan.
+      </p>
+      <p>
+        I earned my Ph.D. from Rutgers University (2014), where I was a Fulbright Scholar and Rutgers Honors Fellow.
+        Before joining LUMS in 2026 I spent twelve years at the Information Technology University (ITU), Lahore —
+        first as Assistant Professor, then as Associate Professor and Chairperson of the CS Department — and held
+        a concurrent appointment as Research Assistant Professor at Vanderbilt University.
+        I have also worked at Los Alamos National Laboratory and Bloomberg L.P.
+      </p>
+      <p>
+        My research sits at the intersection of
+        <strong>graph machine learning</strong>, <strong>network science</strong>, and
+        <strong>discrete geometry</strong>. A common thread is using combinatorial and
+        geometric structure — zero forcing, centerpoints, PMI sequences — to reason about
+        resilience, controllability, and representation in networks.
+      </p>
+    </div>
 
-<div class="col-left-1">
+    <aside class="sidebar-block">
+      <div class="sidebar-heading">Recent</div>
+      <ul class="news-list">
+        <li>Joined LUMS as Associate Professor <span class="news-year">2026</span></li>
+        <li>NeuroGraph benchmark published at NeurIPS <span class="news-year">2023</span></li>
+        <li>SEMOUR Urdu speech dataset at CHI <span class="news-year">2021</span></li>
+        <li>Byzantine-resilient distributed learning in IEEE T-RO <span class="news-year">2022</span></li>
+      </ul>
+    </aside>
+  </div>
+</section>
 
-  <h4>Bio</h4>
-  <p>{{ site.data.main_info.bio }}</p>
-</div>
-<div class="col-right-1">
-  <h4>Recent</h4>
- <font size=2px>
- <ul class="listType">
-  <li>Joined Lums as Associate Professor[2026]</li>
- </ul>
- </font>
-</div>
 
-</div>
-</div>
+<!-- ═══════════════════════════════════════════════════════════
+     RESEARCH
+══════════════════════════════════════════════════════════════ -->
+<section class="section" id="research">
+  <div class="section-eyebrow">Research</div>
+  <h2 class="section-title">Research Areas</h2>
 
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <div class="research-grid">
+    <div class="research-card">
+      <h3>Graph Machine Learning</h3>
+      <p>
+        Graph neural networks for combinatorial optimization (minimum dominating set, minimum
+        vertex cover), code vulnerability detection, and brain connectomics.
+        Our NeuroGraph benchmark provides 35 graph datasets spanning behavioral and cognitive
+        traits for reproducible research in neuroimaging.
+      </p>
+    </div>
 
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>‡</sup> indicates equal contribution.
+    <div class="research-card">
+      <h3>Resilient Multi-Agent Systems</h3>
+      <p>
+        Byzantine-resilient consensus and distributed learning using the centerpoint theorem.
+        Applications include multi-robot pursuit, distributed SGD under adversarial attacks,
+        GNN-based flocking control, and resilient multi-agent reinforcement learning.
+      </p>
+    </div>
+
+    <div class="research-card">
+      <h3>Network Controllability &amp; Robustness</h3>
+      <p>
+        Strong structural controllability via zero forcing sets and distance-based bounds,
+        with algorithms for leader selection and edge augmentation. Also: PMI sequences
+        and their tight combinatorial bounds with applications to network controllability.
+      </p>
+    </div>
+
+    <div class="research-card">
+      <h3>Discrete &amp; Computational Geometry</h3>
+      <p>
+        Centerpoint theorem, ray-shooting depth, and k-centerpoint conjectures in ℝ<sup>d</sup>.
+        Affine-invariant statistical depth measures and their algorithms.
+        PhD thesis: hitting sets in convex ranges and computational geometry results
+        from Rutgers (Fulbright, 2014).
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SOFTWARE
+══════════════════════════════════════════════════════════════ -->
+<section class="section" id="software">
+  <div class="section-eyebrow">Open Source</div>
+  <h2 class="section-title">Software Projects</h2>
+
+  <div class="card-grid">
+
+    <a class="card" href="https://amessbee.github.io/speak/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-name">Speak</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <p class="card-desc">
+        Native macOS presentation app. Compose PDFs, videos, and images into a single
+        plan with per-slide hotkeys for branching, live pen/highlighter drawing overlay,
+        and fullscreen HUD. Built entirely on Apple frameworks — no dependencies.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-blue">Swift</span>
+        <span class="tag tag-blue">SwiftUI</span>
+        <span class="tag tag-gray">PDFKit</span>
+        <span class="tag tag-gray">AVKit</span>
+        <span class="tag tag-gray">macOS 14+</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/lame/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-name">Lame</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <p class="card-desc">
+        macOS app for browsing and deleting photos and videos from USB-connected phones.
+        iPhones via ImageCaptureCore; Android via libmtp with an ADB fallback for
+        Samsung Galaxy devices. Thumbnail grid, bulk deletion, sorting and filtering.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-blue">Swift</span>
+        <span class="tag tag-blue">SwiftUI</span>
+        <span class="tag tag-gray">ImageCaptureCore</span>
+        <span class="tag tag-gray">libmtp</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/pdfutil/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-name">PDF Util</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <p class="card-desc">
+        Desktop PDF page-management app. Drag-and-drop reordering, extraction, deletion,
+        insertion from another PDF, rotation, and full-resolution page preview.
+        Undo/redo for all operations. Cross-platform via Electron.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-blue">TypeScript</span>
+        <span class="tag tag-blue">React</span>
+        <span class="tag tag-gray">Electron</span>
+        <span class="tag tag-gray">pdf-lib</span>
+        <span class="tag tag-gray">dnd-kit</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/timer/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-name">Exam Timer</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <p class="card-desc">
+        Full-featured countdown timer for exam halls. Preset durations, custom time entry,
+        add-5-minutes button, editable title, light/dark theme, animation controls,
+        fullscreen mode, and state persistence across refreshes.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-blue">React</span>
+        <span class="tag tag-gray">JavaScript</span>
+        <span class="tag tag-green">Live Demo</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/crowdFunding/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-name">CrowdFunding DApp</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <p class="card-desc">
+        Fully decentralized crowdfunding platform on Ethereum. Community members propose
+        projects, vote, execute approved proposals, and contribute funds — all through
+        auditable smart contracts with a React frontend.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-blue">Solidity</span>
+        <span class="tag tag-blue">React</span>
+        <span class="tag tag-gray">Hardhat</span>
+        <span class="tag tag-amber">Ethereum</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/pwc/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-name">PakWheels Browser</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <p class="card-desc">
+        Concurrent scraper + local web app for PakWheels used car listings.
+        Scrapes 70 000+ listings with checkpointing and resume; Flask frontend with
+        full-text search, city/make/year filters, and multi-column sorting.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-blue">Python</span>
+        <span class="tag tag-gray">Flask</span>
+        <span class="tag tag-gray">BeautifulSoup</span>
+        <span class="tag tag-gray">pandas</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     TEACHING
+══════════════════════════════════════════════════════════════ -->
+<section class="section" id="teaching">
+  <div class="section-eyebrow">Teaching</div>
+  <h2 class="section-title">Courses</h2>
+
+  <div class="card-grid">
+
+    <a class="card" href="https://amessbee.github.io/310S26/" target="_blank" rel="noopener">
+      <span class="card-badge badge-algo">Algorithms</span>
+      <div class="card-top">
+        <span class="card-name">CS310 / CS5102</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <div class="card-semester">Spring 2026 &middot; LUMS</div>
+      <p class="card-desc">
+        Undergraduate and graduate algorithms: asymptotic analysis, divide-and-conquer,
+        graph algorithms, dynamic programming, NP-completeness, and randomized algorithms.
+        Course website with lecture notes, schedule, and announcements.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-gray">Live Course Site</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/algorithmsS25/" target="_blank" rel="noopener">
+      <span class="card-badge badge-algo">Algorithms</span>
+      <div class="card-top">
+        <span class="card-name">CS310 / CS5102</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <div class="card-semester">Spring 2025 &middot; ITU</div>
+      <p class="card-desc">
+        27 lectures of notes (LaTeX + compiled PDFs) covering MST, BFS/DFS,
+        articulation points, network flow, dynamic programming, string matching,
+        and more. Python implementations of Kruskal's, Prim's, and topological sort.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-gray">Lecture Notes + Code</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/if26/" target="_blank" rel="noopener">
+      <span class="card-badge badge-discrete">Discrete Math</span>
+      <div class="card-top">
+        <span class="card-name">Discrete Structures</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <div class="card-semester">Fall 2026 &middot; LUMS</div>
+      <p class="card-desc">
+        Course website for Discrete Structures with syllabus, weekly schedule,
+        lecture notes, worksheets, and homework. Data-driven single-page site
+        that updates automatically when JSON files are edited.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-gray">Live Course Site</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://amessbee.github.io/rise/" target="_blank" rel="noopener">
+      <span class="card-badge badge-research">Research Internship</span>
+      <div class="card-top">
+        <span class="card-name">RISE Program</span>
+        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
+      </div>
+      <div class="card-semester">Summer 2025 &middot; LUMS</div>
+      <p class="card-desc">
+        Four-week mathematics research program for A-level students (ages 16–18).
+        Topics: graph theory, zero forcing and network controllability, Erdős–Szekeres,
+        and the centerpoint theorem — active open problems, accessible with no
+        university background.
+      </p>
+      <div class="tag-row">
+        <span class="tag tag-gray">Interactive Demos</span>
+        <span class="tag tag-gray">Colab Notebooks</span>
+        <span class="tag tag-gray">Handouts</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     PUBLICATIONS
+══════════════════════════════════════════════════════════════ -->
+<section class="section" id="publications">
+  <div class="section-eyebrow">Research Output</div>
+  <h2 class="section-title">Publications</h2>
+
+  <p class="scholar-note">
+    Full list on
+    <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.
   </p>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-	<ul class="listType">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper" >
-        <li><span class="title"><b>{{ paper.title }}</b></span>          
-          <p class="authorList">{{ paper.authors }}</p>
-          <p class="venuName"><b> {{ paper.venue }}</b> </p>
-		<p class="venuName"> {{ paper.abstract }} </p>
-			<font color="blue">
-			{% if paper.paper_pdf %}
-              [<a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }} " target="_blank" style="text-decoration: none">Paper</a>]
-            {% endif %}
-			{% if paper.page %}
-              [<a class="notbutton" href="{{ paper.page | prepend: site.baseurl }}" target="_blank">Project Page</a>]
-            {% endif %}
-			{% if paper.slides %}
-             [ <a class="notbutton" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>]
-            {% endif %}
-
-            {% if paper.poster %}
-              [<a class="notbutton" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>]
-            {% endif %}
-
-            {% if paper.video %}
-              [<a class="notbutton" href="{{ paper.video }}" target="_blank">Video</a>]
-            {% endif %}
-
-            {% if paper.code %}
-              [<a class="notbutton" href="{{ paper.code }}" target="_blank">Code</a>]
-            {% endif %}
-			{% if paper.dataset %}
-              [<a class="notbutton" href="{{ paper.dataset }}" target="_blank">Dataset</a>]
-            {% endif %}
-			</font>
-		  </li>
-        </div>
-      {% endfor %}
-	  </ul>
-    </div>
-		  
-	     <div class="tab-pane" id="papers-all">
-		<ul class="listType">
-		      {% for paper in site.data.publications.papers %}
-        <div class="paper" >
-        <li><span class="title"><b>{{ paper.title }}</b></span>          
-          <p class="authorList">{{ paper.authors }}</p>
-          <p class="venuName"> {{ paper.venue }} </p>
-			<font color="blue">
-			{% if paper.paper_pdf %}
-              [<a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }} " target="_blank" style="text-decoration: none">Paper</a>]
-            {% endif %}
-			{% if paper.page %}
-              [<a class="notbutton" href="{{ paper.page | prepend: site.baseurl }}" target="_blank">Project Page</a>]
-            {% endif %}
-			{% if paper.slides %}
-             [ <a class="notbutton" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>]
-            {% endif %}
-
-            {% if paper.poster %}
-              [<a class="notbutton" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>]
-            {% endif %}
-
-            {% if paper.video %}
-              [<a class="notbutton" href="{{ paper.video }}" target="_blank">Video</a>]
-            {% endif %}
-
-            {% if paper.code %}
-              [<a class="notbutton" href="{{ paper.code }}" target="_blank">Code</a>]
-            {% endif %}
-			{% if paper.dataset %}
-              [<a class="notbutton" href="{{ paper.dataset }}" target="_blank">Dataset</a>]
-            {% endif %}
-			
-			</font>
- 		  </li>
-        </div>
-      {% endfor %}
-	  </ul>
-    </div>
-  </div>
-</div>
-
-<!-- ========== PROJECTS ========== -->
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+  <div class="pub-tabs">
+    <button class="pub-tab active" data-target="pub-selected">Selected</button>
+    <button class="pub-tab" data-target="pub-all">All</button>
   </div>
 
-</div>
+  <div id="pub-selected" class="pub-pane active">
+    <ul class="pub-list">
+      {% assign selected = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected %}
+      <li class="pub-item">
+        <div class="pub-title">{{ paper.title }}</div>
+        <div class="pub-authors">{{ paper.authors }}</div>
+        <div class="pub-venue">{{ paper.venue }}</div>
+        {% if paper.abstract and paper.abstract != '' %}
+        <div class="pub-abstract">{{ paper.abstract }}</div>
+        {% endif %}
+        <div class="pub-links">
+          {% if paper.paper_url %}
+          <a class="pub-link" href="{{ paper.paper_url }}" target="_blank" rel="noopener">Paper</a>
+          {% endif %}
+          {% if paper.paper_pdf %}
+          <a class="pub-link" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" rel="noopener">PDF</a>
+          {% endif %}
+          {% if paper.slides %}
+          <a class="pub-link" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" rel="noopener">Slides</a>
+          {% endif %}
+          {% if paper.code %}
+          <a class="pub-link" href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Vitæ</h4>
+  <div id="pub-all" class="pub-pane">
+    <ul class="pub-list">
+      {% for paper in site.data.publications.papers %}
+      <li class="pub-item">
+        <div class="pub-title">{{ paper.title }}</div>
+        <div class="pub-authors">{{ paper.authors }}</div>
+        <div class="pub-venue">{{ paper.venue }}</div>
+        <div class="pub-links">
+          {% if paper.paper_url %}
+          <a class="pub-link" href="{{ paper.paper_url }}" target="_blank" rel="noopener">Paper</a>
+          {% endif %}
+          {% if paper.paper_pdf %}
+          <a class="pub-link" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" rel="noopener">PDF</a>
+          {% endif %}
+          {% if paper.slides %}
+          <a class="pub-link" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" rel="noopener">Slides</a>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
-  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
-  <!-- The Timeline -->
-  <ul class="timeline">
+<!-- ═══════════════════════════════════════════════════════════
+     CV
+══════════════════════════════════════════════════════════════ -->
+<section class="section" id="cv">
+  <div class="section-eyebrow">Curriculum Vitae</div>
+  <h2 class="section-title">Experience</h2>
+
+  <div class="cv-top">
+    <a class="cv-pdf-link" href="{{ '/assets/cv/cv_web.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener">
+      <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Full CV (PDF)
+    </a>
+  </div>
+
+  <ul class="cv-timeline">
     {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-      {% else %}
-      <div class="direction-r">
+    <li class="cv-item {% if exp.category == 'work' %}work{% endif %}">
+      <div class="cv-period">{{ exp.time }}</div>
+      <div class="cv-place">{{ exp.place }}</div>
+      <div class="cv-role">{{ exp.title }}</div>
+      {% if exp.subtitle and exp.subtitle != ' ' %}
+      <div class="cv-sub">{{ exp.subtitle }}</div>
       {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
-      </div>
     </li>
     {% endfor %}
   </ul>
-</div>
-
-
-<div class="docs-section" id="template">
-    <h4>Website Design</h4>
-	This website is built using Martin Saveski's open-source <a href="https://github.com/msaveski/www_personal" target="_blank">personal website template</a>.
-</div>
+</section>

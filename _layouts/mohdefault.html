@@ -1,144 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="{{ site.data.main_info.name }} - Homepage">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.data.main_info.name }}</title>
+  <meta name="description" content="{{ site.data.main_info.name }} — Computer Science, LUMS">
   <meta name="author" content="{{ site.data.main_info.name }}">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <!-- Icons -->
+  <link rel="stylesheet" href="{{ '/libs/external/font-awesome-4.7.0/css/font-awesome.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/libs/external/academicons-1.8.6/css/academicons.min.css' | prepend: site.baseurl }}">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/skeleton/normalize.css" | prepend: site.baseurl }}>
-  <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
-  <link rel="stylesheet" href={{ "/libs/custom/moh_css.css" | prepend: site.baseurl }}>
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="{{ '/libs/custom/moh_css.css' | prepend: site.baseurl }}">
 
-  <!-- JQuery
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ '/libs/icon.png' | prepend: site.baseurl }}">
 
-  <!-- Font-Awesome
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}>
-
-  <!-- Academicons
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}>
-
-  <!-- Skeleton tabs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
-  <script src={{ "/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl }}></script>
-
-  <!-- Timeline
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--<link rel="stylesheet" href={{ "/libs/external/github-prettify-theme.css" | prepend: site.baseurl }}>-->
-  <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
-  <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
-
+  {% include google_analytics.html %}
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <!-- ── Sticky Navigation ──────────────────────────────────── -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-name" href="{{ site.baseurl }}/">Mudassir Shabbir</a>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#software">Software</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">CV</a>
+      </nav>
+    </div>
+  </header>
 
-    <section class="header">
-      <div class="row">
-        <div class="three columns">
-          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
-        </div>
-        <div class="nine columns main-description">
-            <h1>{{ site.data.main_info.name }}</h1>
-            <p>{{ site.data.main_info.title }}</p>
-			<p> <a href="{{ site.data.main_info.lab_link }}" target="_blank">{{ site.data.main_info.lab }}</a></p>
-			<p>{{ site.data.main_info.email }}</p>
-            <p>
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
-            </p>
-        </div>
+  <!-- ── Hero ──────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-photo">
+        <span class="hero-initials">MS</span>
+        <img src="{{ site.baseurl }}{{ site.data.main_info.profile_pic }}"
+             alt="{{ site.data.main_info.name }}"
+             onerror="this.style.display='none'">
       </div>
-    </section>
-
-    <div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
-		  <li class="navbar-item"><a class="navbar-link" href={{ "http://tg.itu.edu.pk/"}} target="_blank" >Theory Group</a></li>
-		  
-        </ul>
-      </div>
-    </nav>
-
-    {{ content}}
-
-    <div class="footer">
-      <div class="row">
-        <div class="four columns">
-          {{ site.data.main_info.name }}
-        </div>
-        <div class="four columns">
-          {{ site.data.main_info.email }}
-        </div>
-        <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+      <div class="hero-text">
+        <h1>{{ site.data.main_info.name }}</h1>
+        <p class="hero-role">{{ site.data.main_info.title }}</p>
+        <p class="hero-tagline">Graph theory &middot; Discrete geometry &middot; Network science</p>
+        <div class="hero-links">
+          <a href="mailto:mudassir.shabbir@lums.edu.pk" title="Email">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+          {% if site.data.main_info.linkedin %}
+          <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener" title="LinkedIn">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          {% endif %}
+          {% if site.data.main_info.github %}
+          <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener" title="GitHub">
             <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-          </span>
+          </a>
+          {% endif %}
+          {% if site.data.main_info.google_scholar %}
+          <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener" title="Google Scholar">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </a>
+          {% endif %}
         </div>
       </div>
     </div>
+  </section>
 
-  </div>
+  <!-- ── Page Content ──────────────────────────────────────── -->
+  <main>
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
 
-  <!-- Google Analytics -->
-  {% include google_analytics.html %}
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container">
+      <span>{{ site.data.main_info.name }} &mdash; LUMS, Lahore</span>
+      <div class="footer-links">
+        <a href="mailto:mudassir.shabbir@lums.edu.pk" title="Email"><i class="fa fa-envelope"></i></a>
+        {% if site.data.main_info.linkedin %}
+        <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+        {% endif %}
+        {% if site.data.main_info.github %}
+        <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener" title="GitHub"><i class="fa fa-github"></i></a>
+        {% endif %}
+        {% if site.data.main_info.google_scholar %}
+        <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        {% endif %}
+      </div>
+    </div>
+  </footer>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- ── Publication tab switcher ──────────────────────────── -->
+  <script>
+    document.querySelectorAll('.pub-tab').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var target = this.dataset.target;
+        document.querySelectorAll('.pub-tab').forEach(function(b) { b.classList.remove('active'); });
+        document.querySelectorAll('.pub-pane').forEach(function(p) { p.classList.remove('active'); });
+        this.classList.add('active');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+
+    // Smooth scroll with header offset
+    document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        var id = this.getAttribute('href').slice(1);
+        var el = document.getElementById(id);
+        if (el) {
+          e.preventDefault();
+          var top = el.getBoundingClientRect().top + window.pageYOffset - 64;
+          window.scrollTo({ top: top, behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>
