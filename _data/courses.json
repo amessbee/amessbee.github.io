@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CS310 / CS5102",
+    "url": "https://amessbee.github.io/310S26/",
+    "badge": "Algorithms",
+    "badge_class": "badge-algo",
+    "semester": "Spring 2026 · LUMS",
+    "desc": "Undergraduate and graduate algorithms: asymptotic analysis, divide-and-conquer, graph algorithms, dynamic programming, NP-completeness, and randomized algorithms. Course website with lecture notes, schedule, and announcements.",
+    "tags": [{ "text": "Live Course Site", "cls": "tag-gray" }]
+  },
+  {
+    "name": "CS310 / CS5102",
+    "url": "https://amessbee.github.io/algorithmsS25/",
+    "badge": "Algorithms",
+    "badge_class": "badge-algo",
+    "semester": "Spring 2025 · ITU",
+    "desc": "27 lectures of notes (LaTeX + compiled PDFs) covering MST, BFS/DFS, articulation points, network flow, dynamic programming, string matching, and more. Python implementations of Kruskal's, Prim's, and topological sort.",
+    "tags": [{ "text": "Lecture Notes + Code", "cls": "tag-gray" }]
+  },
+  {
+    "name": "Discrete Structures",
+    "url": "https://amessbee.github.io/if26/",
+    "badge": "Discrete Math",
+    "badge_class": "badge-discrete",
+    "semester": "Fall 2026 · LUMS",
+    "desc": "Course website for Discrete Structures with syllabus, weekly schedule, lecture notes, worksheets, and homework. Data-driven single-page site that updates automatically when JSON files are edited.",
+    "tags": [{ "text": "Live Course Site", "cls": "tag-gray" }]
+  },
+  {
+    "name": "RISE Program",
+    "url": "https://amessbee.github.io/rise/",
+    "badge": "Research Internship",
+    "badge_class": "badge-research",
+    "semester": "Summer 2025 · LUMS",
+    "desc": "Four-week mathematics research program for A-level students (ages 16–18). Topics: graph theory, zero forcing and network controllability, Erdős–Szekeres, and the centerpoint theorem — active open problems, accessible with no university background.",
+    "tags": [
+      { "text": "Interactive Demos",  "cls": "tag-gray" },
+      { "text": "Colab Notebooks",    "cls": "tag-gray" },
+      { "text": "Handouts",           "cls": "tag-gray" }
+    ]
+  }
+]

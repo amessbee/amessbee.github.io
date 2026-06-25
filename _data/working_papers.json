@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cospectral",
+    "url": "https://amessbee.github.io/Graph-Distinguishability---Journal/",
+    "topic": "Spectral Graph Theory",
+    "title": "On the Number of Generalized Cospectral Mates of Graphs",
+    "authors": "M. Raza · O. U. Ahmad · <strong>M. Shabbir</strong> · W. Abbas &nbsp;·&nbsp; LUMS &amp; UT Dallas",
+    "desc": "Upper bound on cospectral multiplicity via the Smith Normal Form of the walk matrix — a quantitative arithmetic criterion extending beyond binary DGS classification.",
+    "status": "Under Review",
+    "status_class": "status-review"
+  },
+  {
+    "id": "pmi",
+    "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/",
+    "topic": "Discrete Mathematics · Combinatorics",
+    "title": "PMI Sequence — An Erdős-Szekeres Type Result",
+    "authors": "<strong>M. Shabbir</strong> &nbsp;·&nbsp; LUMS",
+    "desc": "Tight asymptotic bounds Θ((d!·n)<sup>1/d</sup>) on the longest pairwise monotone increasing sequence in n-point subsets of ℤ<sub>≥0</sub><sup>d</sup>.",
+    "status": "In Preparation",
+    "status_class": "status-prep"
+  },
+  {
+    "id": "rings",
+    "url": "https://amessbee.github.io/Rings_Distinguishability/",
+    "topic": "Spectral Graph Theory · Ring Theory",
+    "title": "Cospectral Mates — Ring-Theoretic Extension",
+    "authors": "M. Raza · O. U. Ahmad · <strong>M. Shabbir</strong> · W. Abbas",
+    "desc": "Ring-theoretic view of walk-matrix arithmetic constraints. The elementary divisors of W(G) over ℤ control the multiplicity of generalized cospectral mates.",
+    "status": "Working Paper",
+    "status_class": "status-working"
+  },
+  {
+    "id": "reconstruct",
+    "url": "https://amessbee.github.io/reconstruct/",
+    "topic": "Graph Theory · Reconstruction",
+    "title": "Reconstructability vs. Godsil-McKay Switching",
+    "authors": "<strong>M. Shabbir</strong> &nbsp;·&nbsp; LUMS",
+    "desc": "Can Godsil-McKay switching produce reconstruction counterexamples? Partial result: degree-altering switchings are always deck-distinguishable.",
+    "status": "Working Note",
+    "status_class": "status-working"
+  }
+]

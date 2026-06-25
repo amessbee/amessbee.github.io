@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gml",
+    "fig_class": "fig-gml",
+    "label": "Machine Learning on Graphs",
+    "title": "Graph Machine Learning",
+    "desc": "Graph neural networks for combinatorial optimization (minimum dominating set, minimum vertex cover), code vulnerability detection, and brain connectomics. The NeuroGraph benchmark provides 35 graph datasets spanning behavioral and cognitive traits for reproducible research in neuroimaging."
+  },
+  {
+    "id": "mas",
+    "fig_class": "fig-mas",
+    "label": "Distributed Systems · Fault Tolerance",
+    "title": "Resilient Multi-Agent Systems",
+    "desc": "Byzantine-resilient consensus and distributed learning using the centerpoint theorem. Applications include multi-robot pursuit, distributed SGD under adversarial attacks, GNN-based flocking control, and resilient multi-agent reinforcement learning."
+  },
+  {
+    "id": "ctrl",
+    "fig_class": "fig-ctrl",
+    "label": "Control Theory · Combinatorics",
+    "title": "Network Controllability &amp; Robustness",
+    "desc": "Strong structural controllability via zero forcing sets and distance-based bounds, with algorithms for leader selection and edge augmentation. PMI sequences and their tight bounds connect discrete geometry to network controllability.",
+    "links": [
+      { "text": "PMI Sequences paper", "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/" },
+      { "text": "PMI algorithm",       "url": "https://amessbee.github.io/pmialgo/" }
+    ]
+  },
+  {
+    "id": "geom",
+    "fig_class": "fig-geom",
+    "label": "Computational Geometry · Algorithms",
+    "title": "Discrete &amp; Computational Geometry",
+    "desc": "Centerpoint theorem, ray-shooting depth, and k-centerpoint conjectures in ℝ<sup>d</sup>. Affine-invariant statistical depth measures and their algorithms. PhD thesis: hitting sets in convex ranges from Rutgers (Fulbright, 2014)."
+  }
+]

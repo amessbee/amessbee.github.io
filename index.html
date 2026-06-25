@@ -11,49 +11,14 @@ title: Home
   <h2 class="section-title">Bio</h2>
 
   <div class="about-grid">
-    <div class="bio-text">
-      <p>
-        I am an Associate Professor in the
-        <a href="https://sbasse.lums.edu.pk/department-of-computer-science" target="_blank" rel="noopener">Department of Computer Science</a>
-        at the Lahore University of Management Sciences (LUMS), Pakistan.
-      </p>
-      <p>
-        I earned my Ph.D. from Rutgers University (2014), where I was a Fulbright Scholar and Rutgers Honors Fellow.
-        Before joining LUMS in 2026 I spent twelve years at the Information Technology University (ITU), Lahore —
-        first as Assistant Professor, then as Associate Professor and Chairperson of the CS Department — and held
-        a concurrent appointment as Research Assistant Professor at Vanderbilt University.
-        I have also worked at Los Alamos National Laboratory and Bloomberg L.P.
-      </p>
-      <p>
-        My research sits at the intersection of
-        <strong>graph machine learning</strong>, <strong>network science</strong>, and
-        <strong>discrete geometry</strong>. A common thread is using combinatorial and
-        geometric structure — zero forcing, centerpoints, PMI sequences — to reason about
-        resilience, controllability, and representation in networks.
-      </p>
-    </div>
+    {% include sections/bio.html %}
 
     <aside class="sidebar-block">
       <div class="sidebar-heading">Recent</div>
       <ul class="news-list">
-        <li>Teaching <a href="https://amessbee.github.io/if26/">CS210 Discrete Math</a> at LUMS, Fall 2026 <span class="news-year">Fall 2026</span></li>
-        <li>Hosting <a href="https://amessbee.github.io/rise/">RISE</a> research interns, Summer 2026 <span class="news-year">Summer 2026</span></li>
-        <li>
-          <a href="https://www.sciencedirect.com/science/article/pii/S0005109826003225" target="_blank" rel="noopener">Controllability Backbone in Multiagent Networks</a> accepted in <em>Automatica</em>
-          <span class="news-year">2026</span>
-        </li>
-        <li>
-          <a href="https://amessbee.github.io/Graph-Distinguishability---Journal/" target="_blank" rel="noopener">Graph Distinguishability</a> accepted in <em>Linear Algebra and its Applications</em>
-          <span class="news-year">2026</span>
-        </li>
-        <li>Teaching <a href="https://amessbee.github.io/algorithmsS25/">CS310 Algorithms</a> at LUMS, Spring 2026 <span class="news-year">Spring 2026</span></li>
-        <li>Joined LUMS as Associate Professor <span class="news-year">Jan 2026</span></li>
-        <li>New preprint: <a href="https://arxiv.org/abs/2601.07373" target="_blank" rel="noopener">On the Enumeration of Generalized Cospectral Mates</a> <span class="news-year">Jan 2026</span></li>
-        <li>New preprint: <a href="https://arxiv.org/abs/2507.06927" target="_blank" rel="noopener">Walk Matrix Upper Bounds on Cospectral Mates</a> <span class="news-year">Jul 2025</span></li>
-        <li><a href="https://ieeexplore.ieee.org/document/9738436" target="_blank" rel="noopener">Feature Construction via Network Control Theory</a> in <em>IEEE Open Journal of Control Systems</em> <span class="news-year">2025</span></li>
-        <li>Control-based Conditions for Graph Distinguishability at <em>CT 2025</em> (SIAM) <span class="news-year">2025</span></li>
-        <li>Resilient Distributed Learning in Multi-UAV Systems in <em>Smarter Cyber Physical Systems</em> <span class="news-year">2025</span></li>
-        <li>New preprint: <a href="https://arxiv.org/abs/2502.17713" target="_blank" rel="noopener">Learning Backbones via Zero Forcing for Graph ML</a> <span class="news-year">Feb 2025</span></li>
+        {% for item in site.data.news %}
+        <li>{{ item.text }} <span class="news-year">{{ item.year }}</span></li>
+        {% endfor %}
       </ul>
     </aside>
   </div>
@@ -68,368 +33,54 @@ title: Home
   <h2 class="section-title">Research Areas</h2>
 
   <div class="research-grid">
-
-    <!-- ── Graph Machine Learning ── -->
+    {% for area in site.data.research_areas %}
     <div class="research-card">
-      <div class="research-card-fig fig-gml">
-        <svg viewBox="0 0 210 100" fill="none" aria-hidden="true">
-          <!-- Input nodes -->
-          <circle cx="28" cy="22" r="9" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1.5"/>
-          <circle cx="28" cy="50" r="9" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1.5"/>
-          <circle cx="28" cy="78" r="9" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1.5"/>
-          <!-- Hidden nodes -->
-          <circle cx="105" cy="34" r="11" fill="#2563eb"/>
-          <circle cx="105" cy="66" r="11" fill="#1d4ed8"/>
-          <!-- Output node -->
-          <circle cx="182" cy="50" r="13" fill="#0f2044"/>
-          <!-- Edges input → hidden -->
-          <line x1="37" y1="22" x2="94"  y2="34" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="37" y1="50" x2="94"  y2="34" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="37" y1="78" x2="94"  y2="34" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="37" y1="22" x2="94"  y2="66" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="37" y1="50" x2="94"  y2="66" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="37" y1="78" x2="94"  y2="66" stroke="#93c5fd" stroke-width="1.3"/>
-          <!-- Edges hidden → output -->
-          <line x1="116" y1="34" x2="169" y2="50" stroke="#6ea8fe" stroke-width="1.6"/>
-          <line x1="116" y1="66" x2="169" y2="50" stroke="#6ea8fe" stroke-width="1.6"/>
-          <!-- Layer labels -->
-          <text x="28"  y="96" text-anchor="middle" font-size="7.5" fill="#94a3b8" font-family="sans-serif">features</text>
-          <text x="105" y="96" text-anchor="middle" font-size="7.5" fill="#94a3b8" font-family="sans-serif">aggregate</text>
-          <text x="182" y="96" text-anchor="middle" font-size="7.5" fill="#94a3b8" font-family="sans-serif">predict</text>
-        </svg>
+      <div class="research-card-fig {{ area.fig_class }}">
+        {% if area.id == 'gml'  %}{% include research/svg_gml.html  %}{% endif %}
+        {% if area.id == 'mas'  %}{% include research/svg_mas.html  %}{% endif %}
+        {% if area.id == 'ctrl' %}{% include research/svg_ctrl.html %}{% endif %}
+        {% if area.id == 'geom' %}{% include research/svg_geom.html %}{% endif %}
       </div>
       <div class="research-card-body">
-        <div class="research-card-label">Machine Learning on Graphs</div>
-        <h3>Graph Machine Learning</h3>
-        <p>
-          Graph neural networks for combinatorial optimization (minimum dominating set,
-          minimum vertex cover), code vulnerability detection, and brain connectomics.
-          The NeuroGraph benchmark provides 35 graph datasets spanning behavioral and
-          cognitive traits for reproducible research in neuroimaging.
-        </p>
-      </div>
-    </div>
-
-    <!-- ── Resilient Multi-Agent Systems ── -->
-    <div class="research-card">
-      <div class="research-card-fig fig-mas">
-        <svg viewBox="0 0 210 100" fill="none" aria-hidden="true">
-          <!-- Pentagon of agents centered at (88, 50), radius 38 -->
-          <!-- Positions: top (88,12), ur (124,35), lr (112,78), ll (64,78), ul (52,35) -->
-          <!-- Ring edges -->
-          <line x1="88"  y1="12" x2="124" y2="35" stroke="#fca5a5" stroke-width="1.2"/>
-          <line x1="88"  y1="12" x2="52"  y2="35" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="52"  y1="35" x2="64"  y2="78" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="64"  y1="78" x2="112" y2="78" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="112" y1="78" x2="124" y2="35" stroke="#fca5a5" stroke-width="1.2"/>
-          <!-- Cross edges -->
-          <line x1="88"  y1="12" x2="64"  y2="78" stroke="#93c5fd" stroke-width="0.8" stroke-dasharray="3 2"/>
-          <line x1="52"  y1="35" x2="112" y2="78" stroke="#93c5fd" stroke-width="0.8" stroke-dasharray="3 2"/>
-          <line x1="88"  y1="12" x2="112" y2="78" stroke="#fca5a5" stroke-width="0.8" stroke-dasharray="3 2"/>
-          <!-- Normal agents (blue) -->
-          <circle cx="88"  cy="12" r="9"  fill="#2563eb"/>
-          <circle cx="52"  cy="35" r="9"  fill="#2563eb"/>
-          <circle cx="64"  cy="78" r="9"  fill="#2563eb"/>
-          <circle cx="112" cy="78" r="9"  fill="#2563eb"/>
-          <!-- Byzantine adversary (red) -->
-          <circle cx="124" cy="35" r="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1.8"/>
-          <line x1="119" y1="30" x2="129" y2="40" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
-          <line x1="129" y1="30" x2="119" y2="40" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
-          <!-- Centerpoint label / consensus result -->
-          <circle cx="170" cy="50" r="14" fill="#fff7ed" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3 2"/>
-          <text x="170" y="47" text-anchor="middle" font-size="7" fill="#92400e" font-family="sans-serif" font-weight="700">center</text>
-          <text x="170" y="57" text-anchor="middle" font-size="7" fill="#92400e" font-family="sans-serif" font-weight="700">point</text>
-          <line x1="134" y1="40" x2="156" y2="46" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 2"/>
-          <line x1="121" y1="78" x2="157" y2="57" stroke="#60a5fa" stroke-width="1" stroke-dasharray="2 2"/>
-        </svg>
-      </div>
-      <div class="research-card-body">
-        <div class="research-card-label">Distributed Systems · Fault Tolerance</div>
-        <h3>Resilient Multi-Agent Systems</h3>
-        <p>
-          Byzantine-resilient consensus and distributed learning using the centerpoint theorem.
-          Applications include multi-robot pursuit, distributed SGD under adversarial attacks,
-          GNN-based flocking control, and resilient multi-agent reinforcement learning.
-        </p>
-      </div>
-    </div>
-
-    <!-- ── Network Controllability ── -->
-    <div class="research-card">
-      <div class="research-card-fig fig-ctrl">
-        <svg viewBox="0 0 210 100" fill="none" aria-hidden="true">
-          <!-- Zero-forcing set leaders (dark navy) -->
-          <circle cx="28" cy="32" r="10" fill="#0f2044"/>
-          <circle cx="28" cy="68" r="10" fill="#0f2044"/>
-          <!-- Layer 2 (forced by leaders) -->
-          <circle cx="90" cy="20" r="9"  fill="#2563eb"/>
-          <circle cx="90" cy="50" r="9"  fill="#2563eb"/>
-          <circle cx="90" cy="80" r="9"  fill="#2563eb"/>
-          <!-- Layer 3 (transitively forced) -->
-          <circle cx="152" cy="35" r="8" fill="#60a5fa"/>
-          <circle cx="152" cy="65" r="8" fill="#60a5fa"/>
-          <!-- Output (fully forced) -->
-          <circle cx="200" cy="50" r="7" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1.2"/>
-          <!-- Edges (directed propagation) -->
-          <line x1="38"  y1="32" x2="81"  y2="22" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="38"  y1="32" x2="81"  y2="50" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="38"  y1="68" x2="81"  y2="50" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="38"  y1="68" x2="81"  y2="80" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="99"  y1="22" x2="143" y2="35" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="99"  y1="50" x2="143" y2="35" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="99"  y1="50" x2="143" y2="65" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="99"  y1="80" x2="143" y2="65" stroke="#93c5fd" stroke-width="1.2"/>
-          <line x1="160" y1="35" x2="193" y2="48" stroke="#bfdbfe" stroke-width="1.1"/>
-          <line x1="160" y1="65" x2="193" y2="52" stroke="#bfdbfe" stroke-width="1.1"/>
-          <!-- ZFS label -->
-          <text x="28" y="96" text-anchor="middle" font-size="7.5" fill="#1e40af" font-family="sans-serif" font-weight="700">ZFS</text>
-          <text x="90" y="96" text-anchor="middle" font-size="7.5" fill="#94a3b8" font-family="sans-serif">forced</text>
-          <text x="200" y="96" text-anchor="middle" font-size="7.5" fill="#94a3b8" font-family="sans-serif">done</text>
-        </svg>
-      </div>
-      <div class="research-card-body">
-        <div class="research-card-label">Control Theory · Combinatorics</div>
-        <h3>Network Controllability &amp; Robustness</h3>
-        <p>
-          Strong structural controllability via zero forcing sets and distance-based bounds,
-          with algorithms for leader selection and edge augmentation. PMI sequences and
-          their tight bounds connect discrete geometry to network controllability.
-        </p>
+        <div class="research-card-label">{{ area.label }}</div>
+        <h3>{{ area.title }}</h3>
+        <p>{{ area.desc }}</p>
+        {% if area.links %}
         <div class="research-card-links">
-          <a href="https://amessbee.github.io/PMI-Sequence-Discrete-Math-/" target="_blank" rel="noopener">PMI Sequences paper</a>
-          <a href="https://amessbee.github.io/pmialgo/" target="_blank" rel="noopener">PMI algorithm</a>
+          {% for link in area.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>
+          {% endfor %}
         </div>
+        {% endif %}
       </div>
     </div>
-
-    <!-- ── Discrete & Computational Geometry ── -->
-    <div class="research-card">
-      <div class="research-card-fig fig-geom">
-        <svg viewBox="0 0 210 100" fill="none" aria-hidden="true">
-          <!-- Scattered point cloud -->
-          <circle cx="22"  cy="18" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="55"  cy="10" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="100" cy="8"  r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="148" cy="14" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="185" cy="25" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="18"  cy="55" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="42"  cy="82" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="80"  cy="88" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="130" cy="85" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="170" cy="78" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="195" cy="60" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="160" cy="44" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <circle cx="35"  cy="38" r="4" fill="#6ee7b7" opacity="0.8"/>
-          <!-- Halfplane dividers through centerpoint (105, 50) -->
-          <line x1="0"   y1="50" x2="210" y2="50" stroke="#34d399" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>
-          <line x1="105" y1="0"  x2="105" y2="100" stroke="#34d399" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>
-          <line x1="20"  y1="5"  x2="190" y2="95" stroke="#34d399" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.45"/>
-          <!-- Centerpoint ring + dot -->
-          <circle cx="105" cy="50" r="14" fill="#f0fdf8" stroke="#10b981" stroke-width="1.8"/>
-          <circle cx="105" cy="50" r="5"  fill="#059669"/>
-          <!-- Label -->
-          <text x="105" y="79" text-anchor="middle" font-size="7.5" fill="#065f46" font-family="sans-serif" font-weight="700">centerpoint</text>
-        </svg>
-      </div>
-      <div class="research-card-body">
-        <div class="research-card-label">Computational Geometry · Algorithms</div>
-        <h3>Discrete &amp; Computational Geometry</h3>
-        <p>
-          Centerpoint theorem, ray-shooting depth, and k-centerpoint conjectures in ℝ<sup>d</sup>.
-          Affine-invariant statistical depth measures and their algorithms.
-          PhD thesis: hitting sets in convex ranges from Rutgers (Fulbright, 2014).
-        </p>
-      </div>
-    </div>
-
+    {% endfor %}
   </div>
 
-  <!-- ── Working Papers ───────────────────────────────────────── -->
+  <!-- ── Working Papers ─────────────────────────────────────── -->
   <div class="research-papers-head"><span>Working Papers</span></div>
 
   <div class="paper-card-grid">
-
-    <a class="paper-card" href="https://amessbee.github.io/Graph-Distinguishability---Journal/" target="_blank" rel="noopener">
+    {% for paper in site.data.working_papers %}
+    <a class="paper-card" href="{{ paper.url }}" target="_blank" rel="noopener">
       <div class="paper-card-fig">
-        <!-- Two graphs G1, G2 with equal spectrum indicator -->
-        <svg viewBox="0 0 160 84" fill="none" aria-hidden="true">
-          <!-- G1: cycle C4 (square) on left -->
-          <rect x="14" y="16" width="36" height="36" rx="2" stroke="#93c5fd" stroke-width="1.2" fill="none" stroke-dasharray="none"/>
-          <circle cx="14" cy="16" r="4.5" fill="#2563eb"/>
-          <circle cx="50" cy="16" r="4.5" fill="#2563eb"/>
-          <circle cx="14" cy="52" r="4.5" fill="#2563eb"/>
-          <circle cx="50" cy="52" r="4.5" fill="#2563eb"/>
-          <line x1="14" y1="16" x2="50" y2="16" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="50" y1="16" x2="50" y2="52" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="50" y1="52" x2="14" y2="52" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="14" y1="52" x2="14" y2="16" stroke="#93c5fd" stroke-width="1.4"/>
-          <!-- G2: star K1,3 on right -->
-          <line x1="126" y1="34" x2="108" y2="14" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="126" y1="34" x2="146" y2="14" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="126" y1="34" x2="126" y2="58" stroke="#93c5fd" stroke-width="1.4"/>
-          <line x1="126" y1="34" x2="108" y2="54" stroke="#93c5fd" stroke-width="1.4"/>
-          <circle cx="126" cy="34" r="5.5" fill="#0f2044"/>
-          <circle cx="108" cy="14" r="4"   fill="#2563eb"/>
-          <circle cx="146" cy="14" r="4"   fill="#2563eb"/>
-          <circle cx="126" cy="58" r="4"   fill="#2563eb"/>
-          <circle cx="108" cy="54" r="4"   fill="#2563eb"/>
-          <!-- "= spec" bridge -->
-          <text x="80" y="31" text-anchor="middle" font-size="9" fill="#6b7280" font-family="sans-serif">spec(G₁)</text>
-          <text x="80" y="43" text-anchor="middle" font-size="11" fill="#2563eb" font-weight="bold" font-family="sans-serif">=</text>
-          <text x="80" y="55" text-anchor="middle" font-size="9" fill="#6b7280" font-family="sans-serif">spec(G₂)</text>
-        </svg>
+        {% if paper.id == 'cospectral'  %}{% include paper/svg_cospectral.html  %}{% endif %}
+        {% if paper.id == 'pmi'         %}{% include paper/svg_pmi.html         %}{% endif %}
+        {% if paper.id == 'rings'       %}{% include paper/svg_rings.html       %}{% endif %}
+        {% if paper.id == 'reconstruct' %}{% include paper/svg_reconstruct.html %}{% endif %}
       </div>
       <div class="paper-card-body">
-        <div class="paper-card-topic">Spectral Graph Theory</div>
-        <div class="paper-card-title">On the Number of Generalized Cospectral Mates of Graphs</div>
-        <div class="paper-card-authors">M. Raza · O. U. Ahmad · <strong>M. Shabbir</strong> · W. Abbas &nbsp;·&nbsp; LUMS &amp; UT Dallas</div>
-        <div class="paper-card-desc">Upper bound on cospectral multiplicity via the Smith Normal Form of the walk matrix — a quantitative arithmetic criterion extending beyond binary DGS classification.</div>
+        <div class="paper-card-topic">{{ paper.topic }}</div>
+        <div class="paper-card-title">{{ paper.title }}</div>
+        <div class="paper-card-authors">{{ paper.authors }}</div>
+        <div class="paper-card-desc">{{ paper.desc }}</div>
         <div class="paper-card-footer">
-          <span class="paper-status status-review">Under Review</span>
+          <span class="paper-status {{ paper.status_class }}">{{ paper.status }}</span>
           <span class="paper-card-arrow">Read more →</span>
         </div>
       </div>
     </a>
-
-    <a class="paper-card" href="https://amessbee.github.io/PMI-Sequence-Discrete-Math-/" target="_blank" rel="noopener">
-      <div class="paper-card-fig">
-        <!-- Integer lattice with PMI path highlighted -->
-        <svg viewBox="0 0 160 84" fill="none" aria-hidden="true">
-          <!-- axis -->
-          <line x1="8" y1="80" x2="152" y2="80" stroke="#d1d5db" stroke-width="1"/>
-          <line x1="8" y1="80" x2="8"   y2="6"  stroke="#d1d5db" stroke-width="1"/>
-          <text x="148" y="79" font-size="9" fill="#9ca3af" font-family="sans-serif">x₁</text>
-          <text x="10"  y="10" font-size="9" fill="#9ca3af" font-family="sans-serif">x₂</text>
-          <!-- 5×5 grid of dots (hardcoded) x: 20,44,68,92,116 / y: 14,28,42,56,70 -->
-          <circle cx="20"  cy="14" r="2.5" fill="#bfdbfe"/>
-          <circle cx="44"  cy="14" r="2.5" fill="#bfdbfe"/>
-          <circle cx="68"  cy="14" r="2.5" fill="#bfdbfe"/>
-          <circle cx="92"  cy="14" r="2.5" fill="#bfdbfe"/>
-          <circle cx="116" cy="14" r="2.5" fill="#bfdbfe"/>
-          <circle cx="20"  cy="28" r="2.5" fill="#bfdbfe"/>
-          <circle cx="44"  cy="28" r="2.5" fill="#bfdbfe"/>
-          <circle cx="68"  cy="28" r="2.5" fill="#bfdbfe"/>
-          <circle cx="92"  cy="28" r="2.5" fill="#bfdbfe"/>
-          <circle cx="116" cy="28" r="2.5" fill="#bfdbfe"/>
-          <circle cx="20"  cy="42" r="2.5" fill="#bfdbfe"/>
-          <circle cx="44"  cy="42" r="2.5" fill="#bfdbfe"/>
-          <circle cx="68"  cy="42" r="2.5" fill="#bfdbfe"/>
-          <circle cx="92"  cy="42" r="2.5" fill="#bfdbfe"/>
-          <circle cx="116" cy="42" r="2.5" fill="#bfdbfe"/>
-          <circle cx="20"  cy="56" r="2.5" fill="#bfdbfe"/>
-          <circle cx="44"  cy="56" r="2.5" fill="#bfdbfe"/>
-          <circle cx="68"  cy="56" r="2.5" fill="#bfdbfe"/>
-          <circle cx="92"  cy="56" r="2.5" fill="#bfdbfe"/>
-          <circle cx="116" cy="56" r="2.5" fill="#bfdbfe"/>
-          <circle cx="20"  cy="70" r="2.5" fill="#bfdbfe"/>
-          <circle cx="44"  cy="70" r="2.5" fill="#bfdbfe"/>
-          <circle cx="68"  cy="70" r="2.5" fill="#bfdbfe"/>
-          <circle cx="92"  cy="70" r="2.5" fill="#bfdbfe"/>
-          <circle cx="116" cy="70" r="2.5" fill="#bfdbfe"/>
-          <!-- PMI path: (1,5)→(2,4)→(3,3)→(4,1) strictly increasing both coords -->
-          <line x1="20" y1="70" x2="44" y2="56" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
-          <line x1="44" y1="56" x2="68" y2="42" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
-          <line x1="68" y1="42" x2="92" y2="14" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="20" cy="70" r="4.5" fill="#2563eb"/>
-          <circle cx="44" cy="56" r="4.5" fill="#2563eb"/>
-          <circle cx="68" cy="42" r="4.5" fill="#2563eb"/>
-          <circle cx="92" cy="14" r="4.5" fill="#0f2044"/>
-        </svg>
-      </div>
-      <div class="paper-card-body">
-        <div class="paper-card-topic">Discrete Mathematics · Combinatorics</div>
-        <div class="paper-card-title">PMI Sequence — An Erdős-Szekeres Type Result</div>
-        <div class="paper-card-authors"><strong>M. Shabbir</strong> &nbsp;·&nbsp; LUMS</div>
-        <div class="paper-card-desc">Tight asymptotic bounds Θ((d!·n)<sup>1/d</sup>) on the longest pairwise monotone increasing sequence in n-point subsets of ℤ<sub>≥0</sub><sup>d</sup>.</div>
-        <div class="paper-card-footer">
-          <span class="paper-status status-prep">In Preparation</span>
-          <span class="paper-card-arrow">Read more →</span>
-        </div>
-      </div>
-    </a>
-
-    <a class="paper-card" href="https://amessbee.github.io/Rings_Distinguishability/" target="_blank" rel="noopener">
-      <div class="paper-card-fig">
-        <!-- Walk matrix / Smith Normal Form schematic -->
-        <svg viewBox="0 0 160 84" fill="none" aria-hidden="true">
-          <!-- "W(G) →" label -->
-          <text x="14" y="24" font-size="13" fill="#0f2044" font-weight="bold" font-family="serif" font-style="italic">W</text>
-          <text x="24" y="24" font-size="10" fill="#0f2044" font-family="sans-serif">(G)</text>
-          <text x="42" y="26" font-size="11" fill="#6b7280" font-family="sans-serif">⟶</text>
-          <!-- SNF diagonal matrix outline -->
-          <rect x="60" y="12" width="88" height="60" rx="3" stroke="#93c5fd" stroke-width="1.2" fill="none"/>
-          <!-- diagonal entries highlighted -->
-          <rect x="63" y="15" width="24" height="16" rx="2" fill="#dbeafe"/>
-          <rect x="92" y="36" width="24" height="16" rx="2" fill="#dbeafe"/>
-          <rect x="121" y="52" width="24" height="16" rx="2" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-          <!-- entry labels -->
-          <text x="67" y="27" font-size="9" fill="#1d4ed8" font-family="serif" font-style="italic">d₁</text>
-          <text x="96" y="48" font-size="9" fill="#1d4ed8" font-family="serif" font-style="italic">d₂</text>
-          <text x="125" y="64" font-size="9" fill="#6b7280" font-family="serif" font-style="italic">d₃</text>
-          <!-- off-diagonal dots -->
-          <circle cx="86"  cy="22" r="1.5" fill="#e2e8f0"/>
-          <circle cx="86"  cy="43" r="1.5" fill="#e2e8f0"/>
-          <circle cx="110" cy="22" r="1.5" fill="#e2e8f0"/>
-          <circle cx="110" cy="59" r="1.5" fill="#e2e8f0"/>
-          <!-- "SNF" label -->
-          <text x="106" y="10" font-size="8" fill="#6b7280" font-family="sans-serif" letter-spacing="0.08em">SNF</text>
-        </svg>
-      </div>
-      <div class="paper-card-body">
-        <div class="paper-card-topic">Spectral Graph Theory · Ring Theory</div>
-        <div class="paper-card-title">Cospectral Mates — Ring-Theoretic Extension</div>
-        <div class="paper-card-authors">M. Raza · O. U. Ahmad · <strong>M. Shabbir</strong> · W. Abbas</div>
-        <div class="paper-card-desc">Ring-theoretic view of walk-matrix arithmetic constraints. The elementary divisors of W(G) over ℤ control the multiplicity of generalized cospectral mates.</div>
-        <div class="paper-card-footer">
-          <span class="paper-status status-working">Working Paper</span>
-          <span class="paper-card-arrow">Read more →</span>
-        </div>
-      </div>
-    </a>
-
-    <a class="paper-card" href="https://amessbee.github.io/reconstruct/" target="_blank" rel="noopener">
-      <div class="paper-card-fig">
-        <!-- Graph G and its deck (vertex-deleted subgraphs) -->
-        <svg viewBox="0 0 160 84" fill="none" aria-hidden="true">
-          <!-- Graph G (top center) -->
-          <text x="71" y="10" font-size="8.5" fill="#6b7280" font-family="serif" font-style="italic">G</text>
-          <!-- 5-node cycle -->
-          <line x1="80" y1="13" x2="95" y2="25" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="95" y1="25" x2="89" y2="40" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="89" y1="40" x2="71" y2="40" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="71" y1="40" x2="65" y2="25" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="65" y1="25" x2="80" y2="13" stroke="#93c5fd" stroke-width="1.3"/>
-          <line x1="80" y1="13" x2="89" y2="40" stroke="#bfdbfe" stroke-width="0.9"/>
-          <circle cx="80" cy="13" r="4"  fill="#2563eb"/>
-          <circle cx="95" cy="25" r="4"  fill="#2563eb"/>
-          <circle cx="89" cy="40" r="4"  fill="#2563eb"/>
-          <circle cx="71" cy="40" r="4"  fill="#2563eb"/>
-          <circle cx="65" cy="25" r="3.5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="2 1.5"/>
-          <!-- deletion arrow -->
-          <line x1="80" y1="47" x2="32" y2="59" stroke="#d1d5db" stroke-width="0.9" stroke-dasharray="2 2"/>
-          <line x1="80" y1="47" x2="80" y2="59" stroke="#d1d5db" stroke-width="0.9" stroke-dasharray="2 2"/>
-          <line x1="80" y1="47" x2="128" y2="59" stroke="#d1d5db" stroke-width="0.9" stroke-dasharray="2 2"/>
-          <!-- 3 deck cards (4-node subgraphs), simplified -->
-          <rect x="10" y="60" width="42" height="22" rx="3" fill="#f0f4ff" stroke="#bfdbfe" stroke-width="1"/>
-          <text x="31" y="74" font-size="7.5" fill="#6b7280" text-anchor="middle" font-family="serif" font-style="italic">G−v₁</text>
-          <rect x="59" y="60" width="42" height="22" rx="3" fill="#f0f4ff" stroke="#bfdbfe" stroke-width="1"/>
-          <text x="80" y="74" font-size="7.5" fill="#6b7280" text-anchor="middle" font-family="serif" font-style="italic">G−v₂</text>
-          <rect x="108" y="60" width="42" height="22" rx="3" fill="#f0f4ff" stroke="#bfdbfe" stroke-width="1"/>
-          <text x="129" y="74" font-size="7.5" fill="#6b7280" text-anchor="middle" font-family="serif" font-style="italic">G−v₃</text>
-        </svg>
-      </div>
-      <div class="paper-card-body">
-        <div class="paper-card-topic">Graph Theory · Reconstruction</div>
-        <div class="paper-card-title">Reconstructability vs. Godsil-McKay Switching</div>
-        <div class="paper-card-authors"><strong>M. Shabbir</strong> &nbsp;·&nbsp; LUMS</div>
-        <div class="paper-card-desc">Can Godsil-McKay switching produce reconstruction counterexamples? Partial result: degree-altering switchings are always deck-distinguishable.</div>
-        <div class="paper-card-footer">
-          <span class="paper-status status-working">Working Note</span>
-          <span class="paper-card-arrow">Read more →</span>
-        </div>
-      </div>
-    </a>
-
+    {% endfor %}
   </div>
 </section>
 
@@ -442,172 +93,20 @@ title: Home
   <h2 class="section-title">Software Projects</h2>
 
   <div class="card-grid">
-
-    <a class="card" href="https://amessbee.github.io/speak/" target="_blank" rel="noopener">
+    {% for project in site.data.software %}
+    <a class="card" href="{{ project.url }}" target="_blank" rel="noopener">
       <div class="card-top">
-        <span class="card-name">Speak</span>
+        <span class="card-name">{{ project.name }}</span>
         <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
       </div>
-      <p class="card-desc">
-        Native macOS presentation app. Compose PDFs, videos, and images into a single
-        plan with per-slide hotkeys for branching, live pen/highlighter drawing overlay,
-        and fullscreen HUD. Built entirely on Apple frameworks — no dependencies.
-      </p>
+      <p class="card-desc">{{ project.desc }}</p>
       <div class="tag-row">
-        <span class="tag tag-blue">Swift</span>
-        <span class="tag tag-blue">SwiftUI</span>
-        <span class="tag tag-gray">PDFKit</span>
-        <span class="tag tag-gray">AVKit</span>
-        <span class="tag tag-gray">macOS 14+</span>
+        {% for tag in project.tags %}
+        <span class="tag {{ tag.cls }}">{{ tag.text }}</span>
+        {% endfor %}
       </div>
     </a>
-
-    <a class="card" href="https://amessbee.github.io/lame/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">Lame</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        macOS app for browsing and deleting photos and videos from USB-connected phones.
-        iPhones via ImageCaptureCore; Android via libmtp with an ADB fallback for
-        Samsung Galaxy devices. Thumbnail grid, bulk deletion, sorting and filtering.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">Swift</span>
-        <span class="tag tag-blue">SwiftUI</span>
-        <span class="tag tag-gray">ImageCaptureCore</span>
-        <span class="tag tag-gray">libmtp</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/pdfutil/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">PDF Util</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Desktop PDF page-management app. Drag-and-drop reordering, extraction, deletion,
-        insertion from another PDF, rotation, and full-resolution page preview.
-        Undo/redo for all operations. Cross-platform via Electron.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">TypeScript</span>
-        <span class="tag tag-blue">React</span>
-        <span class="tag tag-gray">Electron</span>
-        <span class="tag tag-gray">pdf-lib</span>
-        <span class="tag tag-gray">dnd-kit</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/quiz-game/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">Quiz Game</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Live classroom quiz tool: a PDF question bank fills the screen while a sidebar
-        tracks scores for up to five teams against a 90-minute countdown.
-        Correct/Incorrect/Pass buttons and full keyboard shortcuts — no setup, just open and play.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-gray">Vanilla JS</span>
-        <span class="tag tag-gray">Electron</span>
-        <span class="tag tag-green">Live App</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/timer/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">Exam Timer</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Full-featured countdown timer for exam halls. Preset durations, custom time entry,
-        add-5-minutes button, editable title, light/dark theme, animation controls,
-        fullscreen mode, and state persistence across refreshes.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">React</span>
-        <span class="tag tag-gray">JavaScript</span>
-        <span class="tag tag-green">Live Demo</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/crowdFunding/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">CrowdFunding DApp</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Fully decentralized crowdfunding platform on Ethereum. Community members propose
-        projects, vote, execute approved proposals, and contribute funds — all through
-        auditable smart contracts with a React frontend.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">Solidity</span>
-        <span class="tag tag-blue">React</span>
-        <span class="tag tag-gray">Hardhat</span>
-        <span class="tag tag-amber">Ethereum</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/cards/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">Set Operations Practice</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Flashcard quiz for discrete math students. Each round generates two random
-        sets and asks for the union, intersection, or set difference — with four
-        multiple-choice answers and instant feedback.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">React</span>
-        <span class="tag tag-blue">Next.js</span>
-        <span class="tag tag-gray">TypeScript</span>
-        <span class="tag tag-green">Live App</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/goldex/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">Goldex — Coin Extractor</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Playable 2D/3D game that visualizes the extractor model underlying
-        distance-based bounds on strong structural controllability.
-        Move horizontal and vertical extractors across a coin grid — the mechanics
-        mirror the combinatorial structure from
-        <a href="https://ieeexplore.ieee.org/abstract/document/9738436" target="_blank" rel="noopener" onclick="event.stopPropagation()">the research paper</a>.
-        3D mode adds a third extractor sweeping transparent planes through a volume.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">React</span>
-        <span class="tag tag-gray">Vite</span>
-        <span class="tag tag-amber">Research Demo</span>
-        <span class="tag tag-green">Live Game</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/pwc/" target="_blank" rel="noopener">
-      <div class="card-top">
-        <span class="card-name">PakWheels Browser</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <p class="card-desc">
-        Concurrent scraper + local web app for PakWheels used car listings.
-        Scrapes 70 000+ listings with checkpointing and resume; Flask frontend with
-        full-text search, city/make/year filters, and multi-column sorting.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-blue">Python</span>
-        <span class="tag tag-gray">Flask</span>
-        <span class="tag tag-gray">BeautifulSoup</span>
-        <span class="tag tag-gray">pandas</span>
-      </div>
-    </a>
-
+    {% endfor %}
   </div>
 </section>
 
@@ -620,78 +119,22 @@ title: Home
   <h2 class="section-title">Courses</h2>
 
   <div class="card-grid">
-
-    <a class="card" href="https://amessbee.github.io/310S26/" target="_blank" rel="noopener">
-      <span class="card-badge badge-algo">Algorithms</span>
+    {% for course in site.data.courses %}
+    <a class="card" href="{{ course.url }}" target="_blank" rel="noopener">
+      <span class="card-badge {{ course.badge_class }}">{{ course.badge }}</span>
       <div class="card-top">
-        <span class="card-name">CS310 / CS5102</span>
+        <span class="card-name">{{ course.name }}</span>
         <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
       </div>
-      <div class="card-semester">Spring 2026 &middot; LUMS</div>
-      <p class="card-desc">
-        Undergraduate and graduate algorithms: asymptotic analysis, divide-and-conquer,
-        graph algorithms, dynamic programming, NP-completeness, and randomized algorithms.
-        Course website with lecture notes, schedule, and announcements.
-      </p>
+      <div class="card-semester">{{ course.semester }}</div>
+      <p class="card-desc">{{ course.desc }}</p>
       <div class="tag-row">
-        <span class="tag tag-gray">Live Course Site</span>
+        {% for tag in course.tags %}
+        <span class="tag {{ tag.cls }}">{{ tag.text }}</span>
+        {% endfor %}
       </div>
     </a>
-
-    <a class="card" href="https://amessbee.github.io/algorithmsS25/" target="_blank" rel="noopener">
-      <span class="card-badge badge-algo">Algorithms</span>
-      <div class="card-top">
-        <span class="card-name">CS310 / CS5102</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <div class="card-semester">Spring 2025 &middot; ITU</div>
-      <p class="card-desc">
-        27 lectures of notes (LaTeX + compiled PDFs) covering MST, BFS/DFS,
-        articulation points, network flow, dynamic programming, string matching,
-        and more. Python implementations of Kruskal's, Prim's, and topological sort.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-gray">Lecture Notes + Code</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/if26/" target="_blank" rel="noopener">
-      <span class="card-badge badge-discrete">Discrete Math</span>
-      <div class="card-top">
-        <span class="card-name">Discrete Structures</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <div class="card-semester">Fall 2026 &middot; LUMS</div>
-      <p class="card-desc">
-        Course website for Discrete Structures with syllabus, weekly schedule,
-        lecture notes, worksheets, and homework. Data-driven single-page site
-        that updates automatically when JSON files are edited.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-gray">Live Course Site</span>
-      </div>
-    </a>
-
-    <a class="card" href="https://amessbee.github.io/rise/" target="_blank" rel="noopener">
-      <span class="card-badge badge-research">Research Internship</span>
-      <div class="card-top">
-        <span class="card-name">RISE Program</span>
-        <i class="fa fa-external-link card-ext" aria-hidden="true"></i>
-      </div>
-      <div class="card-semester">Summer 2025 &middot; LUMS</div>
-      <p class="card-desc">
-        Four-week mathematics research program for A-level students (ages 16–18).
-        Topics: graph theory, zero forcing and network controllability, Erdős–Szekeres,
-        and the centerpoint theorem — active open problems, accessible with no
-        university background.
-      </p>
-      <div class="tag-row">
-        <span class="tag tag-gray">Interactive Demos</span>
-        <span class="tag tag-gray">Colab Notebooks</span>
-        <span class="tag tag-gray">Handouts</span>
-      </div>
-    </a>
-
+    {% endfor %}
   </div>
 </section>
 
@@ -710,36 +153,18 @@ title: Home
   </p>
 
   <div class="channel-grid">
-
-    <a class="channel-card" href="https://www.youtube.com/@ideabehind5680" target="_blank" rel="noopener">
+    {% for channel in site.data.videos %}
+    <a class="channel-card" href="{{ channel.url }}" target="_blank" rel="noopener">
       <div class="channel-icon">
         <i class="fa fa-youtube-play" aria-hidden="true"></i>
       </div>
       <div class="channel-body">
-        <div class="channel-name">Idea Behind</div>
-        <div class="channel-handle">@ideabehind5680</div>
-        <p class="channel-desc">
-          Short animated explainers on the core <em>idea</em> behind classic algorithms —
-          median-of-medians, Kruskal's MST, zero forcing, and more.
-          Produced with Manim; designed to build intuition before the formal proof.
-        </p>
+        <div class="channel-name">{{ channel.name }}</div>
+        <div class="channel-handle">{{ channel.handle }}</div>
+        <p class="channel-desc">{{ channel.desc }}</p>
       </div>
     </a>
-
-    <a class="channel-card" href="https://www.youtube.com/@theorygroup780" target="_blank" rel="noopener">
-      <div class="channel-icon">
-        <i class="fa fa-youtube-play" aria-hidden="true"></i>
-      </div>
-      <div class="channel-body">
-        <div class="channel-name">Theory Group</div>
-        <div class="channel-handle">@theorygroup780</div>
-        <p class="channel-desc">
-          Longer-form lecture recordings covering discrete structures, graph theory,
-          and algorithms at university level. Companion to classroom teaching at LUMS and ITU.
-        </p>
-      </div>
-    </a>
-
+    {% endfor %}
   </div>
 </section>
 

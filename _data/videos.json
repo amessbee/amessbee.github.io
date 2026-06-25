@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Idea Behind",
+    "handle": "@ideabehind5680",
+    "url": "https://www.youtube.com/@ideabehind5680",
+    "desc": "Short animated explainers on the core <em>idea</em> behind classic algorithms — median-of-medians, Kruskal's MST, zero forcing, and more. Produced with Manim; designed to build intuition before the formal proof."
+  },
+  {
+    "name": "Theory Group",
+    "handle": "@theorygroup780",
+    "url": "https://www.youtube.com/@theorygroup780",
+    "desc": "Longer-form lecture recordings covering discrete structures, graph theory, and algorithms at university level. Companion to classroom teaching at LUMS and ITU."
+  }
+]
