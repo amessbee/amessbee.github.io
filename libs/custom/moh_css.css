@@ -261,6 +261,65 @@ main { background: var(--surface); }
   line-height: 1.55;
 }
 
+.research-card-links {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.research-card-links a {
+  font-size: 0.8rem;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.research-card-links a:hover { text-decoration: underline; }
+
+/* ── Paper list (working papers) ───────────────────────────── */
+.paper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.paper-row {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--blue);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow var(--trans), border-left-color var(--trans);
+}
+
+.paper-row:hover {
+  box-shadow: var(--shadow-md);
+  border-left-color: var(--navy-mid);
+}
+
+.paper-row-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.2rem;
+}
+
+.paper-row-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.paper-row-desc {
+  font-size: 0.82rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
 /* ── Card Grid (software & teaching) ───────────────────────── */
 .card-grid {
   display: grid;
