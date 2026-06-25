@@ -310,7 +310,19 @@ main { background: var(--surface); }
   border: 1px solid var(--border);
   border-left: 3px solid var(--blue);
   border-radius: var(--radius);
-  padding: 1.25rem 1.4rem;
+  padding: 1.25rem 1.4rem 1.25rem 1.4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.research-card-icon {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.9rem;
+  width: 72px;
+  height: 52px;
+  opacity: 0.55;
+  pointer-events: none;
 }
 
 .research-card h3 {
@@ -318,6 +330,7 @@ main { background: var(--surface); }
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 0.4rem;
+  padding-right: 80px;
 }
 
 .research-card p {
@@ -342,47 +355,124 @@ main { background: var(--surface); }
 
 .research-card-links a:hover { text-decoration: underline; }
 
-/* ── Paper list (working papers) ───────────────────────────── */
-.paper-list {
+/* ── Working papers divider ─────────────────────────────────── */
+.research-papers-head {
+  margin: 2.5rem 0 1.25rem;
   display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
+  align-items: center;
+  gap: 1rem;
+}
+.research-papers-head::before,
+.research-papers-head::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.research-papers-head span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: var(--muted);
+  white-space: nowrap;
 }
 
-.paper-row {
-  display: block;
+/* ── Paper card grid ────────────────────────────────────────── */
+.paper-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.paper-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--blue);
-  border-radius: var(--radius);
-  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  overflow: hidden;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow var(--trans), border-left-color var(--trans);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.paper-row:hover {
-  box-shadow: var(--shadow-md);
-  border-left-color: var(--navy-mid);
+.paper-card:hover {
+  box-shadow: 0 8px 28px rgba(15,32,68,0.1);
+  transform: translateY(-2px);
 }
 
-.paper-row-title {
-  font-size: 0.92rem;
-  font-weight: 600;
+.paper-card-fig {
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #eef3ff 0%, #dde8ff 100%);
+  border-bottom: 1px solid #d5e0f5;
+}
+
+.paper-card-body {
+  padding: 1rem 1.2rem 1.1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.paper-card-topic {
+  font-size: 0.67rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--blue);
+  margin-bottom: 0.3rem;
+}
+
+.paper-card-title {
+  font-size: 0.88rem;
+  font-weight: 700;
   color: var(--navy);
-  margin-bottom: 0.2rem;
-}
-
-.paper-row-meta {
-  font-size: 0.8rem;
-  color: var(--muted);
+  line-height: 1.35;
   margin-bottom: 0.35rem;
 }
 
-.paper-row-desc {
+.paper-card-authors {
+  font-size: 0.77rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.paper-card-desc {
   font-size: 0.82rem;
-  color: var(--text);
+  color: #374151;
   line-height: 1.5;
+  flex: 1;
+}
+
+.paper-card-footer {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.paper-status {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.status-review  { background: #fef9c3; color: #713f12; }
+.status-prep    { background: #f3e8ff; color: #6b21a8; }
+.status-working { background: #f3f4f6; color: #374151; }
+
+.paper-card-arrow {
+  font-size: 0.8rem;
+  color: var(--blue);
+  font-weight: 600;
 }
 
 /* ── Card Grid (software & teaching) ───────────────────────── */
@@ -715,6 +805,13 @@ main { background: var(--surface); }
   .research-grid {
     grid-template-columns: 1fr;
   }
+
+  .paper-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card h3 { padding-right: 0; }
+  .research-card-icon { display: none; }
 
   .channel-grid {
     grid-template-columns: 1fr;
