@@ -1,4 +1,67 @@
 papers:
+- abstract: "Establishes tight asymptotic bounds on the number of generalized cospectral mates of graphs. We introduce a combinatorial enumeration method based on the Smith Normal Form of the walk matrix, yielding an explicit count — not just a binary DGS/non-DGS answer — for a broad family of graphs."
+  authors: "M. Raza, O. U. Ahmad, Mudassir Shabbir, W. Abbas"
+  paper_url: https://arxiv.org/abs/2601.07373
+  selected: y
+  title: "On the Enumeration of Generalized Cospectral Mates of Graphs"
+  venue: "arXiv preprint arXiv:2601.07373 (2026)"
+  year: 2026
+- abstract: "Identifies a minimal controllability-preserving subgraph — the backbone — in multiagent networks with distributed linear dynamics. We characterize backbone structure via zero forcing and provide polynomial-time algorithms for backbone extraction and edge augmentation."
+  authors: "Mudassir Shabbir, W. Abbas"
+  paper_url: https://www.sciencedirect.com/science/article/pii/S0005109826003225
+  selected: y
+  title: "Controllability Backbone in Multiagent Networks"
+  venue: "Automatica (2026)"
+  year: 2026
+- abstract: "Upper bounds on the number of non-isomorphic generalized cospectral mates of a graph, derived from arithmetic properties of the walk matrix determinant. The bound applies to the broad family ℋₙ and is determined by the number of distinct odd prime factors of a normalized determinant."
+  authors: "M. Raza, Mudassir Shabbir, W. Abbas"
+  paper_url: https://arxiv.org/abs/2507.06927
+  selected: y
+  title: "Walk Matrix-Based Upper Bounds on Generalized Cospectral Mates"
+  venue: "arXiv preprint arXiv:2507.06927 (2025)"
+  year: 2025
+- abstract: "A graph sparsification approach using zero forcing sets to extract learning-effective backbones from dense graphs, improving GNN performance and scalability while preserving the structural properties relevant to downstream tasks."
+  authors: "O. U. Ahmad, A. Said, Mudassir Shabbir, X. Koutsoukos, W. Abbas"
+  paper_url: https://arxiv.org/abs/2502.17713
+  selected: y
+  title: "Learning Backbones: Sparsifying Graphs through Zero Forcing for Effective Graph-Based Learning"
+  venue: "arXiv preprint arXiv:2502.17713 (2025)"
+  year: 2025
+- abstract: "A network control-theoretic feature construction method using rank encoding of controllability Gramians that produces expressive node features for graph machine learning, outperforming spectral and positional baselines on multiple benchmarks."
+  authors: "A. Said, Y. Wei, O. U. Ahmad, Mudassir Shabbir, W. Abbas, X. Koutsoukos"
+  paper_url: ''
+  selected: y
+  title: "Feature Construction Using Network Control Theory and Rank Encoding for Graph Machine Learning"
+  venue: "IEEE Open Journal of Control Systems (2025)"
+  year: 2025
+- abstract: "Arithmetic conditions on the walk matrix characterizing when a graph is determined by its generalized spectrum, with applications to the graph distinguishability problem."
+  authors: "M. Raza, O. U. Ahmad, Mudassir Shabbir, X. Koutsoukos, W. Abbas"
+  paper_url: ''
+  selected: y
+  title: "Control-based Conditions for Graph Distinguishability"
+  venue: "2025 Proceedings of the Conference on Control and its Applications (CT), 31–38"
+  year: 2025
+- abstract: "A Byzantine-resilient distributed learning framework for multi-UAV systems that tolerates adversarial agents using geometric median aggregation, with convergence guarantees under communication attacks."
+  authors: "N. Potteiger, Mudassir Shabbir, S. Eisele, M. Wutka, X. Koutsoukos"
+  paper_url: ''
+  selected: n
+  title: "Resilient Distributed Learning in Multi-UAV Systems"
+  venue: "Smarter Cyber Physical Systems, 543–567 (2025)"
+  year: 2025
+- abstract: "Data collection, automatic generation, and evaluation methodology for conversational datasets in naturalistic settings, with benchmarks on coherence, diversity, and human evaluation alignment."
+  authors: "N. Zaheer, A. A. Raza, Mudassir Shabbir"
+  paper_url: ''
+  selected: n
+  title: "Conversations in the Wild: Data Collection, Automatic Generation and Evaluation"
+  venue: "Computer Speech & Language 89, 101699"
+  year: 2024
+- abstract: "An explainable ensemble ML pipeline combining gradient-boosted trees, SHAP feature attribution, and physicochemical water quality indicators to classify and explain water safety assessments in real-world datasets from Pakistan."
+  authors: "F. Majeed, Z. Sohail, M. I. Shabbir, M. H. Amjad, M. M. Aziz, M. Azam, T. Ahmad"
+  paper_url: ''
+  selected: n
+  title: "Explainable Ensemble Machine Learning Framework for Water Quality Assessment Using Physicochemical Indicators"
+  venue: "Pakistan Journal of Scientific Research 5(02), 140–146 (2025)"
+  year: 2025
 - abstract: ''
   authors: "Anwar Said, Mudassir Shabbir, B. Broll, W. Abbas, P. V\xF6lgyesi, X. Koutsoukos"
   paper_url: https://www.semanticscholar.org/paper/19cf22a791f78bf25f31f7cb73678949008297c1
