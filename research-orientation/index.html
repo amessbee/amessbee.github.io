@@ -1,99 +1,216 @@
----
-layout: null
-title: Research Orientation
----
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A visual introduction to Mudassir Shabbir's research in graphs, learning, and resilient networks.">
-  <title>Mudassir Shabbir — Research in 6 Slides</title>
+  <meta name="description" content="Mudassir Shabbir's research: graph learning, resilient networks, and spectral graph theory.">
+  <title>Mudassir Shabbir — Research Orientation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="deck.css">
+  <style>
+    .controls > span{min-width:34px;white-space:nowrap;text-align:center}
+    .title-slide{grid-template-columns:1.05fr .95fr;gap:5vw;background:linear-gradient(135deg,#0e1d3c 0%,#183864 64%,#23547f 100%);color:#fff}
+    .title-slide h1{color:#fff;font-size:clamp(3.8rem,7vw,7.2rem);margin-bottom:1.2rem}
+    .title-slide h1 span{display:block;color:#73d7f8}
+    .title-role{font-size:clamp(1.05rem,1.6vw,1.45rem);line-height:1.55;color:#d8e5f5;margin:0}
+    .title-role strong{color:#fff}
+    .title-fields{display:flex;gap:.55rem;flex-wrap:wrap;margin:1.5rem 0}
+    .title-fields span{border:1px solid #6b86a9;border-radius:999px;padding:.4rem .65rem;color:#c8d8eb;font-size:.68rem}
+    .title-event{font-family:var(--mono);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:#7dd3fc;margin-top:2rem}
+    .portrait-stage{position:relative;width:min(39vw,510px);aspect-ratio:1;margin:auto;display:grid;place-items:center}
+    .portrait-rings{position:absolute;inset:3%;border:1px solid #6b8aae;border-radius:50%}
+    .portrait-rings::before,.portrait-rings::after{content:'';position:absolute;border:1px dashed #53759b;border-radius:50%}
+    .portrait-rings::before{inset:13%}.portrait-rings::after{inset:27%}
+    .portrait-wrap{position:relative;width:58%;aspect-ratio:1;border-radius:50%;overflow:hidden;border:6px solid #8fdcf5;background:#183a66;box-shadow:0 25px 65px #07142f88;z-index:2}
+    .portrait-wrap img{width:100%;height:100%;object-fit:cover}
+    .portrait-node{position:absolute;display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:#fff;color:var(--navy);font-size:.57rem;font-weight:900;text-transform:uppercase;z-index:3;box-shadow:0 10px 25px #07142f66}
+    .portrait-node.ml{left:3%;top:27%}.portrait-node.control{right:2%;top:25%}.portrait-node.geometry{left:12%;bottom:12%}.portrait-node.networks{right:5%;bottom:14%}
+    @media(max-width:800px){.title-slide{grid-template-columns:1fr;text-align:center}.title-slide h1{font-size:3.55rem}.title-fields{justify-content:center}.title-event{margin-top:1.2rem}.portrait-stage{width:240px;order:-1;margin-bottom:-1rem}.portrait-node{width:38px;height:38px;font-size:.45rem}}
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#deck">Skip to slides</a>
-  <header class="deck-bar">
-    <a class="home-link" href="../" aria-label="Back to Mudassir Shabbir's homepage">← Home</a>
-    <span class="deck-title">Research, in six slides</span>
-    <button class="help-button" id="helpButton" type="button" aria-label="Show keyboard controls">?</button>
+  <a class="skip-link" href="#slides">Skip to slides</a>
+
+  <header class="topbar">
+    <a class="brand" href="../"><span>MS</span> Mudassir Shabbir</a>
+    <div class="chapter" id="chapter">Hello</div>
+    <div class="top-actions">
+      <button id="notesButton" type="button" title="Toggle speaker notes (N)">notes</button>
+      <button id="helpButton" type="button" aria-label="Show keyboard controls">?</button>
+    </div>
   </header>
 
-  <main class="deck" id="deck" aria-live="polite">
-    <section class="slide slide-cover is-active" data-slide="1" aria-label="Slide 1 of 6">
+  <main class="slides" id="slides" aria-live="polite">
+    <section class="slide title-slide active" data-chapter="Welcome" aria-label="Slide 1 of 7">
+      <div class="title-copy">
+        <p class="kicker">Graduate Students Orientation · 2026</p>
+        <h1>Dr. Mudassir<span>Shabbir</span></h1>
+        <p class="title-role"><strong>Associate Professor of Computer Science</strong><br>Syed Babar Ali School of Science &amp; Engineering<br>Lahore University of Management Sciences</p>
+        <div class="title-fields"><span>Graph machine learning</span><span>Resilient networked systems</span><span>Discrete geometry</span></div>
+        <p class="title-event">Graphs · Algorithms · Control · Learning</p>
+        <button class="start-button" type="button" data-next>Begin <span>→</span></button>
+      </div>
+      <div class="portrait-stage" aria-hidden="true">
+        <div class="portrait-rings"></div>
+        <div class="portrait-wrap"><img src="../assets/profile-pics/mudassir.jpg" alt=""></div>
+        <span class="portrait-node ml">Graph<br>ML</span><span class="portrait-node control">Control</span><span class="portrait-node geometry">Geometry</span><span class="portrait-node networks">Networks</span>
+      </div>
+      <template class="speaker-note">I am Mudassir Shabbir, Associate Professor of Computer Science at LUMS. My research connects graph machine learning, resilient networked systems, control theory, and discrete geometry. This short introduction is organized around the structural questions that connect those areas.</template>
+    </section>
+
+    <section class="slide cover" data-chapter="Hello" aria-label="Slide 2 of 7">
       <div class="cover-copy">
-        <p class="eyebrow">Graduate orientation · LUMS</p>
-        <h1>I think in <span>graphs.</span></h1>
-        <p class="lede">Then I teach them to learn, cooperate, and survive surprises.</p>
-        <div class="identity"><span>MS</span><div><strong>Mudassir Shabbir</strong><small>Graph ML · Network control · Discrete geometry</small></div></div>
+        <p class="kicker">Graduate orientation · LUMS · 2026</p>
+        <h1>I remove edges<br>for a living.<sup>*</sup></h1>
+        <p class="asterisk"><sup>*</sup> Very carefully.</p>
+        <p class="cover-intro">Graph learning, resilient networks, and the mathematics hiding underneath.</p>
+        <button class="start-button" type="button" data-next>Meet the graphs <span>→</span></button>
       </div>
-      <div class="hero-graph visual" aria-hidden="true">
-        <svg viewBox="0 0 600 560" role="img">
-          <g class="edges"><path d="M108 122L273 72 446 128 504 300 387 455 181 449 73 291Z"/><path d="M108 122L307 284 446 128M73 291L307 284 504 300M181 449L307 284 387 455M273 72L307 284"/></g>
-          <g class="nodes"><circle cx="108" cy="122" r="24"/><circle cx="273" cy="72" r="16"/><circle cx="446" cy="128" r="20"/><circle cx="504" cy="300" r="17"/><circle cx="387" cy="455" r="22"/><circle cx="181" cy="449" r="15"/><circle cx="73" cy="291" r="19"/><circle class="core" cx="307" cy="284" r="52"/></g>
-          <text x="307" y="291" text-anchor="middle">WHY?</text>
+      <div class="cover-visual" aria-hidden="true">
+        <svg viewBox="0 0 660 600">
+          <g class="cover-lines">
+            <path d="M76 154L213 76 365 91 536 167 583 326 481 487 294 523 121 431 51 290Z"/>
+            <path d="M76 154L286 292 365 91M213 76L286 292 121 431M536 167L286 292 583 326M481 487L286 292 294 523M51 290L286 292"/>
+            <path class="snip snip-a" d="M76 154L365 91M213 76L536 167M121 431L481 487M51 290L583 326"/>
+          </g>
+          <g class="cover-nodes">
+            <circle cx="76" cy="154" r="20"/><circle cx="213" cy="76" r="16"/><circle cx="365" cy="91" r="23"/>
+            <circle cx="536" cy="167" r="17"/><circle cx="583" cy="326" r="22"/><circle cx="481" cy="487" r="18"/>
+            <circle cx="294" cy="523" r="16"/><circle cx="121" cy="431" r="21"/><circle cx="51" cy="290" r="17"/>
+            <circle class="hub" cx="286" cy="292" r="55"/>
+          </g>
+          <g class="scissors" transform="translate(394 313) rotate(-16)"><circle cx="0" cy="0" r="17"/><circle cx="0" cy="42" r="17"/><path d="M14 11L93 51M14 31L93-10"/></g>
+          <text x="286" y="300" text-anchor="middle">structure</text>
         </svg>
-        <span class="orbit orbit-a">learn</span><span class="orbit orbit-b">control</span><span class="orbit orbit-c">resist</span>
+        <div class="float-label label-a">learn</div><div class="float-label label-b">control</div><div class="float-label label-c">survive</div>
       </div>
+      <template class="speaker-note">I work on networks: how to make them learn efficiently, remain controllable when links change, and reveal their identity through algebraic structure. The edge-removal joke is real—several recent projects ask which connections we can safely discard.</template>
     </section>
 
-    <section class="slide" data-slide="2" aria-label="Slide 2 of 6">
-      <div class="slide-heading"><p class="eyebrow">01 · The playground</p><h2>Everything is a network.</h2></div>
-      <div class="world-grid visual" aria-hidden="true">
-        <div class="world-card"><svg viewBox="0 0 220 160"><path d="M27 106L75 49l53 66 62-83M75 49l115 72M27 106l101 9"/><g><circle cx="27" cy="106" r="12"/><circle cx="75" cy="49" r="15"/><circle cx="128" cy="115" r="12"/><circle cx="190" cy="32" r="13"/><circle cx="190" cy="121" r="11"/></g></svg><b>People</b><span>Who influences whom?</span></div>
-        <div class="world-card"><svg viewBox="0 0 220 160"><path d="M32 80H188M63 32l94 96M63 128l94-96"/><g><circle cx="32" cy="80" r="13"/><circle cx="188" cy="80" r="13"/><circle cx="63" cy="32" r="13"/><circle cx="157" cy="128" r="13"/><circle cx="63" cy="128" r="13"/><circle cx="157" cy="32" r="13"/></g></svg><b>Brains</b><span>What do connections reveal?</span></div>
-        <div class="world-card"><svg viewBox="0 0 220 160"><path d="M29 121L72 82 111 111 151 51 191 82M72 82l-19-47m98 16 34-22"/><g><circle cx="29" cy="121" r="11"/><circle cx="72" cy="82" r="14"/><circle cx="111" cy="111" r="11"/><circle cx="151" cy="51" r="16"/><circle cx="191" cy="82" r="11"/><circle cx="53" cy="35" r="10"/><circle cx="185" cy="29" r="10"/></g></svg><b>Robot teams</b><span>Can they act together?</span></div>
+    <section class="slide thesis" data-chapter="The questions" aria-label="Slide 3 of 7">
+      <div class="slide-title">
+        <p class="kicker">My research asks graphs three awkward questions</p>
+        <h2>Less. Lies. Lookalikes.</h2>
       </div>
-      <p class="punchline">The dots matter. <strong>The connections are the story.</strong></p>
+      <div class="question-grid">
+        <article class="question less">
+          <span class="question-number">01</span>
+          <div class="question-visual" aria-hidden="true">
+            <svg viewBox="0 0 270 190"><g class="q-lines"><path d="M29 91L77 34 136 67 200 28 242 90 211 157 137 142 72 159Z"/><path d="M29 91L136 67 211 157M77 34L137 142 242 90M72 159L136 67 200 28"/></g><g class="q-nodes"><circle cx="29" cy="91" r="9"/><circle cx="77" cy="34" r="9"/><circle cx="136" cy="67" r="9"/><circle cx="200" cy="28" r="9"/><circle cx="242" cy="90" r="9"/><circle cx="211" cy="157" r="9"/><circle cx="137" cy="142" r="9"/><circle cx="72" cy="159" r="9"/></g></svg>
+            <div class="eraser">− edges</div>
+          </div>
+          <h3>Can it learn with less?</h3>
+          <p>Sparse graphs. Useful features. No signal sacrificed.</p>
+        </article>
+        <article class="question lies">
+          <span class="question-number">02</span>
+          <div class="question-visual bots" aria-hidden="true"><i>✓</i><i>✓</i><i class="liar">!</i><i>✓</i><i>✓</i><span>“trust me”</span></div>
+          <h3>Can it survive a liar?</h3>
+          <p>Robots cooperate even when one teammate goes rogue.</p>
+        </article>
+        <article class="question twins">
+          <span class="question-number">03</span>
+          <div class="question-visual twin-graphs" aria-hidden="true">
+            <svg viewBox="0 0 270 190"><g><path d="M19 101L67 39 123 69 105 145 43 157ZM151 51L218 35 250 99 207 157 149 125Z"/></g><g><circle cx="19" cy="101" r="8"/><circle cx="67" cy="39" r="8"/><circle cx="123" cy="69" r="8"/><circle cx="105" cy="145" r="8"/><circle cx="43" cy="157" r="8"/><circle cx="151" cy="51" r="8"/><circle cx="218" cy="35" r="8"/><circle cx="250" cy="99" r="8"/><circle cx="207" cy="157" r="8"/><circle cx="149" cy="125" r="8"/></g></svg><b>≟</b>
+          </div>
+          <h3>Can it prove who it is?</h3>
+          <p>Different graphs can share the same spectral “sound.”</p>
+        </article>
+      </div>
+      <template class="speaker-note">These are the three themes to remember. Less: sparsification and representations for graph ML. Lies: Byzantine-resilient learning and controllability. Lookalikes: graph distinguishability and cospectral mates. The same toolkit—combinatorics, control, geometry, and algebra—moves across all three.</template>
     </section>
 
-    <section class="slide" data-slide="3" aria-label="Slide 3 of 6">
-      <div class="slide-heading"><p class="eyebrow">02 · Graph machine learning</p><h2>Keep the signal. Lose the clutter.</h2></div>
-      <div class="before-after visual" aria-label="A dense graph becomes a sparse learning backbone">
-        <div class="graph-stage"><span class="stage-label">Dense graph</span><svg class="dense-graph" viewBox="0 0 330 330"><g class="auto-edges"></g><g class="auto-nodes"></g></svg><small>expensive · noisy</small></div>
-        <div class="magic"><span>zero forcing</span><b>→</b></div>
-        <div class="graph-stage backbone"><span class="stage-label">Learning backbone</span><svg viewBox="0 0 330 330"><g class="backbone-lines"></g><g class="backbone-nodes"></g></svg><small>lean · useful</small></div>
+    <section class="slide learning" data-chapter="Less" aria-label="Slide 4 of 7">
+      <div class="story-copy">
+        <p class="kicker">Less · Graph machine learning</p>
+        <h2>Marie Kondo,<br>but for graphs.</h2>
+        <p class="story-lede">Keep the connections that spark <em>signal.</em></p>
+        <div class="paper-list">
+          <a class="paper" href="https://arxiv.org/abs/2502.17713" target="_blank" rel="noopener">
+            <span class="paper-year">2024</span><strong>Learning Backbones</strong><small>Zero forcing → sparse, learning-effective graphs</small><b>8 datasets · 6 GNN models ↗</b>
+          </a>
+          <a class="paper" href="https://arxiv.org/abs/2507.15195" target="_blank" rel="noopener">
+            <span class="paper-year">2025</span><strong>Features from Network Control</strong><small>Controllability + rank encoding → useful node features</small><b>ROC-AUC 68.7 → 73.9 ↗</b>
+          </a>
+        </div>
       </div>
-      <a class="source-chip" href="https://arxiv.org/abs/2502.17713" target="_blank" rel="noopener">Learning Backbones · 2025 ↗</a>
+      <div class="learning-lab" aria-label="A dense graph is reduced to a sparse backbone while performance increases">
+        <div class="lab-label">raw network <span>28 edges</span></div>
+        <svg class="graph-before" viewBox="0 0 520 470" aria-hidden="true"><g class="generated dense-edges"></g><g class="generated dense-nodes"></g></svg>
+        <div class="sparsify"><span>zero forcing</span><b>→</b></div>
+        <svg class="graph-after" viewBox="0 0 520 470" aria-hidden="true"><g class="generated sparse-edges"></g><g class="generated sparse-nodes"></g></svg>
+        <div class="lab-label after-label">learning backbone <span>11 edges</span></div>
+        <div class="score-card"><span>GraphSAGE</span><div><i style="--w:68.7%"></i><small>68.7</small></div><div class="gain"><i style="--w:73.9%"></i><small>73.9</small></div><b>+ rank encoding</b></div>
+      </div>
+      <template class="speaker-note">Learning Backbones turns a dense graph into a sparse core using zero forcing, and evaluates the idea on eight datasets with six graph-learning models. A companion direction asks what to do when nodes have no useful attributes: average controllability and rank encoding create features from topology itself, raising GraphSAGE ROC-AUC on GitHub Stargazers from 68.7 to 73.9.</template>
     </section>
 
-    <section class="slide" data-slide="4" aria-label="Slide 4 of 6">
-      <div class="slide-heading"><p class="eyebrow">03 · Resilient network control</p><h2>Which links keep the team steerable?</h2></div>
-      <div class="control-demo visual" aria-hidden="true">
-        <div class="leader">YOU<br><span>leader</span></div><div class="pulse p1"></div><div class="pulse p2"></div>
-        <svg viewBox="0 0 850 390"><g class="faint"><path d="M132 195L278 72 399 148 532 59 703 122 748 268 574 325 410 278 246 321Z"/><path d="M278 72L410 278M399 148L574 325M532 59L748 268M246 321L399 148M703 122L574 325"/></g><g class="critical"><path d="M132 195L278 72 399 148 410 278 574 325 748 268 703 122 532 59"/></g><g class="agent-nodes"><circle cx="278" cy="72" r="22"/><circle cx="399" cy="148" r="22"/><circle cx="532" cy="59" r="22"/><circle cx="703" cy="122" r="22"/><circle cx="748" cy="268" r="22"/><circle cx="574" cy="325" r="22"/><circle cx="410" cy="278" r="22"/><circle cx="246" cy="321" r="22"/></g></svg>
-        <div class="shield">✓<span>control preserved</span></div>
+    <section class="slide resilience" data-chapter="Lies" aria-label="Slide 5 of 7">
+      <div class="resilience-head">
+        <p class="kicker">Lies · Resilient multi-agent systems</p>
+        <h2>One robot lies.<br><span>The team still learns.</span></h2>
       </div>
-      <a class="source-chip" href="https://doi.org/10.1016/j.automatica.2026.113138" target="_blank" rel="noopener">Controllability Backbone · Automatica 2026 ↗</a>
+      <div class="swarm" aria-label="A robot team reaches consensus despite one adversarial robot">
+        <svg viewBox="0 0 900 430" aria-hidden="true">
+          <g class="swarm-links"><path d="M126 211L287 76 453 142 617 62 778 178 691 357 487 326 277 367Z"/><path d="M126 211L453 142M287 76L487 326M617 62L691 357M277 367L453 142M778 178L487 326"/></g>
+          <g class="backbone-links"><path d="M126 211L287 76 453 142 487 326 691 357 778 178 617 62"/></g>
+          <g class="robot-nodes"><g transform="translate(126 211)"><circle r="28"/><text>✓</text></g><g transform="translate(287 76)"><circle r="28"/><text>✓</text></g><g transform="translate(453 142)" class="bad"><circle r="32"/><text>!</text></g><g transform="translate(617 62)"><circle r="28"/><text>✓</text></g><g transform="translate(778 178)"><circle r="28"/><text>✓</text></g><g transform="translate(691 357)"><circle r="28"/><text>✓</text></g><g transform="translate(487 326)"><circle r="28"/><text>✓</text></g><g transform="translate(277 367)"><circle r="28"/><text>✓</text></g></g>
+        </svg>
+        <div class="bad-message">“Fly left!”<small>Byzantine agent</small></div>
+        <div class="good-message">Consensus: fly right →</div>
+        <div class="shield"><b>core</b><span>critical links protected</span></div>
+      </div>
+      <div class="resilience-papers">
+        <a href="https://www.routledge.com/Smarter-Cyber-Physical-Systems-Enabling-Methodologies-and-Applications/Wan-Vamvoudakis-Chen-Lewis/p/book/9781032153483" target="_blank" rel="noopener"><span>2025 · Multi-UAV systems</span><strong>Resilient distributed learning</strong><small>Aggregate robustly under adversarial information ↗</small></a>
+        <a href="https://doi.org/10.1016/j.automatica.2026.113138" target="_blank" rel="noopener"><span>2026 · Automatica</span><strong>Controllability backbone</strong><small>Protect a small core; preserve the ability to steer ↗</small></a>
+      </div>
+      <p class="joke">Byzantine = a teammate who is <em>confidently wrong</em> on purpose.</p>
+      <template class="speaker-note">Distributed systems cannot simply average every message when an agent may be malicious. The multi-UAV work studies resilient learning under adversarial information. The controllability-backbone paper asks a structural companion question: which minimum set of links must survive so that the same leaders retain at least the original controllability bound?</template>
     </section>
 
-    <section class="slide" data-slide="5" aria-label="Slide 5 of 6">
-      <div class="slide-heading"><p class="eyebrow">04 · Spectral graph theory</p><h2>Can two different graphs sound the same?</h2></div>
-      <div class="spectrum visual" aria-hidden="true">
-        <div class="specimen"><svg viewBox="0 0 300 250"><g><path d="M45 122L105 45 190 54 255 129 202 207 103 205Z"/><path d="M45 122L190 54M105 45L202 207M255 129L103 205"/></g><circle cx="45" cy="122" r="13"/><circle cx="105" cy="45" r="13"/><circle cx="190" cy="54" r="13"/><circle cx="255" cy="129" r="13"/><circle cx="202" cy="207" r="13"/><circle cx="103" cy="205" r="13"/></svg><b>Graph A</b></div>
-        <div class="equalizer"><i style="height:35%"></i><i style="height:72%"></i><i style="height:48%"></i><i style="height:92%"></i><i style="height:60%"></i><span>same spectrum?</span></div>
-        <div class="specimen"><svg viewBox="0 0 300 250"><g><path d="M44 65L151 36 258 67 220 185 151 215 80 184Z"/><path d="M44 65L220 185M151 36L151 215M258 67L80 184"/></g><circle cx="44" cy="65" r="13"/><circle cx="151" cy="36" r="13"/><circle cx="258" cy="67" r="13"/><circle cx="220" cy="185" r="13"/><circle cx="151" cy="215" r="13"/><circle cx="80" cy="184" r="13"/></svg><b>Graph B</b></div>
+    <section class="slide identity" data-chapter="Lookalikes" aria-label="Slide 6 of 7">
+      <div class="identity-head">
+        <p class="kicker">Lookalikes · Spectral graph theory</p>
+        <h2>Graph A: “I’m unique.”<br><span>Graph B: “Sure.”</span></h2>
       </div>
-      <p class="punchline">We use walk matrices + arithmetic to count the <strong>look-alikes.</strong></p>
-      <a class="source-chip" href="https://arxiv.org/abs/2507.06927" target="_blank" rel="noopener">Cospectral Mates · 2025 ↗</a>
+      <div class="doppel-stage">
+        <div class="graph-person graph-a"><span>A</span><svg viewBox="0 0 250 230"><g><path d="M31 111L78 38 159 48 219 115 175 194 81 190Z"/><path d="M31 111L159 48M78 38L175 194M219 115L81 190"/></g><g><circle cx="31" cy="111" r="11"/><circle cx="78" cy="38" r="11"/><circle cx="159" cy="48" r="11"/><circle cx="219" cy="115" r="11"/><circle cx="175" cy="194" r="11"/><circle cx="81" cy="190" r="11"/></g></svg></div>
+        <div class="same-sound"><div class="sound-bars"><i></i><i></i><i></i><i></i><i></i></div><b>same spectrum</b><span>≠</span><small>same graph</small></div>
+        <div class="graph-person graph-b"><span>B</span><svg viewBox="0 0 250 230"><g><path d="M30 54L125 29 219 57 194 164 126 205 53 166Z"/><path d="M30 54L194 164M125 29L126 205M219 57L53 166"/></g><g><circle cx="30" cy="54" r="11"/><circle cx="125" cy="29" r="11"/><circle cx="219" cy="57" r="11"/><circle cx="194" cy="164" r="11"/><circle cx="126" cy="205" r="11"/><circle cx="53" cy="166" r="11"/></g></svg></div>
+        <div class="fingerprint"><span>walk matrix</span><div>1&nbsp; 0&nbsp; 3&nbsp; 7<br>0&nbsp; 2&nbsp; 4&nbsp; 9<br>1&nbsp; 4&nbsp; 8&nbsp; 16</div><b>+ arithmetic fingerprint</b></div>
+      </div>
+      <div class="identity-papers">
+        <a href="https://arxiv.org/abs/2507.06927" target="_blank" rel="noopener"><span>2025</span><strong>Walk-Matrix Upper Bounds</strong><small>How many lookalikes can one graph have? ↗</small></a>
+        <a href="https://arxiv.org/abs/2601.07373" target="_blank" rel="noopener"><span>2026</span><strong>Enumerating Cospectral Mates</strong><small>Smith normal form gives a tight bound ↗</small></a>
+      </div>
+      <template class="speaker-note">A graph’s eigenvalues act like a sound, but non-isomorphic graphs can sound identical. Recent work replaces the yes-or-no uniqueness question with a quantitative one: how many generalized cospectral mates can a graph have? Arithmetic constraints from the Smith normal form of the walk matrix produce explicit and, in the latest work, tight upper bounds for broad graph families.</template>
     </section>
 
-    <section class="slide slide-finale" data-slide="6" aria-label="Slide 6 of 6">
-      <div class="final-copy"><p class="eyebrow">Your move</p><h2>Bring me a messy network.</h2><p>We’ll find the structure that makes it <span>learn</span>, <span>move</span>, or <span>survive</span>.</p><div class="cta-row"><a href="mailto:mudassir.shabbir@lums.edu.pk">Let’s talk research</a><a class="secondary" href="../#research">Explore the work</a></div></div>
-      <div class="final-visual visual" aria-hidden="true"><div class="question">?</div><svg viewBox="0 0 520 520"><g><circle cx="260" cy="35" r="8"/><circle cx="414" cy="98" r="13"/><circle cx="485" cy="250" r="9"/><circle cx="421" cy="410" r="12"/><circle cx="260" cy="482" r="9"/><circle cx="98" cy="414" r="13"/><circle cx="35" cy="260" r="9"/><circle cx="98" cy="98" r="12"/></g><path d="M260 35L414 98 485 250 421 410 260 482 98 414 35 260 98 98Z"/></svg></div>
+    <section class="slide finale" data-chapter="Your move" aria-label="Slide 7 of 7">
+      <div class="final-copy">
+        <p class="kicker">Your move</p>
+        <h2>Bring me a<br>messy network.</h2>
+        <p>We’ll find the structure that makes it…</p>
+        <div class="final-verbs"><span>learn with less</span><span>survive bad actors</span><span>prove its identity</span></div>
+        <div class="cta-row"><a class="primary" href="mailto:mudassir.shabbir@lums.edu.pk">Let’s talk research →</a><a href="https://scholar.google.com/citations?user=bRKvwRYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a><a href="../#research">Research page</a></div>
+      </div>
+      <div class="final-orbit" style="animation:none" aria-hidden="true"><div class="center">?</div><span style="--i:0">ML</span><span style="--i:1">graphs</span><span style="--i:2">control</span><span style="--i:3">robots</span><span style="--i:4">algebra</span><span style="--i:5">geometry</span></div>
+      <template class="speaker-note">The invitation is broad on purpose. Students can enter through graph machine learning, algorithms, control, robotics, algebra, or geometry. The lab’s common question is always structural: what small, robust, or distinguishing object is hiding inside a complex network?</template>
     </section>
   </main>
 
-  <nav class="deck-controls" aria-label="Slide controls">
-    <button id="prev" type="button" aria-label="Previous slide">←</button>
-    <div class="dots" id="dots" aria-label="Choose slide"></div>
-    <span class="counter"><b id="current">1</b> / 6</span>
+  <div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+  <nav class="controls" aria-label="Slide navigation">
+    <button id="previous" type="button" aria-label="Previous slide">←</button>
+    <span><b id="currentSlide">1</b> / <span id="slideTotal">7</span></span>
     <button id="next" type="button" aria-label="Next slide">→</button>
   </nav>
-  <div class="key-help" id="keyHelp" role="dialog" aria-modal="true" aria-label="Keyboard controls" hidden><div><button id="closeHelp" aria-label="Close">×</button><h3>Keyboard controls</h3><p><kbd>←</kbd> <kbd>→</kbd> move · <kbd>Home</kbd> start · <kbd>End</kbd> finish · <kbd>F</kbd> fullscreen · <kbd>Esc</kbd> close</p></div></div>
+  <div class="dot-nav" id="dotNav" aria-label="Choose slide"></div>
+
+  <aside class="notes-panel" id="notesPanel" aria-live="polite" aria-label="Speaker notes" hidden><div><span>Speaker note</span><button id="closeNotes" type="button" aria-label="Close notes">×</button></div><p id="noteText"></p></aside>
+  <div class="help" id="help" role="dialog" aria-modal="true" aria-label="Keyboard controls" hidden><div><button id="closeHelp" type="button" aria-label="Close help">×</button><h3>Run the room</h3><p><kbd>←</kbd> <kbd>→</kbd> navigate</p><p><kbd>N</kbd> speaker notes &nbsp; <kbd>F</kbd> fullscreen</p><p><kbd>Home</kbd> first &nbsp; <kbd>End</kbd> last</p></div></div>
   <script src="deck.js"></script>
 </body>
 </html>
