@@ -27,6 +27,18 @@
     "tags": [{ "text": "Live Course Site", "cls": "tag-gray" }]
   },
   {
+    "name": "The Axiom of Choice",
+    "url": "/axiom-of-choice/",
+    "badge": "Special Lecture",
+    "badge_class": "badge-discrete",
+    "semester": "Discrete Mathematics · Visual Lecture",
+    "desc": "A standalone 29-slide visual lecture on ZF, choice functions, independence, well-ordering, Banach–Tarski, non-measurable sets, and when selection rules can replace Choice.",
+    "tags": [
+      { "text": "Standalone HTML", "cls": "tag-gray" },
+      { "text": "Visual Slides", "cls": "tag-gray" }
+    ]
+  },
+  {
     "name": "RISE Program",
     "url": "https://amessbee.github.io/rise/",
     "badge": "Research Internship",
