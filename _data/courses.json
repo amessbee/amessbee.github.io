@@ -39,6 +39,18 @@
     ]
   },
   {
+    "name": "GLITCH!",
+    "url": "https://amessbee.github.io/codes_correction/",
+    "badge": "Math Circle",
+    "badge_class": "badge-discrete",
+    "semester": "Error-Correcting Codes · Interactive Workshop",
+    "desc": "A puzzle-led mathematics circle on parity, Hamming distance, Hamming(7,4), Golay, and Reed–Solomon codes, with an interactive slide deck and four printable worksheets.",
+    "tags": [
+      { "text": "Interactive Slides", "cls": "tag-gray" },
+      { "text": "Worksheets", "cls": "tag-gray" }
+    ]
+  },
+  {
     "name": "RISE Program",
     "url": "https://amessbee.github.io/rise/",
     "badge": "Research Internship",
