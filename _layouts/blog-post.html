@@ -1,0 +1,22 @@
+---
+layout: mohdefault
+---
+<article class="blog-post">
+  <header class="blog-post-header">
+    <a class="blog-back" href="{{ '/blogs/' | relative_url }}">← All blog entries</a>
+    <div class="section-eyebrow">Notes &amp; questions</div>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="blog-description">{{ page.description | escape }}</p>
+    <p class="blog-meta">
+      {{ site.data.main_info.name | escape }}<span aria-hidden="true"> · </span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %B %Y · %H:%M' }} PKT (UTC+05:00)</time>
+    </p>
+  </header>
+  <div class="blog-prose">
+    {{ content }}
+  </div>
+  <footer class="blog-post-footer">
+    <a href="{{ '/blogs/' | relative_url }}">← All blog entries</a>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</article>

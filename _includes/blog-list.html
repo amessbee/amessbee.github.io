@@ -1,0 +1,11 @@
+{% assign blog_entries = site.pages | where: 'blog', true | sort: 'date' | reverse %}
+<div class="blog-list">
+  {% for entry in blog_entries %}
+  <article class="blog-entry">
+    <p class="blog-meta"><time datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: '%-d %B %Y · %H:%M' }} PKT (UTC+05:00)</time></p>
+    <h3><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h3>
+    <p>{{ entry.description | escape }}</p>
+    <a class="blog-read" href="{{ entry.url | relative_url }}">Read the entry <span aria-hidden="true">→</span></a>
+  </article>
+  {% endfor %}
+</div>

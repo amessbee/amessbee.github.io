@@ -2,6 +2,7 @@ source:      .
 destination: ./_site
 includes:    ./_includes
 baseurl: 
+timezone: Asia/Karachi
 
 collections:
   projects:

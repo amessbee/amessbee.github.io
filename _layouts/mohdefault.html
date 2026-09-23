@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.data.main_info.name }}</title>
-  <meta name="description" content="{{ site.data.main_info.name }} — Computer Science, LUMS">
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title | escape }} | {% endif %}{{ site.data.main_info.name | escape }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.data.main_info.name | escape }} — Computer Science, LUMS{% endif %}">
   <meta name="author" content="{{ site.data.main_info.name }}">
 
   <!-- Google Fonts -->
@@ -18,33 +18,36 @@
 
   <!-- Site CSS -->
   <link rel="stylesheet" href="{{ '/libs/custom/moh_css.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/libs/custom/blog.css' | relative_url }}">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ '/libs/icon.png' | prepend: site.baseurl }}">
 
   {% include google_analytics.html %}
 </head>
-<body>
+<body id="top">
 
   <!-- ── Sticky Navigation ──────────────────────────────────── -->
   <header class="site-header">
     <div class="container">
       <a class="site-name" href="{{ site.baseurl }}/">Mudassir Shabbir</a>
-      <nav class="site-nav">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/#about' | relative_url }}">About</a>
+        <a href="{{ '/#research' | relative_url }}">Research</a>
         <a href="{{ '/research-orientation/' | prepend: site.baseurl }}">Research intro</a>
         <a href="{{ '/axiom-of-choice/' | prepend: site.baseurl }}">AC slides</a>
-        <a href="#software">Software</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#videos">Videos</a>
-        <a href="#publications">Publications</a>
-        <a href="#cv">CV</a>
+        <a href="{{ '/blogs/' | relative_url }}"{% if page.blog or page.title == 'Blogs' %} aria-current="{% if page.blog %}true{% else %}page{% endif %}"{% endif %}>Blogs</a>
+        <a href="{{ '/#software' | relative_url }}">Software</a>
+        <a href="{{ '/#teaching' | relative_url }}">Teaching</a>
+        <a href="{{ '/#videos' | relative_url }}">Videos</a>
+        <a href="{{ '/#publications' | relative_url }}">Publications</a>
+        <a href="{{ '/#cv' | relative_url }}">CV</a>
       </nav>
     </div>
   </header>
 
   <!-- ── Hero ──────────────────────────────────────────────── -->
+  {% if page.show_hero != false %}
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-photo">
@@ -80,6 +83,7 @@
       </div>
     </div>
   </section>
+  {% endif %}
 
   <!-- ── Page Content ──────────────────────────────────────── -->
   <main>
@@ -115,8 +119,8 @@
         var el = document.getElementById(id);
         if (el) {
           e.preventDefault();
-          var top = el.getBoundingClientRect().top + window.pageYOffset - 64;
-          window.scrollTo({ top: top, behavior: 'smooth' });
+          el.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+          history.replaceState(null, '', '#' + id);
         }
       });
     });
