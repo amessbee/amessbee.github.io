@@ -66,6 +66,44 @@
     ]
   },
   {
+    "name": "PMI Conflict-Graph Game",
+    "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/",
+    "desc": "Interactive builder for the bipartite conflict graph behind PMI sequences. Click grid cells to add or remove points; a maximum matching, the exact optimum value, and one longest PMI sequence update immediately — a hands-on companion to the Erdős–Szekeres-type discrete math result.",
+    "tags": [
+      { "text": "Vanilla JS",     "cls": "tag-gray" },
+      { "text": "Research Demo", "cls": "tag-amber" },
+      { "text": "Live Game",     "cls": "tag-green" }
+    ]
+  },
+  {
+    "name": "PMI Algorithm Sweep",
+    "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/algorithm-sweep-game.html",
+    "desc": "Step-by-step visualizer for the O(N log N) matching-sweep algorithm underlying the PMI Conflict-Graph Game: row activation, the ordered set of available rows, the smallest-successor query, and each committed matching edge, checked live against the quadratic dynamic program.",
+    "tags": [
+      { "text": "Vanilla JS",     "cls": "tag-gray" },
+      { "text": "Algorithms",    "cls": "tag-amber" },
+      { "text": "Live Game",     "cls": "tag-green" }
+    ]
+  },
+  {
+    "name": "Math Circle Decks",
+    "url": "https://amessbee.github.io/codes_correction/",
+    "desc": "Three dependency-free interactive presentations for 90-minute grades 6–10 math circles: GLITCH! (parity and error-correcting codes), The Totally Honest Carnival (probability and expected value), and Monster Party (graph coloring and constraints). Live games, timers, and reveals built into the slides.",
+    "tags": [
+      { "text": "Vanilla JS", "cls": "tag-gray" },
+      { "text": "Live Deck",  "cls": "tag-green" }
+    ]
+  },
+  {
+    "name": "Monty Hall: Trusting Intuition?",
+    "url": "https://amessbee.github.io/probability_lecture/",
+    "desc": "Cinematic 11-slide lecture deck motivating probability through the Monty Hall problem. Animated door reveals, a live Monte Carlo simulation up to 50,000 games, and a 100-door version to break the 50/50 intuition.",
+    "tags": [
+      { "text": "Vanilla JS", "cls": "tag-gray" },
+      { "text": "Live Deck",  "cls": "tag-green" }
+    ]
+  },
+  {
     "name": "CrowdFunding DApp",
     "url": "https://amessbee.github.io/crowdFunding/",
     "desc": "Fully decentralized crowdfunding platform on Ethereum. Community members propose projects, vote, execute approved proposals, and contribute funds — all through auditable smart contracts with a React frontend.",

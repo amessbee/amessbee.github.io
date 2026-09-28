@@ -20,8 +20,9 @@
     "title": "Network Controllability &amp; Robustness",
     "desc": "Strong structural controllability via zero forcing sets and distance-based bounds, with algorithms for leader selection and edge augmentation. PMI sequences and their tight bounds connect discrete geometry to network controllability.",
     "links": [
-      { "text": "PMI Sequences paper", "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/" },
-      { "text": "PMI algorithm",       "url": "https://amessbee.github.io/pmialgo/" }
+      { "text": "PMI Conflict-Graph Game", "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/" },
+      { "text": "PMI Algorithm Sweep",     "url": "https://amessbee.github.io/PMI-Sequence-Discrete-Math-/algorithm-sweep-game.html" },
+      { "text": "PMI algorithm",           "url": "https://amessbee.github.io/pmialgo/" }
     ]
   },
   {
